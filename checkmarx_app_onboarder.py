@@ -58,7 +58,7 @@ def main(filename):
 
     httpRequest = HttpRequests()
 
-    config = Config("config.env")
+    config = Config()
     token, tenant_name, tenant_iam_url, tenant_url = config.get_config()
 
     logger = Logger("project_and_app_onboarding")
