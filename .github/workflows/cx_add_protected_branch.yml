@@ -8,8 +8,14 @@ on:
         required: true
 
 jobs:
-  onboard-checkmarx-app:
+  run-checkmarx-onboarder:
     runs-on: ubuntu-latest
+
+    env:
+      CX_TOKEN: ${{ secrets.CX_TOKEN }}
+      TENANT_NAME: ${{ secrets.TENANT_NAME }}
+      TENANT_IAM_URL: ${{ secrets.TENANT_IAM_URL }}
+      TENANT_URL: ${{ secrets.TENANT_URL }}
 
     steps:
       - name: Checkout repository
@@ -21,7 +27,9 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Run Checkmarx App Onboarder
-        run: python3 checkmarx_app_onboarder.py -filename=${{ github.event.inputs.filename }}
+      - name: Run Checkmarx Add Protected Branch script
+        run: python3 checkmarx_update_protected_branch.py -filename=${{ github.event.inputs.filename }}
