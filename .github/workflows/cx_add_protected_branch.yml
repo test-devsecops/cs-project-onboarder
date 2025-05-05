@@ -1,0 +1,28 @@
+name: Manual Checkmarx Add Protected Branch
+
+on:
+  workflow_dispatch:
+    inputs:
+      filename:
+        description: 'Path to the config file (e.g. app_config.json)'
+        required: true
+        default: 'app_config.json'
+
+jobs:
+  onboard-checkmarx-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Checkmarx App Onboarder
+        run: python3 checkmarx_app_onboarder.py -filename ${{ github.event.inputs.filename }}
