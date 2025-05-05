@@ -6,7 +6,6 @@ on:
       filename:
         description: 'Path to the config file (e.g. app_config.json)'
         required: true
-        default: 'app_config.json'
 
 jobs:
   onboard-checkmarx-app:
