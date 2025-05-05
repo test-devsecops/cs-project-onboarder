@@ -28,4 +28,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Checkmarx App Onboarder script
-        run: python3 checkmarx_app_onboarder.py -filename=cs-project-onboarder/csv_files/prucore/prucore-apps.csv
+        run: python3 checkmarx_app_onboarder.py -filename=csv_files/prucore/prucore-apps.csv
