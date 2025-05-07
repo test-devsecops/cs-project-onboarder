@@ -2,6 +2,10 @@ name: Manual Checkmarx App Onboard
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
+    inputs:
+      filename:
+        description: 'Path to the config file (e.g. app_config.json)'
+        required: true
 
 jobs:
   run-checkmarx-onboarder:
@@ -28,4 +32,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Checkmarx App Onboarder script
-        run: python3 checkmarx_app_onboarder.py -filename=csv_files/prucore/prucore-apps.csv
+        run: python3 checkmarx_app_onboarder.py -filename=${{ github.event.inputs.filename }}

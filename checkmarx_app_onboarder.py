@@ -76,9 +76,11 @@ def main(filename):
     # Step 1: Retrieve all on-board projects and tag them accordingly
     cx_projects = api_actions.get_checkmarx_projects(access_token, tenant_url, get_checkmarx_projects_endpoint, empty_tag="false")
 
-    project_codes = Csv.read_csv(filename, column_index=0)
-    app_names = Csv.read_csv(filename, column_index=1)
-    criticality = Csv.read_csv(filename, column_index=2)
+    prucore_filepath = f"./csv_files/prucore/{filename}"
+
+    project_codes = Csv.read_csv(prucore_filepath, column_index=0)
+    app_names = Csv.read_csv(prucore_filepath, column_index=1)
+    criticality = Csv.read_csv(prucore_filepath, column_index=2)
 
     project_exists = False
 
