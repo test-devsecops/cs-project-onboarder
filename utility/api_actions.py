@@ -71,6 +71,21 @@ class ApiActions:
         return all_projects
     
     @ExceptionHandler.handle_exception
+    def delete_checkmarx_project(self, token, base_url, endpoint):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            "accept": "application/json; version=1.0",
+            "authorization": f"Bearer {token}",
+            "Content-Type": "application/json; version=1.0"
+        }
+
+        response = self.httpRequest.delete_api_request(url, headers=headers)
+
+        return response
+    
+    @ExceptionHandler.handle_exception
     def update_project_repo_protected_branches(self, token, base_url, endpoint, repo_info, project_id, new_branches):
         
         url = f"https://{base_url}{endpoint}"

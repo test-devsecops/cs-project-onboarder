@@ -50,6 +50,10 @@ class Routes:
     def get_project(self, project_id):
         endpoint = f"/api/projects/{project_id}"
         return endpoint
+
+    def delete_project(self, project_id):
+        endpoint = f"/api/projects/{project_id}"
+        return endpoint
     
     def update_projects(self, project_id):
         endpoint = f"/api/projects/{project_id}"
