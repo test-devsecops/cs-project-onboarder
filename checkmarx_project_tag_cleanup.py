@@ -184,7 +184,7 @@ def main(filename):
 
 if __name__ == "__main__":
     # Define command-line arguments
-    parser = argparse.ArgumentParser(description='Onboarding Prucore Apps')
+    parser = argparse.ArgumentParser(description='Clean project tags')
     parser.add_argument('-filename', help='filename of the prucore apps',required=True)
 
     # Parse the command-line arguments
