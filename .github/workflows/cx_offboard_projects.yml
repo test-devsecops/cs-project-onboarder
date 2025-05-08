@@ -1,7 +1,7 @@
-name: Manual Checkmarx App Onboard
+name: Manual Checkmarx Projects Offboarding
 
 on:
-  workflow_dispatch:  # Allows manual triggering from GitHub UI
+  workflow_dispatch:
     inputs:
       filename:
         description: 'Path to the project file (e.g. app_config.json)'
@@ -31,5 +31,5 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Checkmarx App Onboarder script
-        run: python3 checkmarx_app_onboarder.py -filename=${{ github.event.inputs.filename }}
+      - name: Run Checkmarx Offboard Projects
+        run: python3 checkmarx_project_offboarder.py -filename=${{ github.event.inputs.filename }}
