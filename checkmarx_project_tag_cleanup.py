@@ -50,7 +50,9 @@ def main(filename):
     access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
     cx_projects = api_actions.get_checkmarx_projects(access_token, tenant_url, get_checkmarx_projects_endpoint, empty_tag="false")
 
-    project_codes = Csv.read_csv(filename, column_index=0)
+    prucore_filepath = f"./csv_files/prucore/{filename}"
+
+    project_codes = Csv.read_csv(prucore_filepath, column_index=0)
     user_defined_tags_data = JSONFile.read_json_file("user_defined_tags.json")
     user_defined_tags_list = user_defined_tags_data.get("valid_tags", [])
 

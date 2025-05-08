@@ -28,4 +28,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Checkmarx Tag Cleanup script
-        run: python3 checkmarx_project_tag_cleanup.py -filename=csv_files/prucore/prucore-apps.csv
+        run: python3 checkmarx_project_tag_cleanup.py -filename=prucore-apps-v1.csv
