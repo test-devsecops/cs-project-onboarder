@@ -35966,3 +35966,7 @@ pru-ptpla/ptpla-djf-automation-base-proxy,preprod,YES
 pru-ptpla/ptpla-2s6-cds-mastercds,dev,YES
 pru-ptpla/ptpla-2s6-cds-uploading-files,dev,YES
 pru-ptpla/ptpla-2s6-cds-uploading-files,master,YES
+pru-ptpla/ptpla-djf-pruhub-acr,dev,YES
+pru-ptpla/ptpla-djf-pruhub-acr,master,YES
+pru-ptpla/ptpla-2s6-cds-registeringinterface,dev,YES
+pru-ptpla/ptpla-2s6-cds-registeringinterface,master,YES
