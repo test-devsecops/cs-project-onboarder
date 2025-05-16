@@ -49,11 +49,13 @@ class ApiActions:
 
         while True:
             params = {
-                "name-regex": f"(?i)^{project_name}$",
                 "limit": limit,
                 "offset": offset,
                 "empty-tags": empty_tag
             }
+
+            if project_name is not None:
+                params["name-regex"] = f"(?i)^{project_name}$"
 
             response = self.httpRequest.get_api_request(url, headers=headers, params=params)
 
