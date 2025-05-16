@@ -145,6 +145,11 @@ def main(filename):
                 # Get currently protected branches from repo_info
                 protected_branch_names = set(branch["name"] for branch in repo_info.get("branches", []))
 
+                if not new_branches:
+                    print(f"No new branches specified for repo: {project_name}. Skipping...")
+                    logger.info(f"No new branches specified for repo: {project_name}. Skipping...")
+                    continue
+                
                 # Check if all new_branches are already protected branches
                 if set(new_branches).issubset(protected_branch_names):
                     print(f"All branches in {new_branches} are already protected in repo: {project_name}. Skipping...")

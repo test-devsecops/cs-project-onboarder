@@ -49,7 +49,7 @@ class ApiActions:
 
         while True:
             params = {
-                "name": project_name,
+                "name-regex": f"(?i)^{project_name}$",
                 "limit": limit,
                 "offset": offset,
                 "empty-tags": empty_tag
