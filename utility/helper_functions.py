@@ -80,5 +80,5 @@ class HelperFunctions:
                 role = row[role_idx]
                 tag = row[tag_idx]
                 groups_list.append(group_name)
-                groups_items[group_name] = {'role': role, 'tag': tag}
-        return groups_list, group_items
+                groups_dict[group_name] = {'role': role, 'tag': tag}
+        return groups_list, groups_dict
