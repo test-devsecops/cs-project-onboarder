@@ -79,6 +79,22 @@ class Routes:
         endpoint = f"/api/applications/{application_id}/projects"
         return endpoint
 
-    def get_client_id(self, tenant_name):
+    def get_client(self, tenant_name):
         endpoint = f"/auth/admin/realms/{tenant_name}/clients"
+        return endpoint
+
+    def get_role(self, tenant_name, client_id):
+        endpoint = f"/auth/admin/realms/{tenant_name}/clients/{client_id}/roles/"
+        return endpoint
+
+    def get_group(self, tenant_name):
+        endpoint = f"/auth/admin/realms/{tenant_name}/groups"
+        return endpoint
+    
+    def create_group(self, tenant_name):
+        endpoint = f"/auth/admin/realms/{tenant_name}/groups"
+        return endpoint
+
+    def assign_group_role(self, tenant_name, group_id, client_id):
+        endpoint = f"/auth/admin/realms/{tenant_name}/groups/{group_id}/role-mappings/clients/{client_id}"
         return endpoint
