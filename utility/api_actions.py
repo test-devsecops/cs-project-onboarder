@@ -523,3 +523,22 @@ class ApiActions:
 
         response = self.httpRequest.get_api_request(url, headers=headers)
         return response
+
+    @ExceptionHandler.handle_exception
+    def get_client_id_by_client_name(self, token, base_url, endpoint, client_name):
+        
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        params = {
+            'clientId': client_name
+        }
+
+        response = self.httpRequest.get_api_request(url, headers=headers, params=params)
+        return response
