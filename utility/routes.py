@@ -78,3 +78,7 @@ class Routes:
     def create_app_rule(self, application_id):
         endpoint = f"/api/applications/{application_id}/projects"
         return endpoint
+
+    def get_client_id(self, tenant_name):
+        endpoint = f"/auth/admin/realms/{tenant_name}/clients"
+        return endpoint
