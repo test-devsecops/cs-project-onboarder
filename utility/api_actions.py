@@ -2,6 +2,7 @@ from urllib.parse import urlencode
 import requests
 import base64
 import sys
+import json
 from utility.exception_handler import ExceptionHandler
 
 class ApiActions:
@@ -525,7 +526,7 @@ class ApiActions:
         return response
 
     @ExceptionHandler.handle_exception
-    def get_client_id_by_client_name(self, token, base_url, endpoint, client_name):
+    def get_client_by_client_name(self, token, base_url, endpoint, client_name):
         
         url = f"https://{base_url}{endpoint}"
 
@@ -541,4 +542,80 @@ class ApiActions:
         }
 
         response = self.httpRequest.get_api_request(url, headers=headers, params=params)
+        return response
+
+    @ExceptionHandler.handle_exception
+    def get_role(self, token, base_url, endpoint, role):
+
+        url = f"https://{base_url}{endpoint}{role}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        response = self.httpRequest.get_api_request(url, headers=headers)
+        return response
+
+    @ExceptionHandler.handle_exception
+    def get_group(self, token, base_url, endpoint, group=None):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        params = None
+
+        if group:
+            params = {
+                'exact': 'true',
+                'search': group
+            }
+
+        response =  self.httpRequest.get_api_request(url, headers=headers, params=params)
+        return response
+    
+    @ExceptionHandler.handle_exception
+    def create_group(self, token, base_url, endpoint, group):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        payload = {
+            'name': group
+        }
+
+        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
+        return response
+
+    @ExceptionHandler.handle_exception
+    def assign_group_role(self, token, base_url, endpoint, role_id, role):
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        payload = [{
+            'id': role_id,
+            'name': role
+        }]
+
+        response = self.httpRequest.post_api_request(url, headers=headers, json=json.dumps(payload))
         return response
