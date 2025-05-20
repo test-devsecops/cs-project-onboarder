@@ -98,3 +98,7 @@ class Routes:
     def assign_group_role(self, tenant_name, group_id, client_id):
         endpoint = f"/auth/admin/realms/{tenant_name}/groups/{group_id}/role-mappings/clients/{client_id}"
         return endpoint
+
+    def assign_group_to_resource(self):
+        endpoint = "/api/access-management/"
+        return endpoint
