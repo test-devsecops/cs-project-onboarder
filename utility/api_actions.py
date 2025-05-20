@@ -375,6 +375,48 @@ class ApiActions:
         return response
 
     @ExceptionHandler.handle_exception
+    def get_projects_by_tags(self, token, base_url, endpoint, tag, offset=0, limit=100):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            "accept": "application/json; version=1.0",
+            "authorization": f"Bearer {token}",
+            "Content-Type": "application/json; version=1.0"
+        }
+
+        params = {
+            "tags-keys": tag,
+            "limit": limit,
+            "offset": offset
+        }
+
+        response = self.httpRequest.get_api_request(url, headers=headers, params=params)
+        return response
+
+    @ExceptionHandler.handle_exception
+    def get_projects_through_searchbar(self, token, base_url, endpoint, search_term, offset=0, limit=100):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': "Bearer " + acc_token,
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        params = {
+            "search": search_term,
+            "limit": limit,
+            "offset": offset,
+            "sort": "+last-scan-date"
+        }
+
+        response = self.httpRequest.get_api_request(url, headers=headers, params=params)
+        return response
+
+    @ExceptionHandler.handle_exception
     def replace_project_tags(self, token, base_url, endpoint, project, tags_dict):
         
         url = f"https://{base_url}{endpoint}"
@@ -526,6 +568,24 @@ class ApiActions:
         return response
 
     @ExceptionHandler.handle_exception
+    def get_application_by_tag(self, token, base_url, endpoint, tag):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            "accept": "application/json; version=1.0",
+            "authorization": f"Bearer {token}",
+            "Content-Type": "application/json; version=1.0"
+        }
+
+        params = {
+            "tags-keys": tag
+        }
+
+        response = self.httpRequest.get_api_request(url, headers=headers, params=params)
+        return response
+
+    @ExceptionHandler.handle_exception
     def get_client_by_client_name(self, token, base_url, endpoint, client_name):
         
         url = f"https://{base_url}{endpoint}"
@@ -603,6 +663,7 @@ class ApiActions:
 
     @ExceptionHandler.handle_exception
     def assign_group_role(self, token, base_url, endpoint, role_id, role):
+        
         url = f"https://{base_url}{endpoint}"
 
         headers = {
@@ -618,4 +679,26 @@ class ApiActions:
         }]
 
         response = self.httpRequest.post_api_request(url, headers=headers, json=json.dumps(payload))
+        return response
+
+    @ExceptionHandler.handle_exception
+    def assign_group_to_resource(self, token, base_url, endpoint, group_id, resource_id, resource_type):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        payload = {
+            'entityID': groupId,
+            'entityType': 'group',
+            'resourceID': resource_id,
+            'resourceType': resource_type
+        }
+
+        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
         return response
