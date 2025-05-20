@@ -59,6 +59,10 @@ class Routes:
         endpoint = f"/api/projects/{project_id}"
         return endpoint
 
+    def get_projects(self):
+        endpoint = "/api/projects/"
+        return endpoint
+
     def create_application(self):
         endpoint = "/api/applications/"
         return endpoint
