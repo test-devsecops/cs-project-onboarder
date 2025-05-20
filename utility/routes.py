@@ -63,6 +63,10 @@ class Routes:
         endpoint = "/api/projects/"
         return endpoint
 
+    def get_projects_through_searchbar(self):
+        endpoint = "/api/projects-overview"
+        return endpoint
+
     def create_application(self):
         endpoint = "/api/applications/"
         return endpoint
