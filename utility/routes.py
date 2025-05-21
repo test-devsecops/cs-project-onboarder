@@ -110,3 +110,11 @@ class Routes:
     def assign_group_to_resource(self):
         endpoint = "/api/access-management/"
         return endpoint
+
+    def get_idps(self, tenant_name):
+        endpoint = f"/auth/admin/realms/{tenant_name}/identity-provider/instances"
+        return endpoint
+
+    def create_mapper(self, tenant_name, idp_alias):
+        endpoint = f"/auth/admin/realms/{tenant_name}/identity-provider/instances/{idp_alias}/mappers/"
+        return endpoint
