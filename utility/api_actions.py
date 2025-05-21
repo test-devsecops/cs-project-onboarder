@@ -702,3 +702,47 @@ class ApiActions:
 
         response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
         return response
+
+    @ExceptionHandler.handle_exception
+    def get_identity_providers(self, token, base_url, endpoint):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+
+        response =  self.httpRequest.get_api_request(url, headers=headers)
+        return response
+
+    @ExceptionHandler.handle_exception
+    def create_mapper(self, token, base_url, endpoint, group_name, idp_alias):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            'Authorization': f"Bearer {token}",
+            'Accept': "application/json; version=1.0",
+            'Content-Type': "application/json; version=1.0",
+            'User-Agent': "python-requests/2.32.3"
+        }
+        
+        payload = {
+            "name": group_name,
+            "identityProviderAlias": idp_alias,
+            "identityProviderMapper": "saml-groups-idp-mapper",
+            "config": {
+                "attribute.groups": "/" + group_name,
+                "attribute.name": "http://schemas.microsoft.com/ws/2008/06/identity/claims/groups",
+                "attribute.value": group_name,
+                "syncMode": "INHERIT",
+                "attribute.groups.creation": "",
+                "override.user.groups": False
+            }
+        }
+
+        response = self.httpRequest.post_api_request(url, headers=headers, json=json.dumps(payload))
+        return response
