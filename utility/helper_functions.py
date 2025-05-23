@@ -57,3 +57,28 @@ class HelperFunctions:
         if all(char in string.printable for char in text):
             return True
         return False
+
+    @staticmethod
+    def get_groups_name_list(file_name):
+        # Build list of groups
+        groups_list = []
+        groups_dict = {}
+        with open(file_name,newline='') as csvfile:
+            reader = csv.reader(csvfile,delimiter=',')
+            tag_idx,group_name_idx,role_idx = 0,0,0
+            for count,row in enumerate(reader):
+                if count == 0:
+                    for index,header in enumerate(row):
+                        if header == 'tag':
+                            tag_idx = index
+                        elif header == 'displayName':
+                            group_name_idx = index
+                        elif header == 'role':
+                            role_idx = index
+                    continue
+                group_name = row[group_name_idx]
+                role = row[role_idx]
+                tag = row[tag_idx]
+                groups_list.append(group_name)
+                groups_dict[group_name] = {'role': role, 'tag': tag}
+        return groups_list, groups_dict
