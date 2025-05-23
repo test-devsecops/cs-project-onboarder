@@ -32,7 +32,8 @@ def main(filename):
   # Step 1: Get list of groups to be created
   print("Extracting list of group names from file")
   logger.info("Extracting list of group names from file")
-  groups_list, groups_dict = HelperFunctions.get_groups_name_list(filename)
+  groups_file_path = f"./csv_files/groups/{filename}"
+  groups_list, groups_dict = HelperFunctions.get_groups_name_list(groups_file_path)
 
   # Step 2: Get the client ID to run the API for role-mapping to the group
   print("Retrieving Client Id for ast-app client for role-mapping purposes...")
