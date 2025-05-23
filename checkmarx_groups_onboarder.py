@@ -82,7 +82,7 @@ def main(filename):
 if __name__ == "__main__":
   # Define command-line arguments
   parser = argparse.ArgumentParser(description='Onboarding Groups')
-  parser.add_argument('-filename', help='filename of the prucore apps',required=True)
+  parser.add_argument('-filename', help='filename of the groups',required=True)
 
   # Parse the command-line arguments
   args = parser.parse_args()
