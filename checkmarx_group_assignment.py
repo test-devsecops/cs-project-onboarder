@@ -43,7 +43,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
         logger.info(f"Retrieving Id for Group {group}...")
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
-        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
+        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
         results = get_group_response
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
@@ -112,7 +112,7 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
         logger.info(f"Retrieving Id for Group {group}...")
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
-        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
+        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
         results = get_group_response
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
