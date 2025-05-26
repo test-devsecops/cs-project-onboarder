@@ -34,7 +34,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
 
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
-    get_groups_endpoint = routes.get_groups(tenant_name)
+    get_groups_endpoint = routes.get_group(tenant_name)
     get_application_endpoint = routes.get_application()
     get_projects_endpoint = routes.get_projects()
 
