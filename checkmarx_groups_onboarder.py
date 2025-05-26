@@ -48,7 +48,6 @@ def main(filename):
     print(f"Retrieving Role ID for {role}")
     logger.info(f"Retrieving Role ID for {role}")
     roles_id_response = api_actions.get_role(access_token, tenant_iam_url, get_role_id_endpoint, role)
-    print(roles_id_response)
     role_id = roles_id_response.get('id')
     roleids_dict[role] = role_id
 
@@ -60,18 +59,21 @@ def main(filename):
     logger.info(f"Checking if {group} exists...")
     group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
     results = group_response
+    group_id = ""
+    role = group_items[group].get("role", "")
     if len(results):
-      print(f"{group} already exists!")
-      logger.info(f"{group} already exists!")
-      continue
+      group_id = results[0].get("id")
+      print(f"{group} already exists! Group ID: {group_id}")
+      logger.info(f"{group} already exists! Group ID: {group_id}")
+    else:
   # Step 4b: Create groups if they do not exist yet
-    create_group_endpoint = routes.create_group(tenant_name)
-    print(f"{group} not found! Proceeding to create group...")
-    logger.info(f"{group} not found! Proceeding to create group...")
-    group_creation_response = api_actions.create_group(access_token, tenant_iam_url, create_group_endpoint, group)
-    group_id = group_creation_response.headers['Location'].split('/')[-1]
-    print(f"{group} created with id: {groupId}")
-    logger.info(f"{group} created with id: {groupId}")
+      create_group_endpoint = routes.create_group(tenant_name)
+      print(f"{group} not found! Proceeding to create group...")
+      logger.info(f"{group} not found! Proceeding to create group...")
+      group_creation_response = api_actions.create_group(access_token, tenant_iam_url, create_group_endpoint, group)
+      group_id = group_creation_response.headers['Location'].split('/')[-1]
+      print(f"{group} created with id: {group_id}")
+      logger.info(f"{group} created with id: {group_id}")
 
   # Step 4c: Perform role mapping to group
     role = groups_dict[group].get("role", "")
