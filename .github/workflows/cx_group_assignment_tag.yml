@@ -1,4 +1,4 @@
-name: Checkmarx Groups Assignment
+name: Checkmarx Groups Assignment By Tag
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
@@ -29,6 +29,3 @@ jobs:
 
       - name: Run Checkmarx Group Assignment script by tags
         run: python3 checkmarx_group_assignment.py -filename=github-project-groups.csv -mode=tag
-
-      - name: Run Checkmarx Group Assignment script by Github Orgs
-        run: python3 checkmarx_group_assignment.py -filename=github-project-groups.csv -mode=GHOrg
