@@ -48,7 +48,8 @@ def main(filename):
     print(f"Retrieving Role ID for {role}")
     logger.info(f"Retrieving Role ID for {role}")
     roles_id_response = api_actions.get_role(access_token, tenant_iam_url, get_role_id_endpoint, role)
-    role_id = roles_id_response[0].get('id')
+    print(roles_id_response)
+    role_id = roles_id_response.get('id')
     roleids_dict[role] = role_id
 
   # Step 4: Create the groups
