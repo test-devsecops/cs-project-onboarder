@@ -27,5 +27,5 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Checkmarx Group Assignment script by tags
+      - name: Run Checkmarx Group Assignment script by ghorgs
         run: python3 checkmarx_group_assignment.py -filename=github-project-groups.csv -mode=GHOrg
