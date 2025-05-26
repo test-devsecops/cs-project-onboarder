@@ -58,7 +58,7 @@ def main(filename):
     print(f"Checking if {group} exists...")
     logger.info(f"Checking if {group} exists...")
     group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
-    results = group_response.json()
+    results = group_response
     if len(results):
       print(f"{group} already exists!")
       logger.info(f"{group} already exists!")
