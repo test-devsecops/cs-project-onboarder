@@ -39,6 +39,7 @@ def main(filename):
   print("Retrieving Client Id for ast-app client for role-mapping purposes...")
   logger.info("Retrieving Client Id for ast-app client for role-mapping purposes...")
   client_id_response = api_actions.get_client_by_client_name(access_token, tenant_iam_url, get_client_id_endpoint, 'ast-app')
+  print(client_id_response)
   client_id = client_id_response.json()[0].get('id')
 
   # Step 3: Get the role IDS for the composite roles created for the groups
