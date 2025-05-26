@@ -96,7 +96,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
             results = get_projects_by_tags_response
             projects = results.get("projects", [])
 
-def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions)
+def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions):
 
     ghorg_groups = {}
     
