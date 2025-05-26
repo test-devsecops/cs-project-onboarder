@@ -60,7 +60,6 @@ def main(filename):
     group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
     results = group_response
     group_id = ""
-    role = group_items[group].get("role", "")
     if len(results):
       group_id = results[0].get("id")
       print(f"{group} already exists! Group ID: {group_id}")
