@@ -44,7 +44,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
         get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
-        results = get_group_response.json()
+        results = get_group_response
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
@@ -62,7 +62,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
         print(f"Retrieving Application with {thistag} tag")
         logger.info(f"Retrieving Application with {thistag} tag")
         get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag)
-        results = get_application_response.json()
+        results = get_application_response
         if not len(results):
             print(f"No Application found for {thistag}")
             logger.info(f"No Application found for {thistag}")
@@ -77,7 +77,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
         offset = 0
         limit = 100
         get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
-        results = get_projects_by_tags_response.json()
+        results = get_projects_by_tags_response
         projects_count = results.get("filteredTotalCount", 0)
         if not projects_count:
             print(f"No projects found for tag {thistag}. Skipping ahead.")
@@ -93,7 +93,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
             projects_count -= limit
             offset += 100
             get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
-            results = get_projects_by_tags_response.json()
+            results = get_projects_by_tags_response
             projects = results.get("projects", [])
 
 def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions)
@@ -113,7 +113,7 @@ def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, 
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
         get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
-        results = get_group_response.json()
+        results = get_group_response
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
@@ -133,7 +133,7 @@ def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, 
         offset = 0
         limit = 100
         get_projects_through_searchbar_response = api_actions.get_projects_through_searchbar(access_token, tenant_url, get_projects_through_searchbar_endpoint, thisghorg, offset, limit)
-        results = get_projects_through_searchbar_response.json()
+        results = get_projects_through_searchbar_response
         projects_count = results.get("filteredTotalCount", 0)
         if not projects_count:
             print(f"No projects found for tag {thisghorg}. Skipping ahead.")
