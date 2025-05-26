@@ -658,7 +658,7 @@ class ApiActions:
             'name': group
         }
 
-        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
+        response = requests.post(url, headers=headers, json=payload)
         return response
 
     @ExceptionHandler.handle_exception
