@@ -70,6 +70,8 @@ def main(filename):
       print(f"{group} not found! Proceeding to create group...")
       logger.info(f"{group} not found! Proceeding to create group...")
       group_creation_response = api_actions.create_group(access_token, tenant_iam_url, create_group_endpoint, group)
+      print(group_creation_response)
+      print(group_creation_response.headers)
       group_id = group_creation_response.headers['Location'].split('/')[-1]
       print(f"{group} created with id: {group_id}")
       logger.info(f"{group} created with id: {group_id}")
