@@ -165,10 +165,12 @@ def main(filename, mode):
 
     api_actions = ApiActions(httpRequest)
 
+    groups_file_path = f"./csv_files/groups/{filename}"
+
     # Step 1: Get list of groups to be created
     print("Extracting list of group names from file")
     logger.info("Extracting list of group names from file")
-    groups_list, groups_dict = HelperFunctions.get_groups_name_list(filename)
+    groups_list, groups_dict = HelperFunctions.get_groups_name_list(groups_file_path)
 
     # Step 2: Assign groups to projects and applications
     if mode == "tag":
