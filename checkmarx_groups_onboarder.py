@@ -82,6 +82,7 @@ def main(filename):
     assign_group_role_endpoint = routes.assign_group_role(tenant_name, group_id, client_id)
     print(f"Performing role-mapping to {group}")
     logger.info(f"Performing role-mapping to {group}")
+    print(f"https://{tenant_iam_url}{assign_group_role_endpoint}")
     assign_group_role_response = api_actions.assign_group_role(access_token, tenant_iam_url, assign_group_role_endpoint, role_id, role) 
 
 if __name__ == "__main__":
