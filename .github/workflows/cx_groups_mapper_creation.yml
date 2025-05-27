@@ -28,4 +28,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Checkmarx Group Mapper Creation script
-        run: python3 checkmarx_groups_mapper.py -filename=github-project-groups.csv
+        run: python3 checkmarx_group_mapper.py -filename=github-project-groups.csv
