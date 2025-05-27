@@ -45,6 +45,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
         
         get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
         results = get_group_response
+        print(results)
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
