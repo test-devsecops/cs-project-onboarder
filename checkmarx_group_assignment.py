@@ -14,7 +14,7 @@ import re
 import time
 import json
 
-def assign_groups_to_resource(token, tenant_url, tenant_iam_url, groups, resource_id, resource_type, resource_name, routes, api_actions, logger):
+def assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, resource_id, resource_type, resource_name, routes, api_actions, logger):
     
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
@@ -69,7 +69,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
             continue
         app_id = results[0].get("id")
         app_name = results[0].get("name")
-        assign_groups_to_resource(token, tenant_url, tenant_iam_url, groups, app_id, 'application', app_name, routes, api_actions, logger)
+        assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app_id, 'application', app_name, routes, api_actions, logger)
 
     for thistag, groups in tag_groups.items():
         print(f"Retrieving Projects with {thistag} tag")
@@ -89,7 +89,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
             for project in projects:
                 # print(count, project["id"], project["name"])
                 count += 1
-                assign_groups_to_resource(token, tenant_url, tenant_iam_url, groups, project["id"], "project", project["name"], routes, api_actions, logger)
+                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
             projects_count -= limit
             offset += 100
             get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
@@ -145,7 +145,7 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
             for project in projects:
                 # print(count, project["projectId"], project["projectName"])
                 count += 1
-                assign_groups_to_resource(token, tenant_url, tenant_iam_url, groups, project["id"], "project", project["name"], routes, api_actions, logger)
+                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
             projects_count -= limit
             offset += 100
             get_projects_through_searchbar_response = api_actions.get_projects_through_searchbar(access_token, tenant_url, get_projects_through_searchbar_endpoint, thisghorg, offset, limit)
