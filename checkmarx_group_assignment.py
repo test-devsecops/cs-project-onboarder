@@ -14,7 +14,7 @@ import re
 import time
 import json
 
-def assign_groups_to_resource(tenant_url, tenant_iam_url, groups, resource_id, resource_type, resource_name):
+def assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, resource_id, resource_type, resource_name, routes, api_actions, logger):
     
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
@@ -26,15 +26,15 @@ def assign_groups_to_resource(tenant_url, tenant_iam_url, groups, resource_id, r
         print(f"Creating Assignment for Group {groupId} for {resource_type} {resource_id} {resource_name}")
         logger.info(f"Creating Assignment for Group {groupId} for {resource_type} {resource_id} {resource_name}")
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
-        assign_group_to_resource_response = api_actions.assign_group_to_resource(access_token, tenant_url, groupId, resource_id, resource_type)
+        assign_group_to_resource_response = api_actions.assign_group_to_resource(access_token, tenant_url, assign_group_to_resource_endpoint, groupId, resource_id, resource_type)
 
-def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions):
+def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger):
 
     tag_groups = {}
 
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
-    get_groups_endpoint = routes.get_groups(tenant_name)
+    get_groups_endpoint = routes.get_group(tenant_name)
     get_application_endpoint = routes.get_application()
     get_projects_endpoint = routes.get_projects()
 
@@ -43,8 +43,8 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
         logger.info(f"Retrieving Id for Group {group}...")
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
-        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
-        results = get_group_response.json()
+        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
+        results = get_group_response
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
@@ -62,14 +62,14 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
         print(f"Retrieving Application with {thistag} tag")
         logger.info(f"Retrieving Application with {thistag} tag")
         get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag)
-        results = get_application_response.json()
+        results = get_application_response.get("applications", [])
         if not len(results):
             print(f"No Application found for {thistag}")
             logger.info(f"No Application found for {thistag}")
             continue
         app_id = results[0].get("id")
         app_name = results[0].get("name")
-        assign_groups_to_resource(tenant_url, tenant_iam_url, groups, app_id, 'application', app_name, routes, api_actions)
+        assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app_id, 'application', app_name, routes, api_actions, logger)
 
     for thistag, groups in tag_groups.items():
         print(f"Retrieving Projects with {thistag} tag")
@@ -77,7 +77,7 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
         offset = 0
         limit = 100
         get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
-        results = get_projects_by_tags_response.json()
+        results = get_projects_by_tags_response
         projects_count = results.get("filteredTotalCount", 0)
         if not projects_count:
             print(f"No projects found for tag {thistag}. Skipping ahead.")
@@ -89,20 +89,20 @@ def assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, gr
             for project in projects:
                 # print(count, project["id"], project["name"])
                 count += 1
-                assign_groups_to_resource(tenant_url, tenant_iam_url, groups, project["id"], "project", project["name"], routes, api_actions)
+                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
             projects_count -= limit
             offset += 100
             get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
-            results = get_projects_by_tags_response.json()
+            results = get_projects_by_tags_response
             projects = results.get("projects", [])
 
-def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions)
+def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger):
 
     ghorg_groups = {}
     
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
-    get_groups_endpoint = routes.get_groups(tenant_name)
+    get_groups_endpoint = routes.get_group(tenant_name)
     # get_application_endpoint = routes.get_application()
     get_projects_endpoint = routes.get_projects()
     get_projects_through_searchbar_endpoint = routes.get_projects_through_searchbar()
@@ -112,16 +112,16 @@ def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, 
         logger.info(f"Retrieving Id for Group {group}...")
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
-        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
-        results = get_group_response.json()
+        get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
+        results = get_group_response
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             continue
         group_id = results[0].get('id', '')
         ghorg = groups_dict[group].get("tag")
-        print(f"{group} found! Adding {group} id {group_id} to tag group {tag}")
-        logger.info(f"{group} found! Adding {group} id {group_id} to tag group {tag}")
+        print(f"{group} found! Adding {group} id {group_id} to ghorg group {ghorg}")
+        logger.info(f"{group} found! Adding {group} id {group_id} to ghorg group {ghorg}")
         if ghorg not in ghorg_groups:
             ghorg_groups[ghorg] = []
         ghorg_groups[ghorg].append(group_id)
@@ -133,8 +133,8 @@ def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, 
         offset = 0
         limit = 100
         get_projects_through_searchbar_response = api_actions.get_projects_through_searchbar(access_token, tenant_url, get_projects_through_searchbar_endpoint, thisghorg, offset, limit)
-        results = get_projects_through_searchbar_response.json()
-        projects_count = results.get("filteredTotalCount", 0)
+        results = get_projects_through_searchbar_response
+        projects_count = results.get("totalCount", 0)
         if not projects_count:
             print(f"No projects found for tag {thisghorg}. Skipping ahead.")
             logger.info(f"No projects found for tag {thisghorg}. Skipping ahead.")
@@ -145,11 +145,11 @@ def assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, 
             for project in projects:
                 # print(count, project["projectId"], project["projectName"])
                 count += 1
-                assign_groups_to_resource(tenant_url, tenant_iam_url, groups, project["id"], "project", project["name"], routes, api_actions)
+                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
             projects_count -= limit
             offset += 100
             get_projects_through_searchbar_response = api_actions.get_projects_through_searchbar(access_token, tenant_url, get_projects_through_searchbar_endpoint, thisghorg, offset, limit)
-            results = get_projects_through_searchbar_response.json()
+            results = get_projects_through_searchbar_response
             projects = results.get("projects", [])
 
 def main(filename, mode):
@@ -165,16 +165,18 @@ def main(filename, mode):
 
     api_actions = ApiActions(httpRequest)
 
+    groups_file_path = f"./csv_files/groups/{filename}"
+
     # Step 1: Get list of groups to be created
     print("Extracting list of group names from file")
     logger.info("Extracting list of group names from file")
-    groups_list, groups_dict = HelperFunctions.get_groups_name_list(filename)
+    groups_list, groups_dict = HelperFunctions.get_groups_name_list(groups_file_path)
 
     # Step 2: Assign groups to projects and applications
     if mode == "tag":
-        assign_group_by_tag(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions)
+        assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger)
     elif mode == "GHOrg":
-        assign_group_by_GHOrg(tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions)
+        assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger)
     else:
         print(f"{mode} is not a valid argument")
         logger.error(f"{mode} is not a valid argument")
