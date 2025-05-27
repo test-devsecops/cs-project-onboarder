@@ -26,7 +26,7 @@ def assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, gr
         print(f"Creating Assignment for Group {groupId} for {resource_type} {resource_id} {resource_name}")
         logger.info(f"Creating Assignment for Group {groupId} for {resource_type} {resource_id} {resource_name}")
         access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
-        assign_group_to_resource_response = api_actions.assign_group_to_resource(access_token, tenant_url, groupId, resource_id, resource_type)
+        assign_group_to_resource_response = api_actions.assign_group_to_resource(access_token, tenant_url, assign_group_to_resource_endpoint, groupId, resource_id, resource_type)
 
 def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger):
 
