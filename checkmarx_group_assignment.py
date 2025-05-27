@@ -45,7 +45,6 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
         
         get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
         results = get_group_response
-        print(results)
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
@@ -63,7 +62,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
         print(f"Retrieving Application with {thistag} tag")
         logger.info(f"Retrieving Application with {thistag} tag")
         get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag)
-        results = get_application_response
+        results = get_application_response.get("applications", [])
         if not len(results):
             print(f"No Application found for {thistag}")
             logger.info(f"No Application found for {thistag}")
