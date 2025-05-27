@@ -49,7 +49,7 @@ def main(filename):
     for group_name in groups_list:
         print(f"Checking if {group_name} exists in CX...")
         logger.info(f"Checking if {group_name} exists in CX...")
-        group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group)
+        group_response = api_actions.get_group(access_token, tenant_iam_url, get_group_endpoint, group_name)
         results = group_response
         if not len(results):
             print(f"{group_name} not found in CX! Skipping mapper creation for group.")
