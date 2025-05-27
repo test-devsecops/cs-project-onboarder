@@ -102,7 +102,7 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
     
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
-    get_groups_endpoint = routes.get_groups(tenant_name)
+    get_groups_endpoint = routes.get_group(tenant_name)
     # get_application_endpoint = routes.get_application()
     get_projects_endpoint = routes.get_projects()
     get_projects_through_searchbar_endpoint = routes.get_projects_through_searchbar()
