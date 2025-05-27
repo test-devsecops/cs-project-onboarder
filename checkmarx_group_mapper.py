@@ -30,6 +30,8 @@ def main(filename):
     api_actions = ApiActions(httpRequest)
     access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
 
+    groups_file_path = f"./csv_files/groups/{filename}"
+
     # Step 1: retrieve IdPs configured in CX, there should only be one integrated with the main AD
     print(f"Retrieving IdP from CX...")
     logger.info(f"Retrieving IdP from CX...")
@@ -43,7 +45,7 @@ def main(filename):
 
     # Step 2: Create Mappers in CX IdP
     create_mapper_endpoint = routes.create_mapper(tenant_name, idp_alias)
-    groups_list, groups_dict = HelperFunctions.get_groups_name_list(filename)
+    groups_list, groups_dict = HelperFunctions.get_groups_name_list(groups_file_path)
     for group_name in groups_list:
         print(f"Checking if {group_name} exists in CX...")
         logger.info(f"Checking if {group_name} exists in CX...")
