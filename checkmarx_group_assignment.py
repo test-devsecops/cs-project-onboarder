@@ -120,8 +120,8 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
             continue
         group_id = results[0].get('id', '')
         ghorg = groups_dict[group].get("tag")
-        print(f"{group} found! Adding {group} id {group_id} to tag group {tag}")
-        logger.info(f"{group} found! Adding {group} id {group_id} to tag group {tag}")
+        print(f"{group} found! Adding {group} id {group_id} to ghorg group {ghorg}")
+        logger.info(f"{group} found! Adding {group} id {group_id} to ghorg group {ghorg}")
         if ghorg not in ghorg_groups:
             ghorg_groups[ghorg] = []
         ghorg_groups[ghorg].append(group_id)
