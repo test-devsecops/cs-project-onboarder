@@ -37,7 +37,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
     get_groups_endpoint = routes.get_group(tenant_name)
     get_application_endpoint = routes.get_application()
     get_projects_endpoint = routes.get_projects()
-
+    print(token)
     for group in groups_list:
         print(f"Retrieving Id for Group {group}...")
         logger.info(f"Retrieving Id for Group {group}...")
@@ -171,7 +171,7 @@ def main(filename, mode):
     print("Extracting list of group names from file")
     logger.info("Extracting list of group names from file")
     groups_list, groups_dict = HelperFunctions.get_groups_name_list(groups_file_path)
-
+    print(token)
     # Step 2: Assign groups to projects and applications
     if mode == "tag":
         assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger)
