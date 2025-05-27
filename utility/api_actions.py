@@ -400,7 +400,7 @@ class ApiActions:
         url = f"https://{base_url}{endpoint}"
 
         headers = {
-            'Authorization': "Bearer " + acc_token,
+            'Authorization': f"Bearer {token}",
             'Accept': "application/json; version=1.0",
             'Content-Type': "application/json; version=1.0",
             'User-Agent': "python-requests/2.32.3"
