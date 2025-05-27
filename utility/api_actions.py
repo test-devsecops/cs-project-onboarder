@@ -744,5 +744,5 @@ class ApiActions:
             }
         }
 
-        response = self.httpRequest.post_api_request(url, headers=headers, json=json.dumps(payload))
+        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
         return response
