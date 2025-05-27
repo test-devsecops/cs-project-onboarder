@@ -134,7 +134,6 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
         limit = 100
         get_projects_through_searchbar_response = api_actions.get_projects_through_searchbar(access_token, tenant_url, get_projects_through_searchbar_endpoint, thisghorg, offset, limit)
         results = get_projects_through_searchbar_response
-        print(results)
         projects_count = results.get("totalCount", 0)
         if not projects_count:
             print(f"No projects found for tag {thisghorg}. Skipping ahead.")
