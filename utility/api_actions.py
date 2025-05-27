@@ -694,7 +694,7 @@ class ApiActions:
         }
 
         payload = {
-            'entityID': groupId,
+            'entityID': group_id,
             'entityType': 'group',
             'resourceID': resource_id,
             'resourceType': resource_type
