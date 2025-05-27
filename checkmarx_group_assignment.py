@@ -14,7 +14,7 @@ import re
 import time
 import json
 
-def assign_groups_to_resource(token, tenant_url, tenant_iam_url, groups, resource_id, resource_type, resource_name, logger):
+def assign_groups_to_resource(token, tenant_url, tenant_iam_url, groups, resource_id, resource_type, resource_name, routes, api_actions, logger):
     
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
