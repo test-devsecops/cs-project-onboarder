@@ -8,22 +8,6 @@ class Routes:
         endpoint = "/api/projects/"
         return endpoint
 
-    def get_project_last_scan(self):
-        endpoint = "/api/projects/last-scan"
-        return endpoint
-    
-    def start_scans(self):
-        endpoint = "/api/scans/"
-        return endpoint
-
-    def get_scans(self):
-        endpoint = "/api/scans/"
-        return endpoint
-
-    def get_scan_details(self, scan_id):
-        endpoint = f"/api/scans/{scan_id}"
-        return endpoint
-
     # Use this route/endpint if you want to retrieve the list of protected branches.
     def get_project_repo(self, repo_id):
         endpoint = f"/api/repos-manager/repo/{repo_id}"
@@ -37,14 +21,6 @@ class Routes:
     # Use this route/endpint if you want to retrieve the list of branches available to be set as protected branches.
     def get_repo_branches(self, repo_id):
         endpoint = f"/api/repos-manager/repos/{repo_id}/branches"
-        return endpoint
-
-    def get_repos_by_project_id(self, project_id):
-        endpoint = f"/api/insights/project/{project_id}"
-        return endpoint
-
-    def get_repo_insights(self):
-        endpoint = "/api/insights/repository"
         return endpoint
 
     def get_project(self, project_id):
@@ -83,7 +59,7 @@ class Routes:
         endpoint = f"/api/applications/{application_id}"
         return endpoint
 
-    def create_app_rule(self, application_id):
+    def add_projects_to_application(self, application_id):
         endpoint = f"/api/applications/{application_id}/projects"
         return endpoint
 

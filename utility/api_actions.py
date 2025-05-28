@@ -217,162 +217,6 @@ class ApiActions:
 
         response = self.httpRequest.get_api_request(url, headers=headers)
         return response
-    
-    @ExceptionHandler.handle_exception
-    def start_sast_scan(self, token, base_url, endpoint, project_id, api_key, branch=None, repo_url=None):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        payload = {
-            "project": {
-                "id": project_id
-            },
-            "type": "git",
-            "handler": {
-                "repoUrl": repo_url,
-                "branch": branch,
-                "credentials": {
-                    "username": "",
-                    "type": "apiKey",
-                    "value": api_key
-                }
-            },
-            "config": [
-                {
-                    "type": "sast",
-                    "value": {
-                        "incremental": "true",
-                        "presetName": "Checkmarx Default",
-                        "engineVerbose": "false"
-                    }
-                },
-                {
-                    "type": "sca",
-                    "value": {
-                        "lastSastScanTime": "",
-                        "exploitablePath": "false"
-                    }
-                },
-                {
-                    "type": "microengines",
-                    "value": {
-                        "scorecard": "false",
-                        "2ms": "true"
-                    }
-                }
-            ]
-        }
-
-        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
-        return response
-
-    @ExceptionHandler.handle_exception
-    def get_project_last_scan(self, token, base_url, endpoint, project_ids):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        params = {
-            "project-ids": [project_ids]
-            # "limit": 100,
-            # "offset": 0
-        }
-
-        response = self.httpRequest.get_api_request(url, headers=headers, params=params)
-        return response
-
-    @ExceptionHandler.handle_exception
-    def get_scan_details(self, token, base_url, endpoint):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        response = self.httpRequest.get_api_request(url, headers=headers)
-        return response
-
-    @ExceptionHandler.handle_exception
-    def get_scans(self, token, base_url, endpoint):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        limit = 100  
-        offset = 0  
-        all_scans = []
-        
-        while True:
-            params = {
-                "limit": limit,
-                "offset": offset
-            }
-
-            response = self.httpRequest.get_api_request(url, headers=headers, params=params)
-
-            if not response or "scans" not in response or not isinstance(response["scans"], list):
-                print("Error: 'scans' key missing or not a list in API response")
-                return None
-
-            all_scans.extend(response["scans"])
-
-            if len(response["scans"]) < limit:
-                break  
-
-            offset += limit
-
-        return all_scans
-
-    @ExceptionHandler.handle_exception
-    def get_repo_insights(self, token, base_url, endpoint, repo_url):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        payload = {
-            "repository_url": repo_url
-        }
-
-        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
-        return response
-
-    @ExceptionHandler.handle_exception
-    def get_project(self, token, base_url, endpoint):
-        
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        response = self.httpRequest.get_api_request(url, headers=headers)
-        return response
 
     @ExceptionHandler.handle_exception
     def get_projects_by_tags(self, token, base_url, endpoint, tag, offset=0, limit=100):
@@ -530,6 +374,24 @@ class ApiActions:
                     "value": tag
                 }
             ]
+        }
+
+        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
+        return response
+
+    @ExceptionHandler.handle_exception
+    def add_projects_to_application(self, token, base_url, endpoint, project_ids):
+
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            "accept": "application/json; version=1.0",
+            "authorization": f"Bearer {token}",
+            "Content-Type": "application/json; version=1.0"
+        }
+
+        payload = {
+            "projectIds": project_ids
         }
 
         response = self.httpRequest.post_api_request(url, headers=headers, json=payload)

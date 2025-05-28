@@ -159,6 +159,11 @@ def main(filename):
                 try:
                     api_actions.create_application(access_token, tenant_url, create_application_endpoint, 
                     generated_app_name, tag, criticality_level)
+                    cx_app_id = app_created['id']
+
+                    # Direct Association: Add Project IDs to the Application
+                    add_projects_to_application_endpoint = routes.add_projects_to_application(cx_app_id)
+                    api_actions.add_projects_to_application(access_token, tenant_url, add_projects_to_application_endpoint, project_ids_grouped_by_tag)
 
                     print(f"Sucessfully created application {generated_app_name}")
                     logger.info(f"Sucessfully created application {generated_app_name}")
@@ -183,6 +188,10 @@ def main(filename):
                     update_application_tags_and_criticality_endpoint = routes.update_application(cx_app_id)
                     api_actions.update_application_tags_and_criticality(
                         access_token, tenant_url, update_application_tags_and_criticality_endpoint, criticality_level, tag)
+
+                    # Direct Association: Add Project IDs to the Application
+                    add_projects_to_application_endpoint = routes.add_projects_to_application(cx_app_id)
+                    api_actions.add_projects_to_application(access_token, tenant_url, add_projects_to_application_endpoint, project_ids_grouped_by_tag)
 
                     print(f"Tagged application {cx_app_name} with the new project tag: {tag}")
                     logger.info(f"Tagged application {cx_app_name} with the new project tag:  {tag}")
