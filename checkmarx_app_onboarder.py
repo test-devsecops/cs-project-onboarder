@@ -94,6 +94,7 @@ def main(filename):
         # NOTE: app_name is equal to Project Name in PruCore
         app_name, tag, crit = app_names[idx], project_codes[idx], criticality[idx]
         criticality_level = get_criticality_level(crit)
+        project_ids_grouped_by_tag = []
 
         # regex_pattern = r"^[\w\/\-\@]+(\-" + tag + r"\-)[\w]+"
         regex_pattern = r"^[\w\-\/]+\/([\w]+)-(" + tag + r")-[\w\-]+"
@@ -134,6 +135,7 @@ def main(filename):
                         logger.info(f"Project {project_name} is already tagged.")
 
                     project_exists = True
+                    project_ids_grouped_by_tag.append(project_id)
 
             except Exception as e:
                 print(f"Error tagging project {project_name}: {e}")
