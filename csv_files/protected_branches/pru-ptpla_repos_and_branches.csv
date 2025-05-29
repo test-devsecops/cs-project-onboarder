@@ -35982,3 +35982,5 @@ pru-ptpla/ptpla-73g-ifc-prw-security,master,YES
 pru-ptpla/ptpla-hay-ptpla-common-security-pruworks,dev,YES
 pru-ptpla/ptpla-hay-ptpla-common-security-pruworks,uat,YES
 pru-ptpla/ptpla-hay-ptpla-common-security-pruworks,master,YES
+pru-ptpla/ptpla-2s6-cds-trigger-case,dev,YES
+pru-ptpla/ptpla-2s6-cds-trigger-case,master,YES
