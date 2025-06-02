@@ -143,27 +143,6 @@ class ApiActions:
         return response
 
     @ExceptionHandler.handle_exception
-    def get_project_branches(self, token, base_url, endpoint, project_id, branch_name=None):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        params = {
-            "project-id": project_id,
-            "branch-name": branch_name,
-            "limit": 20,
-            "offset": 0
-        }
-
-        response = self.httpRequest.get_api_request(url, headers=headers, params=params)
-        return response
-
-    @ExceptionHandler.handle_exception
     def get_repo_branches(self, token, base_url, endpoint):
         """
         Retrieve all available branches (including paginated results) for a repo.
@@ -330,25 +309,6 @@ class ApiActions:
         }
 
         response = self.httpRequest.put_api_request(url, headers=headers, json=payload)
-        return response
-
-    @ExceptionHandler.handle_exception
-    def create_app_rule(self, token, base_url, endpoint, tag):
-
-        url = f"https://{base_url}{endpoint}"
-
-        headers = {
-            "accept": "application/json; version=1.0",
-            "authorization": f"Bearer {token}",
-            "Content-Type": "application/json; version=1.0"
-        }
-
-        payload = {
-            "type": "project.tag.key.exists",
-            "value": tag
-        }
-
-        response = self.httpRequest.post_api_request(url, headers=headers, json=payload)
         return response
 
     @ExceptionHandler.handle_exception
