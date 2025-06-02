@@ -14,9 +14,8 @@ import re
 import time
 import json
 
-def generate_checkmarx_app_name(app_name, project_code):
+def generate_checkmarx_app_name(lbu_name, app_name, project_code):
     # Generates a Checkmarx application name in the format <LBU>-<Project Code>-<App Name>
-    lbu_name = HelperFunctions.get_lbu_name_simple(app_name)
     formatted_app_name = clean_app_name(app_name)
     final_app_name = f"{lbu_name}-{project_code}-{formatted_app_name}"
     return final_app_name
@@ -152,7 +151,7 @@ def main(filename):
             '''Step 2b: Create Application on Checkmarx. Only those existing projects in CX with tag on its 
             name will be created with the equivalent application.'''
 
-            generated_app_name = generate_checkmarx_app_name(app_name, tag)
+            generated_app_name = generate_checkmarx_app_name(lbu_name, app_name, tag)
             cx_app = api_actions.get_application_by_name(access_token, tenant_url, get_application_endpoint, generated_app_name)
 
             if not cx_app:
