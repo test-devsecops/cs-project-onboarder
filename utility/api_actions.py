@@ -285,7 +285,7 @@ class ApiActions:
         response = self.httpRequest.put_api_request(url, headers=headers, json=payload)
         return response
     
-    def update_application_tags_and_criticality(self, token, base_url, endpoint, criticality, tag):
+    def update_application_tags_and_criticality(self, token, base_url, endpoint, criticality, tags_dict):
         
         url = f"https://{base_url}{endpoint}"
 
@@ -295,24 +295,16 @@ class ApiActions:
             "Content-Type": "application/json; version=1.0"
         }
 
-        project_tags = {tag: ""}
-
         payload = {
             "criticality": criticality,
-            "rules": [
-                {
-                    "type": "project.tag.key.exists",
-                    "value": tag
-                }
-            ],
-            "tags": project_tags
+            "tags": tags_dict
         }
 
         response = self.httpRequest.put_api_request(url, headers=headers, json=payload)
         return response
 
     @ExceptionHandler.handle_exception
-    def create_application(self, token, base_url, endpoint, app_name, tag, criticality):
+    def create_application(self, token, base_url, endpoint, app_name, tags_dict, criticality):
 
         url = f"https://{base_url}{endpoint}"
 
@@ -325,15 +317,7 @@ class ApiActions:
         payload = {
             "name": app_name,
             "criticality": criticality,
-            "tags": {
-                tag: ""
-            },
-            "rules": [
-                {
-                    "type": "project.tag.key.exists",
-                    "value": tag
-                }
-            ]
+            "tags": tags_dict
         }
 
         response = self.httpRequest.post_api_request(url, headers=headers, json=payload)

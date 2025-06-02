@@ -54,6 +54,15 @@ def get_criticality_level(risk):
 
     return criticalityMapping.get(risk.lower(), 3)
 
+def create_tags(project_code, lbu_name):
+
+    tags = {
+        project_code: "",
+        lbu_name: ""
+    }
+
+    return tags
+
 def main(filename):
 
     httpRequest = HttpRequests()
@@ -114,10 +123,7 @@ def main(filename):
                         lbu_name_tag = HelperFunctions.get_lbu_name_simple(project_name)
 
                         # Combine tags in a dict
-                        new_tags = {
-                            tag: "",
-                            lbu_name_tag: ""
-                        }
+                        new_tags = create_tags(tag, lbu_name_tag)
 
                         # Tagging the exisiting CX Project. This includes updating the criticality level of the project.
                         print(f"Tagging project {project_name}")
@@ -155,12 +161,13 @@ def main(filename):
                 continue
 
             cx_app_exists = check_checkmarx_app_exists_by_name(cx_app)
+            new_tags = create_tags(tag, lbu_name_tag)
 
             if not cx_app_exists:
 
                 try:
                     api_actions.create_application(access_token, tenant_url, create_application_endpoint, 
-                    generated_app_name, tag, criticality_level)
+                    generated_app_name, new_tags, criticality_level)
                     cx_app_id = app_created['id']
 
                     # Direct Association: Add Project IDs to the Application
@@ -189,7 +196,7 @@ def main(filename):
 
                     update_application_tags_and_criticality_endpoint = routes.update_application(cx_app_id)
                     api_actions.update_application_tags_and_criticality(
-                        access_token, tenant_url, update_application_tags_and_criticality_endpoint, criticality_level, tag)
+                        access_token, tenant_url, update_application_tags_and_criticality_endpoint, criticality_level, new_tags)
 
                     # Direct Association: Add Project IDs to the Application
                     add_projects_to_application_endpoint = routes.add_projects_to_application(cx_app_id)
