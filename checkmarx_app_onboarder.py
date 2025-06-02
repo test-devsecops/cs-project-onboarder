@@ -4,7 +4,6 @@ from utility.config_utility import Config
 from utility.csv_utility import Csv
 from utility.api_actions import ApiActions
 from utility.helper_functions import HelperFunctions
-from utility.logger import Logger
 from utility.exception_handler import ExceptionHandler
 
 import os
@@ -103,6 +102,7 @@ def main(filename):
         app_name, tag, crit = app_names[idx], project_codes[idx], criticality[idx]
         criticality_level = get_criticality_level(crit)
         project_ids_grouped_by_tag = []
+        lbu_name = "PRU"
 
         # regex_pattern = r"^[\w\/\-\@]+(\-" + tag + r"\-)[\w]+"
         regex_pattern = r"^[\w\-\/]+\/([\w]+)-(" + tag + r")-[\w\-]+"
@@ -114,58 +114,50 @@ def main(filename):
                 # NOTE: If existing CX project does not have a tag on its name, it will not be tagged
                 if re.match(regex_pattern, project_name, re.IGNORECASE):
                     print(f"{project_name} is regex matched!")
-                    logger.info(f"{project_name} is regex matched!")
                     tags = project.get("tags")
-
+                    lbu_name = HelperFunctions.get_lbu_name_simple(project_name)
+                    
                     if not tags:
 
-                        lbu_name_tag = HelperFunctions.get_lbu_name_simple(project_name)
-
                         # Combine tags in a dict
-                        new_tags = create_tags(tag, lbu_name_tag)
+                        new_tags = create_tags(tag, lbu_name)
 
                         # Tagging the exisiting CX Project. This includes updating the criticality level of the project.
                         print(f"Tagging project {project_name}")
-                        logger.info(f"Tagging project {project_name}")
 
                         update_project_tags_and_criticality_endpoint = routes.update_projects(project_id)
                         api_actions.update_project_tags_and_criticality(access_token, tenant_url, update_project_tags_and_criticality_endpoint, project, criticality_level, new_tags)
                         
                         print(f"Tagged project {project_name}: {tag}")
-                        logger.info(f"Tagged project {project_name}: {tag}")
                         newly_tagged_project_count += 1
 
                     else:
                         print(f"Project {project_name} is already tagged.")
-                        logger.info(f"Project {project_name} is already tagged.")
 
                     project_exists = True
                     project_ids_grouped_by_tag.append(project_id)
 
             except Exception as e:
                 print(f"Error tagging project {project_name}: {e}")
-                logger.error(f"Error tagging project {project_name}: {e}")
             
         if project_exists:
 
             '''Step 2b: Create Application on Checkmarx. Only those existing projects in CX with tag on its 
             name will be created with the equivalent application.'''
-
             generated_app_name = generate_checkmarx_app_name(lbu_name, app_name, tag)
             cx_app = api_actions.get_application_by_name(access_token, tenant_url, get_application_endpoint, generated_app_name)
 
             if not cx_app:
                 print(f"No response received for application: {generated_app_name}")
-                logger.error(f"No response received for application: {generated_app_name}")
                 continue
-
+            
             cx_app_exists = check_checkmarx_app_exists_by_name(cx_app)
-            new_tags = create_tags(tag, lbu_name_tag)
-
+            new_tags = create_tags(tag, lbu_name)
+            
             if not cx_app_exists:
 
                 try:
-                    api_actions.create_application(access_token, tenant_url, create_application_endpoint, 
+                    app_created = api_actions.create_application(access_token, tenant_url, create_application_endpoint, 
                     generated_app_name, new_tags, criticality_level)
                     cx_app_id = app_created['id']
 
@@ -179,48 +171,37 @@ def main(filename):
 
                 except Exception as e:
                     print(f"Error creating application {generated_app_name}: {e}")
-                    logger.error(f"Error creating application {generated_app_name}: {e}")
 
             else:
                 try:
                     cx_app_id = cx_app.get("applications", [{}])[0].get("id", "")
                     cx_app_name = cx_app.get("applications", [{}])[0].get("name", "")
-
+                    
                     print(f"Application {cx_app_name} exists")
-                    logger.info(f"Application {cx_app_name} exists")
 
                     # Updating the application with the new project tag
                     print(f"Tagging application {cx_app_name} with the new project tag...")
-                    logger.info(f"Tagging application {cx_app_name} with the new project tag...")
 
                     update_application_tags_and_criticality_endpoint = routes.update_application(cx_app_id)
                     api_actions.update_application_tags_and_criticality(
                         access_token, tenant_url, update_application_tags_and_criticality_endpoint, criticality_level, new_tags)
-
+                    
                     # Direct Association: Add Project IDs to the Application
                     add_projects_to_application_endpoint = routes.add_projects_to_application(cx_app_id)
                     api_actions.add_projects_to_application(access_token, tenant_url, add_projects_to_application_endpoint, project_ids_grouped_by_tag)
 
                     print(f"Tagged application {cx_app_name} with the new project tag: {tag}")
-                    logger.info(f"Tagged application {cx_app_name} with the new project tag:  {tag}")
                     newly_tagged_application_count += 1
-
-                    project_exists = False
 
                 except Exception as e:
                     print(f"Error tagging application {cx_app_name}: {e}")
-                    logger.error(f"Error tagging application {cx_app_name}: {e}")
-
-    logger.info("Onboarding pru core apps is complete.")
-    logger.info(f"Total Newly Tagged Projects: {newly_tagged_project_count}")
-    logger.info(f"Total Tagged Applications: {newly_tagged_application_count}")
-    logger.info(f"Total Newly Created Applications: {newly_created_application_count}")
+            
+            project_exists = False
 
     print("Onboarding pru core apps is complete.")
     print(f"Total Newly Tagged Projects: {newly_tagged_project_count}")
     print(f"Total Tagged Applications: {newly_tagged_application_count}")
     print(f"Total Newly Created Applications: {newly_created_application_count}")
-    print(f"Logs available here {logger.get_log_file_path()}")
 
 if __name__ == "__main__":
     # Define command-line arguments
