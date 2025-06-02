@@ -68,8 +68,6 @@ def main(filename):
     config = Config()
     token, tenant_name, tenant_iam_url, tenant_url = config.get_config()
 
-    logger = Logger("project_and_app_onboarding")
-
     routes = Routes()
     get_access_token_endpoint = routes.get_access_token(tenant_name)
     get_checkmarx_projects_endpoint = routes.get_checkmarx_projects()
