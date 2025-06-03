@@ -164,7 +164,6 @@ def main(filename):
                     api_actions.add_projects_to_application(access_token, tenant_url, add_projects_to_application_endpoint, project_ids_grouped_by_tag)
 
                     print(f"Sucessfully created application {generated_app_name}")
-                    logger.info(f"Sucessfully created application {generated_app_name}")
                     newly_created_application_count += 1
 
                 except Exception as e:
