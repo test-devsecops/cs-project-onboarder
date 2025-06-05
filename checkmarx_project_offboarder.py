@@ -77,7 +77,7 @@ def main(filename):
             print(f"Error processing {project_name_to_delete}: {e}")
             print(f"Failed to remove {project_name_to_delete}")
             
-            failed_projects.append(repo_name)
+            failed_projects.append(project_name_to_delete)
             project_failed_delete_count += 1
 
     logger.info("Offboarding projects is completed.")

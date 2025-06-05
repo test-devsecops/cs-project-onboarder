@@ -19711,6 +19711,7 @@ pru-phkl/phkl-rx3-fas,azure-pipelines,
 pru-phkl/phkl-rx3-fas,azure-pipelines-fp,
 pru-phkl/phkl-rx3-fas,bak,
 pru-phkl/phkl-rx3-fas,develop,
+pru-phkl/phkl-rx3-fas,feature/cloud-migration-fix,YES
 pru-phkl/phkl-rx3-fas,feature/develop-P24-A&F-442,
 pru-phkl/phkl-rx3-fas,feature/uat-securityscan,
 pru-phkl/phkl-rx3-fas,feature/220700900-floating-rate,

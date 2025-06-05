@@ -35984,3 +35984,11 @@ pru-ptpla/ptpla-hay-ptpla-common-security-pruworks,uat,YES
 pru-ptpla/ptpla-hay-ptpla-common-security-pruworks,master,YES
 pru-ptpla/ptpla-2s6-cds-trigger-case,dev,YES
 pru-ptpla/ptpla-2s6-cds-trigger-case,master,YES
+pru-ptpla/ptpla-2s6-cds-ct-claimcalculation-service,dev,YES
+pru-ptpla/ptpla-2s6-cds-ct-claimcalculation-service,master,YES
+pru-ptpla/ptpla-cbv-prufast-krakend,master,YES
+pru-ptpla/ptpla-cbv-prufast-krakend,dev,YES
+pru-ptpla/ptpla-cbv-prufast-krakend,uat,YES
+pru-ptpla/ptpla-edd-prufast-service-activity-feedback-qrks,master,YES
+pru-ptpla/ptpla-edd-prufast-service-activity-feedback-qrks,dev,YES
+pru-ptpla/ptpla-edd-prufast-service-activity-feedback-qrks,uat,YES
