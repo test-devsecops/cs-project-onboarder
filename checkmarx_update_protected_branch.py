@@ -3,7 +3,6 @@ from utility.routes import Routes
 from utility.config_utility import Config
 from utility.csv_utility import Csv
 from utility.api_actions import ApiActions
-from utility.logger import Logger
 
 from collections import defaultdict
 from itertools import islice
@@ -81,8 +80,6 @@ def main(filename):
 
     api_actions = ApiActions(httpRequest)
     access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
-
-    logger = Logger(filename)
     
     protected_branches_file_path = f"./csv_files/protected_branches/{filename}"
 
@@ -107,14 +104,14 @@ def main(filename):
 
     # Process each batch
     for idx, batch in enumerate(batches):
-        logger.info(f"Processing batch {idx + 1}/{total_batches} at {datetime.now()}")
+        print(f"Processing batch {idx + 1}/{total_batches} at {datetime.now()}")
 
         for repo_name, branch_list in batch.items():
             try:
                 cx_projects = api_actions.get_checkmarx_projects(access_token, tenant_url, get_checkmarx_projects_endpoint, project_name=repo_name)
 
                 if not cx_projects:
-                    logger.error(f"No Checkmarx project found for {repo_name}")
+                    print(f"No Checkmarx project found for {repo_name}")
                     repo_failed_update_count += 1
                     failed_repositories.append(repo_name)
                     continue
@@ -125,7 +122,7 @@ def main(filename):
                 repo_id = cx_project.get("repoId")
 
                 if not repo_id:
-                    logger.error(f"Project {project_name} has no repository ID.")
+                    print(f"Project {project_name} has no repository ID.")
                     repo_failed_update_count += 1
                     failed_repositories.append(repo_name)
                     continue
@@ -147,30 +144,24 @@ def main(filename):
 
                 if not new_branches:
                     print(f"No new branches specified for repo: {project_name}. Skipping...")
-                    logger.info(f"No new branches specified for repo: {project_name}. Skipping...")
                     continue
                 
                 # Check if all new_branches are already protected branches
                 if set(new_branches).issubset(protected_branch_names):
                     print(f"All branches in {new_branches} are already protected in repo: {project_name}. Skipping...")
-                    logger.info(f"All branches in {new_branches} are already protected in repo: {project_name}. Skipping...")
                     continue
 
                 print(f"Updating protected branches of {project_name}... Adding new branches: {new_branches}")
-                logger.info(f"Updating protected branches of {project_name}... Adding new branches: {new_branches}")
 
                 api_actions.update_project_repo_protected_branches(access_token, tenant_url, get_project_repo_endpoint, repo_info, project_id, new_branches)
                 
                 print(f"Updated the protected branches of {project_name} with new branches: {new_branches}")
-                logger.info(f"Updated the protected branches of {project_name} with new branches: {new_branches}")
 
                 print("Timeout: 3 seconds...")
                 time.sleep(3)
                 repo_updated_count += 1
                 
             except Exception as e:
-                logger.error(f"Error processing {repo_name}: {e}")
-                logger.error(f"Failed to add {new_branches} to {repo_name}")
 
                 print(f"Error processing {repo_name}: {e}")
                 print(f"Failed to add {new_branches} to {repo_name}")
@@ -181,24 +172,18 @@ def main(filename):
         try:
             access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         except Exception as e:
-            logger.error(f"Failed to renew token after batch {idx + 1}: {e}")
             print(f"Failed to renew token after batch {idx + 1}: {e}")
             break
 
         if idx + 1 < total_batches:
-            logger.info(f"Sleeping for {batch_timeout} seconds before next batch...")
             print(f"Sleeping for {batch_timeout} seconds before next batch...")
             time.sleep(batch_timeout)
 
     # Final Summary
-    logger.info("Batch processing complete.")
-    logger.info(f"Total repositories updated: {repo_updated_count}")
-    logger.info(f"Total repositories failed: {repo_failed_update_count}")
-
     print("Batch processing complete.")
     print(f"Total repositories updated: {repo_updated_count}")
     print(f"Total repositories failed: {repo_failed_update_count}")
-    print(f"Logs available here {logger.get_log_file_path()}")
+    print(f"Failed Repositories: {failed_repositories}")
 
     export_failed_repos_to_csv(failed_repositories)
 
