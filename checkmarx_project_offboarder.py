@@ -28,9 +28,6 @@ def main(filename):
     api_actions = ApiActions(httpRequest)
     access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
 
-    # Step 1: Retrieve all on-boarded projects
-    cx_projects = api_actions.get_checkmarx_projects(access_token, tenant_url, get_checkmarx_projects_endpoint, empty_tag="false")
-
     prucore_filepath = f"./csv_files/project_offboarding/{filename}"
     project_names_to_delete = Csv.read_csv(prucore_filepath, column_index=0)
 
