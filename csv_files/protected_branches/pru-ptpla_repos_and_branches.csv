@@ -35992,3 +35992,9 @@ pru-ptpla/ptpla-cbv-prufast-krakend,uat,YES
 pru-ptpla/ptpla-edd-prufast-service-activity-feedback-qrks,master,YES
 pru-ptpla/ptpla-edd-prufast-service-activity-feedback-qrks,dev,YES
 pru-ptpla/ptpla-edd-prufast-service-activity-feedback-qrks,uat,YES
+pru-ptpla/ptpla-cbv-prufast-service-spaj-magnum,master,YES
+pru-ptpla/ptpla-cbv-prufast-service-spaj-magnum,dev,YES
+pru-ptpla/ptpla-cbv-prufast-service-spaj-magnum,uat,YES
+pru-ptpla/ptpla-edd-prufast-service-spaj-magnum,master,YES
+pru-ptpla/ptpla-edd-prufast-service-spaj-magnum,dev,YES
+pru-ptpla/ptpla-edd-prufast-service-spaj-magnum,uat,YES
