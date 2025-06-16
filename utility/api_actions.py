@@ -284,7 +284,31 @@ class ApiActions:
 
         response = self.httpRequest.put_api_request(url, headers=headers, json=payload)
         return response
+
+    @ExceptionHandler.handle_exception_with_retries()
+    def update_project_primary_branch(self, token, base_url, endpoint, project, main_branch):
+        
+        url = f"https://{base_url}{endpoint}"
+
+        headers = {
+            "accept": "application/json; version=1.0",
+            "authorization": f"Bearer {token}",
+            "Content-Type": "application/json; version=1.0"
+        }
+
+        payload = {
+            "name": project["name"],
+            "tags": project["tags"],
+            "groups": project["groups"],
+            "criticality": project["criticality"],
+            "repoUrl": project["repoUrl"],
+            "mainBranch": main_branch
+        }
+
+        response = self.httpRequest.put_api_request(url, headers=headers, json=payload)
+        return response
     
+    @ExceptionHandler.handle_exception
     def update_application_tags_and_criticality(self, token, base_url, endpoint, criticality, tags_dict):
         
         url = f"https://{base_url}{endpoint}"
