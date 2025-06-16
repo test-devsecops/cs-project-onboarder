@@ -2,6 +2,10 @@ name: Checkmarx Groups Mappers Creation
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
+    inputs:
+      filename:
+        description: 'Path to the project file (e.g. app_config.json)'
+        required: true
 
 jobs:
   run-checkmarx-groups-mapper-creation:
@@ -28,4 +32,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Checkmarx Group Mapper Creation script
-        run: python3 checkmarx_group_mapper.py -filename=github-project-groups.csv
+        run: python3 checkmarx_group_mapper.py -filename=${{ github.event.inputs.filename }}
