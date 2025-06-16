@@ -1,1077 +1,1077 @@
-code,name,criticality,owner,managers_group,contributors_group,viewers_group
-24X,Bank Recon System,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-24X-Managers,GITHUB-24X-Contributors,GITHUB-24X-Viewers
-252,Kofax OCR,low,madhan.seduraman@prudential.com.sg,GITHUB-252-Managers,GITHUB-252-Contributors,GITHUB-252-Viewers
-25Y,PReS Connect,low,null,null,null,null
-26P,LA outsource sftp,low,null,null,null,null
-289,PCLAFNA,medium,vichet.lay@prudential.com.kh,GITHUB-289-Managers,GITHUB-289-Contributors,GITHUB-289-Viewers
-2A7,Win11 Cloud VDI - KHLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-2A7-Managers,GITHUB-2A7-Contributors,GITHUB-2A7-Viewers
-2AW,IFRS17ETL,high,matthew.sl.yeung@prudential.com.hk,GITHUB-2AW-Managers,GITHUB-2AW-Contributors,GITHUB-2AW-Viewers
-2CJ,DSR,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-2CJ-Managers,GITHUB-2CJ-Contributors,GITHUB-2CJ-Viewers
-2D8,Win11 Cloud VDI - PHLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-2D8-Managers,GITHUB-2D8-Contributors,GITHUB-2D8-Viewers
-2DF,eInvoice(MoF Invoice standardized) Service,low,Nguyen.Tuong.Lam@prudential.com.vn,GITHUB-2DF-Managers,GITHUB-2DF-Contributors,GITHUB-2DF-Viewers
-2DK,WebSphere Upgrade to 9,low,ron.ky.chan@prudential.com.hk,GITHUB-2DK-Managers,GITHUB-2DK-Contributors,GITHUB-2DK-Viewers
-2E4,Collection System,low,l.dinhtam@prudential.com.vn,GITHUB-2E4-Managers,GITHUB-2E4-Contributors,GITHUB-2E4-Viewers
-2HS,Client,low,wiston.mangheni@prudential.ug,GITHUB-2HS-Managers,GITHUB-2HS-Contributors,GITHUB-2HS-Viewers
-2J2,Messaging,low,null,null,null,null
-2J7,TEST AUTO,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-2J7-Managers,GITHUB-2J7-Contributors,GITHUB-2J7-Viewers
-2JC,TMS_DMTM,low,qing.perk.goh@prudential.com.my,GITHUB-2JC-Managers,GITHUB-2JC-Contributors,GITHUB-2JC-Viewers
-2KN,CMS copy,medium,n.ducthanh@prudential.com.vn,GITHUB-2KN-Managers,GITHUB-2KN-Contributors,GITHUB-2KN-Viewers
-2KX,PROCESSOR,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-2KX-Managers,GITHUB-2KX-Contributors,GITHUB-2KX-Viewers
-2M9,Automation Anywhere Cloud Migration,low,choong.how.sim@prudential.com.my,GITHUB-2M9-Managers,GITHUB-2M9-Contributors,GITHUB-2M9-Viewers
-2QH,AISUU,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-2QH-Managers,GITHUB-2QH-Contributors,GITHUB-2QH-Viewers
-2QK,ME 3.0,low,azmi.raif@eastspring.com,GITHUB-2QK-Managers,GITHUB-2QK-Contributors,GITHUB-2QK-Viewers
-2QR,TeeUp,low,null,null,null,null
-2R8,PHKL PRUOne,high,ray.wong@prudential.com.hk,GITHUB-2R8-Managers,GITHUB-2R8-Contributors,GITHUB-2R8-Viewers
-2S6,Claims,low,RENO.WARDY@prudential.co.id,GITHUB-2S6-Managers,GITHUB-2S6-Contributors,GITHUB-2S6-Viewers
-2TR,DevOps,low,Pavan.Raga1@prudential.com.sg,GITHUB-2TR-Managers,GITHUB-2TR-Contributors,GITHUB-2TR-Viewers
-2XB,IOC Cloud Ops Ansible Roles,low,srinivas.vaddi@prudential.com.sg,GITHUB-2XB-Managers,GITHUB-2XB-Contributors,GITHUB-2XB-Viewers
-2YV,PVA - Claims Document Fraud Detection,medium,nguyen.dinh.thinh@prudential.com.vn,GITHUB-2YV-Managers,GITHUB-2YV-Contributors,GITHUB-2YV-Viewers
-2YX,Imperva,low,Fook.Cheong.Yong@prudential.com.sg,GITHUB-2YX-Managers,GITHUB-2YX-Contributors,GITHUB-2YX-Viewers
-334,PRURIDER,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-334-Managers,GITHUB-334-Contributors,GITHUB-334-Viewers
-34Z,Prophet,low,null,null,null,null
-358,APIM- Finance Modernization,high,mura.muthirevula@eastspring.com,GITHUB-358-Managers,GITHUB-358-Contributors,GITHUB-358-Viewers
-35X,dgcoe_collibra,low,Syam.Bandi@prudential.com.sg,GITHUB-35X-Managers,GITHUB-35X-Contributors,GITHUB-35X-Viewers
-36Q,Regional Claims System,medium,Tan.See.Aik@prudential.com.my,GITHUB-36Q-Managers,GITHUB-36Q-Contributors,GITHUB-36Q-Viewers
-37C,Smart Claim,low,RENO.WARDY@prudential.co.id,GITHUB-37C-Managers,GITHUB-37C-Contributors,GITHUB-37C-Viewers
-37F,PRUtxt,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-37F-Managers,GITHUB-37F-Contributors,GITHUB-37F-Viewers
-3AP,Tango 4,low,ng.sei.weng@prudential.com.my,GITHUB-3AP-Managers,GITHUB-3AP-Contributors,GITHUB-3AP-Viewers
-3B5,tfs,low,null,null,null,null
-3DE,PCLABGSVC,medium,vichet.lay@prudential.com.kh,GITHUB-3DE-Managers,GITHUB-3DE-Contributors,GITHUB-3DE-Viewers
-3EC,iQuotation,low,abhisek.mohapatra@prudential.com.sg,GITHUB-3EC-Managers,GITHUB-3EC-Contributors,GITHUB-3EC-Viewers
-3EY,api,low,Rajesh@prudential.com.my,GITHUB-3EY-Managers,GITHUB-3EY-Contributors,GITHUB-3EY-Viewers
-3F8,PHKL AKS,medium,wayne.ky.lam@prudential.com.hk,GITHUB-3F8-Managers,GITHUB-3F8-Contributors,GITHUB-3F8-Viewers
-3KV,PruForce,low,aylwin.bc.chen@prudential.com.my,GITHUB-3KV-Managers,GITHUB-3KV-Contributors,GITHUB-3KV-Viewers
-3KZ,IFRS17-PBTB,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-3KZ-Managers,GITHUB-3KZ-Contributors,GITHUB-3KZ-Viewers
-3M8,PHKL Payment Gateway,high,ron.ky.chan@prudential.com.hk,GITHUB-3M8-Managers,GITHUB-3M8-Contributors,GITHUB-3M8-Viewers
-3MP,Win11 Cloud VDI - IDLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-3MP-Managers,GITHUB-3MP-Contributors,GITHUB-3MP-Viewers
-3ND,PHKLSTT,low,matthew.sl.yeung@prudential.com.hk,GITHUB-3ND-Managers,GITHUB-3ND-Contributors,GITHUB-3ND-Viewers
-3NF,PLT IFRS17,medium,Pimchanutcha.Intasen@prudential.co.th,GITHUB-3NF-Managers,GITHUB-3NF-Contributors,GITHUB-3NF-Viewers
-3NW,Queue Management System,low,Foo.Chui.San@prudential.com.my,GITHUB-3NW-Managers,GITHUB-3NW-Contributors,GITHUB-3NW-Viewers
-3QS,Web Portal,low,T.Huynh@prudential.com.vn,GITHUB-3QS-Managers,GITHUB-3QS-Contributors,GITHUB-3QS-Viewers
-3R3,Prudential Financial Adviser,low,beschi.antony@prudential.com.sg,GITHUB-3R3-Managers,GITHUB-3R3-Contributors,GITHUB-3R3-Viewers
-3R7,Microservices API,medium,Tan.See.Aik@prudential.com.my,GITHUB-3R7-Managers,GITHUB-3R7-Contributors,GITHUB-3R7-Viewers
-3RG,PVA - Automation Testing,medium,nguyen.dinh.thinh@prudential.com.vn,GITHUB-3RG-Managers,GITHUB-3RG-Contributors,GITHUB-3RG-Viewers
-3RY,eForms (FrontEnd),low,Bharat.Dhir@prudential.com.sg,GITHUB-3RY-Managers,GITHUB-3RY-Contributors,GITHUB-3RY-Viewers
-3SP,MagumPure UW,low,nct.duy@prudential.com.vn,GITHUB-3SP-Managers,GITHUB-3SP-Contributors,GITHUB-3SP-Viewers
-3U7,PruRecruit,low,null,null,null,null
-3UZ,Unified Data Platform - UDP (aka. DataLake),low,pm.duy@prudential.com.vn,GITHUB-3UZ-Managers,GITHUB-3UZ-Contributors,GITHUB-3UZ-Viewers
-3W4,Redhat Satellite,low,abhay.kumar.singh@prudential.com.sg,GITHUB-3W4-Managers,GITHUB-3W4-Contributors,GITHUB-3W4-Viewers
-3WN,Prudirect,medium,Hon.Yew.Ng@prudential.com.my,GITHUB-3WN-Managers,GITHUB-3WN-Contributors,GITHUB-3WN-Viewers
-3WS,GCP Security Command Center Notification,low,Clement.Tan@prudential.com.sg,GITHUB-3WS-Managers,GITHUB-3WS-Contributors,GITHUB-3WS-Viewers
-3WT,Prophet (Actuarial),low,Daniel.Gnanapragasam@prudential.com.sg,GITHUB-3WT-Managers,GITHUB-3WT-Contributors,GITHUB-3WT-Viewers
-3WZ,GTE CF Self-Service Tool - APIM Config Repositories,medium,Alex.Khaerov@prudential.com.sg,GITHUB-3WZ-Managers,GITHUB-3WZ-Contributors,GITHUB-3WZ-Viewers
-3YA,Alteryx,low,shafi.ahmed@prudential.com.sg,GITHUB-3YA-Managers,GITHUB-3YA-Contributors,GITHUB-3YA-Viewers
-3YJ,SMS,high,raymond.km.hsieh@prudential.com.hk,GITHUB-3YJ-Managers,GITHUB-3YJ-Contributors,GITHUB-3YJ-Viewers
-3YV,PLT APIs,low,Siriphat.Oumtrakul@prudential.co.th,GITHUB-3YV-Managers,GITHUB-3YV-Contributors,GITHUB-3YV-Viewers
-3ZS,GCP_Dev_Prophet,low,phani.kumar@prudential.com.sg,GITHUB-3ZS-Managers,GITHUB-3ZS-Contributors,GITHUB-3ZS-Viewers
-42C,IOC Cloud Ops Ansible Playbooks,low,srinivas.vaddi@prudential.com.sg,GITHUB-42C-Managers,GITHUB-42C-Contributors,GITHUB-42C-Viewers
-42H,NB/POS FollowUp,low,chitrarath.bhattacharjee@prudential.com.sg,GITHUB-42H-Managers,GITHUB-42H-Contributors,GITHUB-42H-Viewers
-42M,Smart Claim,low,leon.cc.yip@prudential.com.my,null,null,null
-433,EAI,low,andy.hc.lau@prudential.com.hk,GITHUB-433-Managers,GITHUB-433-Contributors,GITHUB-433-Viewers
-43P,PHKL SRE Monitoring,low,marcus.yy.lee@prudential.com.hk,GITHUB-43P-Managers,GITHUB-43P-Contributors,GITHUB-43P-Viewers
-443,Unified Asia End User VPN Service,high,Christian.Gautama@prudential.com.sg,GITHUB-443-Managers,GITHUB-443-Contributors,GITHUB-443-Viewers
-44S,JOBREQ,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-44S-Managers,GITHUB-44S-Contributors,GITHUB-44S-Viewers
-457,eForms,low,Bharat.Dhir@prudential.com.sg,GITHUB-457-Managers,GITHUB-457-Contributors,GITHUB-457-Viewers
-45M,Digital Platform,low,null,null,null,null
-46G,EIMY-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-46G-Managers,GITHUB-46G-Contributors,GITHUB-46G-Viewers
-47P,agency portal,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-47P-Managers,GITHUB-47P-Contributors,GITHUB-47P-Viewers
-48N,Tool Sets,low,prajeesh.pm@prudential.com.sg,GITHUB-48N-Managers,GITHUB-48N-Contributors,GITHUB-48N-Viewers
-48Y,MMLIFECALCULATOR,low,Earmeng.Aing@prudential.com.kh,GITHUB-48Y-Managers,GITHUB-48Y-Contributors,GITHUB-48Y-Viewers
-494,Online POE/OnePOS,high,sachin.bhadane@prudential.com.sg,GITHUB-494-Managers,GITHUB-494-Contributors,GITHUB-494-Viewers
-4AJ,Africa Sunrise,low,null,null,null,null
-4B5,Test Automation,low,Shubhi.Gupta@prudential.com.sg,GITHUB-4B5-Managers,GITHUB-4B5-Contributors,GITHUB-4B5-Viewers
-4CK,GTE CF Fabric layer components,medium,Anton.Larkin@prudential.com.sg,GITHUB-4CK-Managers,GITHUB-4CK-Contributors,GITHUB-4CK-Viewers
-4CZ,Fortify,low,Iris.Liu@prudential.com.sg,GITHUB-4CZ-Managers,GITHUB-4CZ-Contributors,GITHUB-4CZ-Viewers
-4D8,BPM,high,T.Huynh@prudential.com.vn,GITHUB-4D8-Managers,GITHUB-4D8-Contributors,GITHUB-4D8-Viewers
-4DC,Pulse Backend API,low,edward.ak.tan@prudential.com.sg,GITHUB-4DC-Managers,GITHUB-4DC-Contributors,GITHUB-4DC-Viewers
-4DX,PACSANALYTICS,low,wong.ling.yit@prudential.com.sg,GITHUB-4DX-Managers,GITHUB-4DX-Contributors,GITHUB-4DX-Viewers
-4EE,PRUSales Enterprise (PSE),low,chitrarath.bhattacharjee@prudential.com.sg,GITHUB-4EE-Managers,GITHUB-4EE-Contributors,GITHUB-4EE-Viewers
-4EN,Puppet On-prem,high,Lafir.GK@prudential.com.sg,GITHUB-4EN-Managers,GITHUB-4EN-Contributors,GITHUB-4EN-Viewers
-4FW,Payment Hub,low,null,null,null,null
-4H9,Citrix,low,rohit.gokhale@prudential.com.sg,GITHUB-4H9-Managers,GITHUB-4H9-Contributors,GITHUB-4H9-Viewers
-4HD,varonis,low,pele.kn.cheung@prudential.com.hk,GITHUB-4HD-Managers,GITHUB-4HD-Contributors,GITHUB-4HD-Viewers
-4HP,PHKL FFP Actuarial,medium,minh.h.pham@prudential.com.hk,GITHUB-4HP-Managers,GITHUB-4HP-Contributors,GITHUB-4HP-Viewers
-4JK,API HealthCheck,medium,Amornrat.Suwanrattanakul@prudential.co.th,GITHUB-4JK-Managers,GITHUB-4JK-Contributors,GITHUB-4JK-Viewers
-4KQ,CWS,medium,pravin.hari.ramalu@prudential.com.sg,GITHUB-4KQ-Managers,GITHUB-4KQ-Contributors,GITHUB-4KQ-Viewers
-4KR,Online Selling Portal,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-4KR-Managers,GITHUB-4KR-Contributors,GITHUB-4KR-Viewers
-4KS,Win11 Cloud VDI - P1100,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-4KS-Managers,GITHUB-4KS-Contributors,GITHUB-4KS-Viewers
-4MB,SMS Mitracomm,low,null,null,null,null
-4MG,AMLScreening (filesrv Tool),low,null,null,null,null
-4P5,3rd Party Payor AML,low,ng.sei.weng@prudential.com.my,GITHUB-4P5-Managers,GITHUB-4P5-Contributors,GITHUB-4P5-Viewers
-4PC,CSBO,high,l.dinhtam@prudential.com.vn,GITHUB-4PC-Managers,GITHUB-4PC-Contributors,GITHUB-4PC-Viewers
-4QA,AMS - Asset Management System,low,Truong.Duc.Lam@prudential.com.vn,GITHUB-4QA-Managers,GITHUB-4QA-Contributors,GITHUB-4QA-Viewers
-4QV,RDCService,low,null,null,null,null
-4QW,Win11 Cloud VDI - pss(sdbo),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-4QW-Managers,GITHUB-4QW-Contributors,GITHUB-4QW-Viewers
-4SS,PTPLA RND,low,Andreas.Kurniawan@prudential.co.id,GITHUB-4SS-Managers,GITHUB-4SS-Contributors,GITHUB-4SS-Viewers
-4TD,PruLeads,low,null,null,null,null
-4VH,Timekeeping,low,renel.r.dilao@prulifeuk.com.ph,GITHUB-4VH-Managers,GITHUB-4VH-Contributors,GITHUB-4VH-Viewers
-4W3,PRUWorks,high,Hardi.Kusumawijaya@prudential.com.sg,GITHUB-4W3-Managers,GITHUB-4W3-Contributors,GITHUB-4W3-Viewers
-4WK,CustWebAPI,low,edward.ak.tan@prudential.com.sg,GITHUB-4WK-Managers,GITHUB-4WK-Contributors,GITHUB-4WK-Viewers
-4XK,logical sql server,low,pravin.hari.ramalu@prudential.com.sg,GITHUB-4XK-Managers,GITHUB-4XK-Contributors,GITHUB-4XK-Viewers
-4YC,ES 3.0,low,mura.muthirevula@eastspring.com,GITHUB-4YC-Managers,GITHUB-4YC-Contributors,GITHUB-4YC-Viewers
-4Z4,Jimmy - GTO IT Integrated Dashboard (UAT),low,justin.yip@prudential.com.sg,GITHUB-4Z4-Managers,GITHUB-4Z4-Contributors,GITHUB-4Z4-Viewers
-4Z6,GISP-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-4Z6-Managers,GITHUB-4Z6-Contributors,GITHUB-4Z6-Viewers
-527,PCLAPRUFP,medium,Malen.Sok@prudential.com.kh,GITHUB-527-Managers,GITHUB-527-Contributors,GITHUB-527-Viewers
-52C,Kubernetes CloudGrid,medium,Anton.Larkin@prudential.com.sg,GITHUB-52C-Managers,GITHUB-52C-Contributors,GITHUB-52C-Viewers
-52J,Win11 Cloud VDI - SGESIV,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-52J-Managers,GITHUB-52J-Contributors,GITHUB-52J-Viewers
-53X,Couchbase,low,sachin.bhadane@prudential.com.sg,GITHUB-53X-Managers,GITHUB-53X-Contributors,GITHUB-53X-Viewers
-54G,ePos,high,null,null,null,null
-54K,AKS,low,wong.nyook.yeen@prudential.com.my,GITHUB-54K-Managers,GITHUB-54K-Contributors,GITHUB-54K-Viewers
-588,PACS Core Infrastructure,low,teo.chen.shiong@prudential.com.sg,GITHUB-588-Managers,GITHUB-588-Contributors,GITHUB-588-Viewers
-58F,PCLAMYPRU,medium,Malen.Sok@prudential.com.kh,GITHUB-58F-Managers,GITHUB-58F-Contributors,GITHUB-58F-Viewers
-5A4,VM Operations - LALIFE,low,uma.maheswari@prudential.com.sg,GITHUB-5A4-Managers,GITHUB-5A4-Contributors,GITHUB-5A4-Viewers
-5AE,AKV,low,leo.dang@prudential.com.sg,GITHUB-5AE-Managers,GITHUB-5AE-Contributors,GITHUB-5AE-Viewers
-5AH,One Pulse,low,jonathan.l.calatrava@prulifeuk.com.ph,GITHUB-5AH-Managers,GITHUB-5AH-Contributors,GITHUB-5AH-Viewers
-5BG,Win11 Cloud VDI - inlife,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-5BG-Managers,GITHUB-5BG-Contributors,GITHUB-5BG-Viewers
-5CT,Prulens,low,wong.ling.yit@prudential.com.sg,GITHUB-5CT-Managers,GITHUB-5CT-Contributors,GITHUB-5CT-Viewers
-5D6,Proposal Submission System,medium,Tan.See.Aik@prudential.com.my,GITHUB-5D6-Managers,GITHUB-5D6-Contributors,GITHUB-5D6-Viewers
-5DT,Win11 Cloud VDI - eis,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-5DT-Managers,GITHUB-5DT-Contributors,GITHUB-5DT-Viewers
-5DW,SAS,low,SI.WAYNE.LONG@prudential.com.my,GITHUB-5DW-Managers,GITHUB-5DW-Contributors,GITHUB-5DW-Viewers
-5H6,iRequest,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-5H6-Managers,GITHUB-5H6-Contributors,GITHUB-5H6-Viewers
-5H9,Win11 Cloud VDI - TechM,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-5H9-Managers,GITHUB-5H9-Contributors,GITHUB-5H9-Viewers
-5M4,PLT INT,low,Jagadeesh.Babu.Kongara@prudential.co.th,GITHUB-5M4-Managers,GITHUB-5M4-Contributors,GITHUB-5M4-Viewers
-5N4,Africa TACACS,medium,isaac.mukhwana@prudentialafrica.com,GITHUB-5N4-Managers,GITHUB-5N4-Contributors,GITHUB-5N4-Viewers
-5N9,Smart Claim,low,John.Yue@prudential.com.cn,GITHUB-5N9-Managers,GITHUB-5N9-Contributors,GITHUB-5N9-Viewers
-5P7,eInvoice(PAMB),high,SewLing.Tan@prudential.com.my,GITHUB-5P7-Managers,GITHUB-5P7-Contributors,GITHUB-5P7-Viewers
-5PR,Actuarial Cloud,low,yip.wai.kuan@prudential.com.my,GITHUB-5PR-Managers,GITHUB-5PR-Contributors,GITHUB-5PR-Viewers
-5QB,compliance,low,wong.kong.yew@prudential.com.my,GITHUB-5QB-Managers,GITHUB-5QB-Contributors,GITHUB-5QB-Viewers
-5QM,NBAcustom activity app,low,null,null,null,null
-5QV,PRUClock,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-5QV-Managers,GITHUB-5QV-Contributors,GITHUB-5QV-Viewers
-5TR,FKAS,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-5TR-Managers,GITHUB-5TR-Contributors,GITHUB-5TR-Viewers
-5TS,Payment Gateway,medium,Tan.See.Aik@prudential.com.my,GITHUB-5TS-Managers,GITHUB-5TS-Contributors,GITHUB-5TS-Viewers
-5UZ,RightFax,low,null,null,null,null
-5VS,Kenya Application,low,PasalaVanaja@prudential.com.sg,GITHUB-5VS-Managers,GITHUB-5VS-Contributors,GITHUB-5VS-Viewers
-5W3,ForcePoint,medium,Fook.Cheong.Yong@prudential.com.sg,GITHUB-5W3-Managers,GITHUB-5W3-Contributors,GITHUB-5W3-Viewers
-5XF,eQuotes,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-5XF-Managers,GITHUB-5XF-Contributors,GITHUB-5XF-Viewers
-5XK,Common Bank Interface,low,Tan.See.Aik@prudential.com.my,GITHUB-5XK-Managers,GITHUB-5XK-Contributors,GITHUB-5XK-Viewers
-5XW,Win11 Cloud VDI - pss(proc),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-5XW-Managers,GITHUB-5XW-Contributors,GITHUB-5XW-Viewers
-5Y8,AKS Pruforce,high,T.Huynh@prudential.com.vn,GITHUB-5Y8-Managers,GITHUB-5Y8-Contributors,GITHUB-5Y8-Viewers
-5YA,Group Actuarial,medium,phani.kumar@prudential.com.sg,GITHUB-5YA-Managers,GITHUB-5YA-Contributors,GITHUB-5YA-Viewers
-5ZQ,Claims AI,low,Glenn.GB.Bayne@prudential.com.hk,GITHUB-5ZQ-Managers,GITHUB-5ZQ-Contributors,GITHUB-5ZQ-Viewers
-625,Win11 Cloud VDI - AFPRHO,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-625-Managers,GITHUB-625-Contributors,GITHUB-625-Viewers
-63Z,eClaims (PruAccess),low,edward.ak.tan@prudential.com.sg,GITHUB-63Z-Managers,GITHUB-63Z-Contributors,GITHUB-63Z-Viewers
-642,Underwriting Aggregation Program,medium,ng.sei.weng@prudential.com.my,GITHUB-642-Managers,GITHUB-642-Contributors,GITHUB-642-Viewers
-64A,AI OCR Service,medium,patawee.chaiarksornwech@prudential.co.th,GITHUB-64A-Managers,GITHUB-64A-Contributors,GITHUB-64A-Viewers
-64D,EB Portal,low,Samarn.Kumwelo@prudential.co.th,GITHUB-64D-Managers,GITHUB-64D-Contributors,GITHUB-64D-Viewers
-64Z,EB,low,Thejus.A@prudentialplc.co.in,GITHUB-64Z-Managers,GITHUB-64Z-Contributors,GITHUB-64Z-Viewers
-66Y,PCLAPRUSERVICES,medium,vichet.lay@prudential.com.kh,GITHUB-66Y-Managers,GITHUB-66Y-Contributors,GITHUB-66Y-Viewers
-67U,Prudential Corporate Website,high,Anson.CH.Cheung@prudential.com.hk,GITHUB-67U-Managers,GITHUB-67U-Contributors,GITHUB-67U-Viewers
-69F,Blueprism,low,VaishaliChaudhary@prudential.com.sg,GITHUB-69F-Managers,GITHUB-69F-Contributors,GITHUB-69F-Viewers
-69X,PRUOne Express (POE),high,sachin.bhadane@prudential.com.sg,GITHUB-69X-Managers,GITHUB-69X-Contributors,GITHUB-69X-Viewers
-6A5,CTRLM,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-6A5-Managers,GITHUB-6A5-Contributors,GITHUB-6A5-Viewers
-6B6,ePayment,low,qing.perk.goh@prudential.com.my,GITHUB-6B6-Managers,GITHUB-6B6-Contributors,GITHUB-6B6-Viewers
-6BC,CRM,low,vannak.suon@prudential.com.kh,GITHUB-6BC-Managers,GITHUB-6BC-Contributors,GITHUB-6BC-Viewers
-6E8,iPay,high,Hardi.Kusumawijaya@prudential.com.sg,GITHUB-6E8-Managers,GITHUB-6E8-Contributors,GITHUB-6E8-Viewers
-6EY,IGW,low,ivan.kl.ong@prudential.com.my,GITHUB-6EY-Managers,GITHUB-6EY-Contributors,GITHUB-6EY-Viewers
-6H7,Kafka,low,Lihour.Tang@prudential.com.kh,GITHUB-6H7-Managers,GITHUB-6H7-Contributors,GITHUB-6H7-Viewers
-6HR,Jasper-PCS,medium,lum.poh.khiam@prudential.com.my,GITHUB-6HR-Managers,GITHUB-6HR-Contributors,GITHUB-6HR-Viewers
-6J2,AMS - Asset Management System,low,null,null,null,null
-6J3,APIM,low,teo.chen.shiong@prudential.com.sg,GITHUB-6J3-Managers,GITHUB-6J3-Contributors,GITHUB-6J3-Viewers
-6JE,VM Operations - EISSS,low,uma.maheswari@prudential.com.sg,GITHUB-6JE-Managers,GITHUB-6JE-Contributors,GITHUB-6JE-Viewers
-6JU,RTS,medium,null,null,null,null
-6MQ,MOS-Act,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-6MQ-Managers,GITHUB-6MQ-Contributors,GITHUB-6MQ-Viewers
-6PK,PHKL - Operator server application,low,andy.lo@prudential.com.hk,GITHUB-6PK-Managers,GITHUB-6PK-Contributors,GITHUB-6PK-Viewers
-6PQ,UDA,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-6PQ-Managers,GITHUB-6PQ-Contributors,GITHUB-6PQ-Viewers
-6Q8,CusSearch,medium,raymond.km.hsieh@prudential.com.hk,GITHUB-6Q8-Managers,GITHUB-6Q8-Contributors,GITHUB-6Q8-Viewers
-6RC,BPM STP,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-6RC-Managers,GITHUB-6RC-Contributors,GITHUB-6RC-Viewers
-6TF,One Pulse,low,wayne.ky.lam@prudential.com.hk,GITHUB-6TF-Managers,GITHUB-6TF-Contributors,GITHUB-6TF-Viewers
-6UJ,PruAI Lab Sandbox,low,darek.cieslinski@prudential.com.sg,GITHUB-6UJ-Managers,GITHUB-6UJ-Contributors,GITHUB-6UJ-Viewers
-6VD,EDIS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-6VD-Managers,GITHUB-6VD-Contributors,GITHUB-6VD-Viewers
-6VS,IFRS17-PLUK,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-6VS-Managers,GITHUB-6VS-Contributors,GITHUB-6VS-Viewers
-6WD,H2H,low,samuel.tan@prudential.com.hk,GITHUB-6WD-Managers,GITHUB-6WD-Contributors,GITHUB-6WD-Viewers
-6WR,windows_testing,low,rohit.gokhale@prudential.com.sg,GITHUB-6WR-Managers,GITHUB-6WR-Contributors,GITHUB-6WR-Viewers
-6YQ,PSF,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-6YQ-Managers,GITHUB-6YQ-Contributors,GITHUB-6YQ-Viewers
-6YX,Observer IT,low,pele.kn.cheung@prudential.com.hk,GITHUB-6YX-Managers,GITHUB-6YX-Contributors,GITHUB-6YX-Viewers
-6ZN,ePOS Zambia/Uganda,high,nathaniel.kw.cheung@prudential.com.hk,GITHUB-6ZN-Managers,GITHUB-6ZN-Contributors,GITHUB-6ZN-Viewers
-72A,HRMS - Candidate Recruitment,medium,lbt.khang@prudential.com.vn,GITHUB-72A-Managers,GITHUB-72A-Contributors,GITHUB-72A-Viewers
-72S,IFRS17-DEVOPS-CICD,medium,sudeekshasooda@prudentialplc.co.in,GITHUB-72S-Managers,GITHUB-72S-Contributors,GITHUB-72S-Viewers
-72U,Prudential Corporate Website,high,Anson.CH.Cheung@prudential.com.hk,GITHUB-72U-Managers,GITHUB-72U-Contributors,GITHUB-72U-Viewers
-73G,SME,low,Paulus.Yansen@prudential.co.id,GITHUB-73G-Managers,GITHUB-73G-Contributors,GITHUB-73G-Viewers
-743,UDP DataHub,high,anurag.shukla@prudential.com.sg,GITHUB-743-Managers,GITHUB-743-Contributors,GITHUB-743-Viewers
-74P,EITH PVD Digital Platform,high,Warin.Lao@eastspring.com,GITHUB-74P-Managers,GITHUB-74P-Contributors,GITHUB-74P-Viewers
-75G,REAL TIME PROD,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-75G-Managers,GITHUB-75G-Contributors,GITHUB-75G-Viewers
-76U,WelcomeVideo,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-76U-Managers,GITHUB-76U-Contributors,GITHUB-76U-Viewers
-775,EITH-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-775-Managers,GITHUB-775-Contributors,GITHUB-775-Viewers
-77X,attunity,low,null,null,null,null
-7B3,FSVAL,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-7B3-Managers,GITHUB-7B3-Contributors,GITHUB-7B3-Viewers
-7BD,PreAuth - Smart Claims,low,jakeer.mahammed@prudential.com.sg,GITHUB-7BD-Managers,GITHUB-7BD-Contributors,GITHUB-7BD-Viewers
-7BR,PVA-Legacymigration,medium,l.dinhtam@prudential.com.vn,GITHUB-7BR-Managers,GITHUB-7BR-Contributors,GITHUB-7BR-Viewers
-7CY,e-Receipt,low,ng.sei.weng@prudential.com.my,GITHUB-7CY-Managers,GITHUB-7CY-Contributors,GITHUB-7CY-Viewers
-7D4,UDP AI services,low,ron.ky.chan@prudential.com.hk,GITHUB-7D4-Managers,GITHUB-7D4-Contributors,GITHUB-7D4-Viewers
-7E2,CC MACRO,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-7E2-Managers,GITHUB-7E2-Contributors,GITHUB-7E2-Viewers
-7E9,IFRS,low,dwiki.jatikusumo@prudential.co.id,GITHUB-7E9-Managers,GITHUB-7E9-Contributors,GITHUB-7E9-Viewers
-7F8,Iheat,low,null,null,null,null
-7H7,Security Validation,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-7H7-Managers,GITHUB-7H7-Contributors,GITHUB-7H7-Viewers
-7HG,GwIA_DA_POCs,low,Fabiano.Rocha@prudential.com.sg,null,null,null
-7J8,Darktrace,low,Lihour.Tang@prudential.com.kh,GITHUB-7J8-Managers,GITHUB-7J8-Contributors,GITHUB-7J8-Viewers
-7JK,Elasticsearch,low,phang.kam.hong@prudential.com.my,GITHUB-7JK-Managers,GITHUB-7JK-Contributors,GITHUB-7JK-Viewers
-7KM,Platform Automation Testing,high,Beck.Zhai@prudential.com.cn,GITHUB-7KM-Managers,GITHUB-7KM-Contributors,GITHUB-7KM-Viewers
-7M4,IFRS17-RHO,medium,sudeekshasooda@prudentialplc.co.in,GITHUB-7M4-Managers,GITHUB-7M4-Contributors,GITHUB-7M4-Viewers
-7MD,ECAP,low,Sachdev.Niraghatam@prudential.com.sg,GITHUB-7MD-Managers,GITHUB-7MD-Contributors,GITHUB-7MD-Viewers
-7N7,PRUJourney,low,sachin.bhadane@prudential.com.sg,GITHUB-7N7-Managers,GITHUB-7N7-Contributors,GITHUB-7N7-Viewers
-7PC,Cloud DB,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-7PC-Managers,GITHUB-7PC-Contributors,GITHUB-7PC-Viewers
-7QU,Bindplane,low,null,null,null,null
-7RM,PVA-PruServices,high,nguyen.dinh.thinh@prudential.com.vn,GITHUB-7RM-Managers,GITHUB-7RM-Contributors,GITHUB-7RM-Viewers
-7TY,Payroll System (HR2),low,tony.mh.fu@prudential.com.hk,GITHUB-7TY-Managers,GITHUB-7TY-Contributors,GITHUB-7TY-Viewers
-7U9,GISP - ESAI,low,leo.dang@prudential.com.sg,GITHUB-7U9-Managers,GITHUB-7U9-Contributors,GITHUB-7U9-Viewers
-7V6,CCFA,low,shafi.ahmed@prudential.com.sg,GITHUB-7V6-Managers,GITHUB-7V6-Contributors,GITHUB-7V6-Viewers
-7VS,IMP,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-7VS-Managers,GITHUB-7VS-Contributors,GITHUB-7VS-Viewers
-7W4,Jenkins,low,Peter.Mwangi@prudentiallife.co.ke,GITHUB-7W4-Managers,GITHUB-7W4-Contributors,GITHUB-7W4-Viewers
-7WD,Sahi,low,Vinay.Kumar@prudential.com.sg,GITHUB-7WD-Managers,GITHUB-7WD-Contributors,GITHUB-7WD-Viewers
-7XP,PVA - ITO,low,pt.long@prudential.com.vn,GITHUB-7XP-Managers,GITHUB-7XP-Contributors,GITHUB-7XP-Viewers
-7YK,GT Operations Sandbox,low,prajeesh.pm@prudential.com.sg,GITHUB-7YK-Managers,GITHUB-7YK-Contributors,GITHUB-7YK-Viewers
-7ZX,Smart Underwriting,low,steven.sc.chau@prudential.com.hk,GITHUB-7ZX-Managers,GITHUB-7ZX-Contributors,GITHUB-7ZX-Viewers
-7ZZ,PLC IT,high,paularch.ross@prudentialplc.com,GITHUB-7ZZ-Managers,GITHUB-7ZZ-Contributors,GITHUB-7ZZ-Viewers
-829,SUNGL,low,Athikhom.Singhatao@prudential.co.th,GITHUB-829-Managers,GITHUB-829-Contributors,GITHUB-829-Viewers
-82A,Banca PAMB,low,qing.perk.goh@prudential.com.my,GITHUB-82A-Managers,GITHUB-82A-Contributors,GITHUB-82A-Viewers
-83K,pruexpert,low,shafi.ahmed@prudential.com.sg,GITHUB-83K-Managers,GITHUB-83K-Contributors,GITHUB-83K-Viewers
-86Z,Kofax OCR,low,jakeer.mahammed@prudential.com.sg,GITHUB-86Z-Managers,GITHUB-86Z-Contributors,GITHUB-86Z-Viewers
-87K,PRUHOUSE,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-87K-Managers,GITHUB-87K-Contributors,GITHUB-87K-Viewers
-87P,PruAward,medium,T.Huynh@prudential.com.vn,GITHUB-87P-Managers,GITHUB-87P-Contributors,GITHUB-87P-Viewers
-88D,Campaign Engine,low,ng.sei.weng@prudential.com.my,GITHUB-88D-Managers,GITHUB-88D-Contributors,GITHUB-88D-Viewers
-89S,PruNews,low,null,null,null,null
-8AH,CIS,low,null,null,null,null
-8AR,POC Kafka Platform,low,eddie.cheung@prudential.com.hk,GITHUB-8AR-Managers,GITHUB-8AR-Contributors,GITHUB-8AR-Viewers
-8BS,GTE CF ISS Foundations (Azure/GCP),high,Alex.Khaerov@prudential.com.sg,GITHUB-8BS-Managers,GITHUB-8BS-Contributors,GITHUB-8BS-Viewers
-8BX,Simple Policy Administration System (SPAS),medium,tony.hiu@prudential.co.id,GITHUB-8BX-Managers,GITHUB-8BX-Contributors,GITHUB-8BX-Viewers
-8CY,Workflow,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-8CY-Managers,GITHUB-8CY-Contributors,GITHUB-8CY-Viewers
-8D3,IMLINKED,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-8D3-Managers,GITHUB-8D3-Contributors,GITHUB-8D3-Viewers
-8EV,Agent Funnel System,low,null,null,null,null
-8G5,Azure App insight,low,Piyush.Jain@prudential.com.sg,GITHUB-8G5-Managers,GITHUB-8G5-Contributors,GITHUB-8G5-Viewers
-8GB,One DPAS,low,Yuan.Gao@prudential.com.cn,GITHUB-8GB-Managers,GITHUB-8GB-Contributors,GITHUB-8GB-Viewers
-8HJ,EIS HERA 2.0,high,nam.ninh.nguyen@eastspring.com,GITHUB-8HJ-Managers,GITHUB-8HJ-Contributors,GITHUB-8HJ-Viewers
-8JA,AP,high,raymond.km.hsieh@prudential.com.hk,GITHUB-8JA-Managers,GITHUB-8JA-Contributors,GITHUB-8JA-Viewers
-8JJ,Win11 Cloud VDI - GIECA(E1301),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-8JJ-Managers,GITHUB-8JJ-Contributors,GITHUB-8JJ-Viewers
-8KJ,TripWire,low,john.bosco.ks.lim@prudential.com.my,GITHUB-8KJ-Managers,GITHUB-8KJ-Contributors,GITHUB-8KJ-Viewers
-8KX,MRS,high,raymond.km.hsieh@prudential.com.hk,GITHUB-8KX-Managers,GITHUB-8KX-Contributors,GITHUB-8KX-Viewers
-8M8,Collection System,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-8M8-Managers,GITHUB-8M8-Contributors,GITHUB-8M8-Viewers
-8NE,COUPA,low,l.dinhtam@prudential.com.vn,GITHUB-8NE-Managers,GITHUB-8NE-Contributors,GITHUB-8NE-Viewers
-8PV,Numara,low,dax.yl.cheng@prudential.com.my,GITHUB-8PV-Managers,GITHUB-8PV-Contributors,GITHUB-8PV-Viewers
-8Q8,Financial Investment System,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-8Q8-Managers,GITHUB-8Q8-Contributors,GITHUB-8Q8-Viewers
-8RW,Collection File converter,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-8RW-Managers,GITHUB-8RW-Contributors,GITHUB-8RW-Viewers
-8SE,PAL - PACS,low,Hardi.Kusumawijaya@prudential.com.sg,GITHUB-8SE-Managers,GITHUB-8SE-Contributors,GITHUB-8SE-Viewers
-8UG,Epos,low,Siriphat.Oumtrakul@prudential.co.th,GITHUB-8UG-Managers,GITHUB-8UG-Contributors,GITHUB-8UG-Viewers
-8US,HR Feedback,low,shafi.ahmed@prudential.com.sg,GITHUB-8US-Managers,GITHUB-8US-Contributors,GITHUB-8US-Viewers
-8V8,Splunk Integration,low,karthik.es@prudential.com.sg,GITHUB-8V8-Managers,GITHUB-8V8-Contributors,GITHUB-8V8-Viewers
-8VN,McAfee,low,Fook.Cheong.Yong@prudential.com.sg,GITHUB-8VN-Managers,GITHUB-8VN-Contributors,GITHUB-8VN-Viewers
-8WH,VM Operations - MYLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-8WH-Managers,GITHUB-8WH-Contributors,GITHUB-8WH-Viewers
-8Z3,ChatUX,medium,raymond.km.hsieh@prudential.com.hk,GITHUB-8Z3-Managers,GITHUB-8Z3-Contributors,GITHUB-8Z3-Viewers
-92P,PTPLA PRUForce,low,Nanda.Pradnyana@prudential.co.id,GITHUB-92P-Managers,GITHUB-92P-Contributors,GITHUB-92P-Viewers
-938,Digital Platforms (DP),low,ong.sheau.fang@prudential.com.sg,GITHUB-938-Managers,GITHUB-938-Contributors,GITHUB-938-Viewers
-93H,Shared Project,low,Vinoth.Kumar@prudential.com.sg,GITHUB-93H-Managers,GITHUB-93H-Contributors,GITHUB-93H-Viewers
-93U,MMLIFE MICROSITE,low,Malen.Sok@prudential.com.kh,GITHUB-93U-Managers,GITHUB-93U-Contributors,GITHUB-93U-Viewers
-953,Single Enquiry Screen,low,ng.sei.weng@prudential.com.my,GITHUB-953-Managers,GITHUB-953-Contributors,GITHUB-953-Viewers
-96Z,Partner Web,low,desmond.hk.choong@prubsn.com.my,GITHUB-96Z-Managers,GITHUB-96Z-Contributors,GITHUB-96Z-Viewers
-97A,DevOps,low,BahtiarWidayanto@prudential.co.id,GITHUB-97A-Managers,GITHUB-97A-Contributors,GITHUB-97A-Viewers
-98M,VM Operations - THLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-98M-Managers,GITHUB-98M-Contributors,GITHUB-98M-Viewers
-99F,PruShare,low,null,null,null,null
-99R,PRUINFO,low,lesley.lee@prudential.com.my,GITHUB-99R-Managers,GITHUB-99R-Contributors,GITHUB-99R-Viewers
-9B8,AML,low,desmond.hk.choong@prubsn.com.my,GITHUB-9B8-Managers,GITHUB-9B8-Contributors,GITHUB-9B8-Viewers
-9BH,Magnum Pure,low,Odianto.Odianto@prudential.co.id,GITHUB-9BH-Managers,GITHUB-9BH-Contributors,GITHUB-9BH-Viewers
-9DA,EITH PVF Platform,high,Warin.Lao@eastspring.com,GITHUB-9DA-Managers,GITHUB-9DA-Contributors,GITHUB-9DA-Viewers
-9FB,PAMB-IEP,low,qing.perk.goh@prudential.com.my,GITHUB-9FB-Managers,GITHUB-9FB-Contributors,GITHUB-9FB-Viewers
-9G3,Jemma,low,anurag.shukla@prudential.com.sg,GITHUB-9G3-Managers,GITHUB-9G3-Contributors,GITHUB-9G3-Viewers
-9GF,PBTB-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-9GF-Managers,GITHUB-9GF-Contributors,GITHUB-9GF-Viewers
-9HA,AICOE,low,Glenn.GB.Bayne@prudential.com.hk,GITHUB-9HA-Managers,GITHUB-9HA-Contributors,GITHUB-9HA-Viewers
-9J7,Jemma,low,vivek.lakshminarayana@prudential.com.sg,GITHUB-9J7-Managers,GITHUB-9J7-Contributors,GITHUB-9J7-Viewers
-9J8,PVA-CMS,medium,n.ducthanh@prudential.com.vn,GITHUB-9J8-Managers,GITHUB-9J8-Contributors,GITHUB-9J8-Viewers
-9JR,ePolicy,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-9JR-Managers,GITHUB-9JR-Contributors,GITHUB-9JR-Viewers
-9KP,PDC,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-9KP-Managers,GITHUB-9KP-Contributors,GITHUB-9KP-Viewers
-9MC,PruShoppe,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-9MC-Managers,GITHUB-9MC-Contributors,GITHUB-9MC-Viewers
-9MG,oracle,low,Vo.Huynh.Long@prudential.com.vn,GITHUB-9MG-Managers,GITHUB-9MG-Contributors,GITHUB-9MG-Viewers
-9MU,Security Analytics,low,null,null,null,null
-9N9,PruAccess PACS,high,sanjay.singh@prudential.com.sg,GITHUB-9N9-Managers,GITHUB-9N9-Contributors,GITHUB-9N9-Viewers
-9NK,Digital Platforms (DP),high,Vanness.XH.Dong@prudential.com.sg,GITHUB-9NK-Managers,GITHUB-9NK-Contributors,GITHUB-9NK-Viewers
-9Q4,ALM,low,phani.kumar@prudential.com.sg,GITHUB-9Q4-Managers,GITHUB-9Q4-Contributors,GITHUB-9Q4-Viewers
-9SV,iEMS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-9SV-Managers,GITHUB-9SV-Contributors,GITHUB-9SV-Viewers
-9T5,Unified Observability Dashboard Service (Grafana OnePru),medium,Alex.Khaerov@prudential.com.sg,GITHUB-9T5-Managers,GITHUB-9T5-Contributors,GITHUB-9T5-Viewers
-9TQ,LDAP,low,T.Huynh@prudential.com.vn,GITHUB-9TQ-Managers,GITHUB-9TQ-Contributors,GITHUB-9TQ-Viewers
-9TT,Letters,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-9TT-Managers,GITHUB-9TT-Contributors,GITHUB-9TT-Viewers
-9V9,Kenya Applications,low,Marcos.Maliki@prudentiallife.co.ke,GITHUB-9V9-Managers,GITHUB-9V9-Contributors,GITHUB-9V9-Viewers
-9VV,myPrudential,medium,johnny.yb.sze@prudential.com.hk,GITHUB-9VV-Managers,GITHUB-9VV-Contributors,GITHUB-9VV-Viewers
-9WF,Prophet CLS,low,shashank.rane@prudentialafrica.com,GITHUB-9WF-Managers,GITHUB-9WF-Contributors,GITHUB-9WF-Viewers
-9Y7,IQS,low,Hon.Yew.Ng@prudential.com.my,GITHUB-9Y7-Managers,GITHUB-9Y7-Contributors,GITHUB-9Y7-Viewers
-9YU,PLUK DevOps Tools,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-9YU-Managers,GITHUB-9YU-Contributors,GITHUB-9YU-Viewers
-A4B,Shared Redis for D2C Production,low,Alyssa.Liu@prudential.com.cn,GITHUB-A4B-Managers,GITHUB-A4B-Contributors,GITHUB-A4B-Viewers
-A4D,Qliksense,low,desmond.hk.choong@prubsn.com.my,GITHUB-A4D-Managers,GITHUB-A4D-Contributors,GITHUB-A4D-Viewers
-A5P,Payment Abstraction Layer,low,null,null,null,null
-A6M,File Server,low,Peace.Okhianmhense-Philips@prudentialzenith.com,GITHUB-A6M-Managers,GITHUB-A6M-Contributors,GITHUB-A6M-Viewers
-A72,IL_Transformer,low,qing.perk.goh@prudential.com.my,GITHUB-A72-Managers,GITHUB-A72-Contributors,GITHUB-A72-Viewers
-A7H,Messaging,low,vichet.lay@prudential.com.kh,GITHUB-A7H-Managers,GITHUB-A7H-Contributors,GITHUB-A7H-Viewers
-A7Y,Win11 Cloud VDI - pca(c2220),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-A7Y-Managers,GITHUB-A7Y-Contributors,GITHUB-A7Y-Viewers
-A88,Quants,low,mura.muthirevula@eastspring.com,GITHUB-A88-Managers,GITHUB-A88-Contributors,GITHUB-A88-Viewers
-AAD,PruDMTM,low,null,null,null,null
-AAE,APP BUILDER,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-AAE-Managers,GITHUB-AAE-Contributors,GITHUB-AAE-Viewers
-AAH,PLA,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-AAH-Managers,GITHUB-AAH-Contributors,GITHUB-AAH-Viewers
-AAT,IL AUTOMATION,low,merisa.mastura.benjamin.yuen@prudential.com.my,GITHUB-AAT-Managers,GITHUB-AAT-Contributors,GITHUB-AAT-Viewers
-AAU,Policy Aggregation Service,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-AAU-Managers,GITHUB-AAU-Contributors,GITHUB-AAU-Viewers
-AB4,H2P,low,ron.ky.chan@prudential.com.hk,GITHUB-AB4-Managers,GITHUB-AB4-Contributors,GITHUB-AB4-Viewers
-ABU,IFRS17-PACS,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-ABU-Managers,GITHUB-ABU-Contributors,GITHUB-ABU-Viewers
-ACA,PLUK-AMS,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-ACA-Managers,GITHUB-ACA-Contributors,GITHUB-ACA-Viewers
-ACW,TCA Database,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-ACW-Managers,GITHUB-ACW-Contributors,GITHUB-ACW-Viewers
-AD3,PDCMS,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-AD3-Managers,GITHUB-AD3-Contributors,GITHUB-AD3-Viewers
-AEN,Regional Claim System - RCS,medium,l.dinhtam@prudential.com.vn,GITHUB-AEN-Managers,GITHUB-AEN-Contributors,GITHUB-AEN-Viewers
-AFX,EBS,high,samuel.tan@prudential.com.hk,GITHUB-AFX-Managers,GITHUB-AFX-Contributors,GITHUB-AFX-Viewers
-AG6,HRMS,low,null,null,null,null
-AGH,PVA-Epolicy,medium,Nguyen.Ngoc.Son@prudential.com.vn,GITHUB-AGH-Managers,GITHUB-AGH-Contributors,GITHUB-AGH-Viewers
-AGR,MLOps AICOE,low,Syam.Bandi@prudential.com.sg,GITHUB-AGR-Managers,GITHUB-AGR-Contributors,GITHUB-AGR-Viewers
-AH2,Jenkins BYOA,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-AH2-Managers,GITHUB-AH2-Contributors,GITHUB-AH2-Viewers
-AJG,ERecruitment Portal,medium,ramil.joaquin@prulifeuk.com.ph,GITHUB-AJG-Managers,GITHUB-AJG-Contributors,GITHUB-AJG-Viewers
-AJH,VirtualGP,low,null,null,null,null
-AM6,GISP Shared Cluster,high,leo.dang@prudential.com.sg,GITHUB-AM6-Managers,GITHUB-AM6-Contributors,GITHUB-AM6-Viewers
-AMS,PLUK Magnum Pure,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-AMS-Managers,GITHUB-AMS-Contributors,GITHUB-AMS-Viewers
-ANM,To be deleted - Prulife,high,henry.chan@prudential.com.hk,GITHUB-ANM-Managers,GITHUB-ANM-Contributors,GITHUB-ANM-Viewers
-APP,PCLAB,medium,Malen.Sok@prudential.com.kh,GITHUB-APP-Managers,GITHUB-APP-Contributors,GITHUB-APP-Viewers
-APZ,iCM Inspire,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-APZ-Managers,GITHUB-APZ-Contributors,GITHUB-APZ-Viewers
-AQZ,Win11 Cloud VDI - R1500 Group Risk Oversight,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-AQZ-Managers,GITHUB-AQZ-Contributors,GITHUB-AQZ-Viewers
-AR2,Electronic Direct Journal,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-AR2-Managers,GITHUB-AR2-Contributors,GITHUB-AR2-Viewers
-AR8,PrutopiaAppsAuthenticator,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-AR8-Managers,GITHUB-AR8-Contributors,GITHUB-AR8-Viewers
-ARQ,PVA - VIB ULP,medium,nguyen.dinh.thinh@prudential.com.vn,GITHUB-ARQ-Managers,GITHUB-ARQ-Contributors,GITHUB-ARQ-Viewers
-ARX,AskPRU ChatBot,low,edward.ak.tan@prudential.com.sg,GITHUB-ARX-Managers,GITHUB-ARX-Contributors,GITHUB-ARX-Viewers
-ATM,IAMPRU Integration,low,Adapon.Songkadi@prudential.co.th,GITHUB-ATM-Managers,GITHUB-ATM-Contributors,GITHUB-ATM-Viewers
-AU3,PruAI Lab Sandbox,low,madhan.seduraman@prudential.com.sg,GITHUB-AU3-Managers,GITHUB-AU3-Contributors,GITHUB-AU3-Viewers
-AUW,EIVN EastSpring Application,low,nguyen.dinh.thinh@prudential.com.vn,GITHUB-AUW-Managers,GITHUB-AUW-Contributors,GITHUB-AUW-Viewers
-AVG,Symphony Platform,high,Graeme.kelly@prudential.com.sg,GITHUB-AVG-Managers,GITHUB-AVG-Contributors,GITHUB-AVG-Viewers
-AVH,IBM ODM,low,Bharat.Dhir@prudential.com.sg,GITHUB-AVH-Managers,GITHUB-AVH-Contributors,GITHUB-AVH-Viewers
-AVK,Payment Hub,low,tony.hiu@prudential.co.id,GITHUB-AVK-Managers,GITHUB-AVK-Contributors,GITHUB-AVK-Viewers
-AVT,EITH MTF Platform,high,Warin.Lao@eastspring.com,GITHUB-AVT-Managers,GITHUB-AVT-Contributors,GITHUB-AVT-Viewers
-AYG,PruServices,medium,Attaphon.Mongkolsakulkit@prudential.co.th,GITHUB-AYG-Managers,GITHUB-AYG-Contributors,GITHUB-AYG-Viewers
-AZJ,Win11 Cloud VDI - MYLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-AZJ-Managers,GITHUB-AZJ-Contributors,GITHUB-AZJ-Viewers
-AZK,RCC,low,null,null,null,null
-B2T,omni,low,rachel.wp.lee@prudential.com.my,GITHUB-B2T-Managers,GITHUB-B2T-Contributors,GITHUB-B2T-Viewers
-B4D,VM Operations - PCA,low,uma.maheswari@prudential.com.sg,GITHUB-B4D-Managers,GITHUB-B4D-Contributors,GITHUB-B4D-Viewers
-B4W,Win11 Cloud VDI - PHL GTP Finance,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-B4W-Managers,GITHUB-B4W-Contributors,GITHUB-B4W-Viewers
-B7W,FFP A&R Workstream Project,high,Sachdev.Niraghatam@prudential.com.sg,GITHUB-B7W-Managers,GITHUB-B7W-Contributors,GITHUB-B7W-Viewers
-B7X,Prulife,high,henry.chan@prudential.com.hk,GITHUB-B7X-Managers,GITHUB-B7X-Contributors,GITHUB-B7X-Viewers
-B85,FLEXIBEN,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-B85-Managers,GITHUB-B85-Contributors,GITHUB-B85-Viewers
-B96,eSubmission monitoring,low,ben.yl.chui@prudential.com.hk,GITHUB-B96-Managers,GITHUB-B96-Contributors,GITHUB-B96-Viewers
-BAV,EAI,low,kim.chan.gan@prudential.com.my,GITHUB-BAV-Managers,GITHUB-BAV-Contributors,GITHUB-BAV-Viewers
-BAY,PRMS,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-BAY-Managers,GITHUB-BAY-Contributors,GITHUB-BAY-Viewers
-BC4,PruForce,medium,lesley.lee@prudential.com.my,GITHUB-BC4-Managers,GITHUB-BC4-Contributors,GITHUB-BC4-Viewers
-BCQ,PruConnect,high,Attaphon.Mongkolsakulkit@prudential.co.th,GITHUB-BCQ-Managers,GITHUB-BCQ-Contributors,GITHUB-BCQ-Viewers
-BD2,Win11 Cloud VDI - pca (gh28800),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-BD2-Managers,GITHUB-BD2-Contributors,GITHUB-BD2-Viewers
-BDQ,CIC,low,jacky.kc.chan@prudential.com.hk,GITHUB-BDQ-Managers,GITHUB-BDQ-Contributors,GITHUB-BDQ-Viewers
-BE5,SSIS DEV,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-BE5-Managers,GITHUB-BE5-Contributors,GITHUB-BE5-Viewers
-BGG,Win11 Cloud VDI - plaz,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-BGG-Managers,GITHUB-BGG-Contributors,GITHUB-BGG-Viewers
-BHA,Qliksense,low,SI.WAYNE.LONG@prudential.com.my,GITHUB-BHA-Managers,GITHUB-BHA-Contributors,GITHUB-BHA-Viewers
-BJJ,PruAI Lab Sandbox,low,madhan.seduraman@prudential.com.sg,GITHUB-BJJ-Managers,GITHUB-BJJ-Contributors,GITHUB-BJJ-Viewers
-BKP,PHKL Github Migration,low,tyrone.ky.chan@prudential.com.hk,GITHUB-BKP-Managers,GITHUB-BKP-Contributors,GITHUB-BKP-Viewers
-BNX,Symphony,low,null,null,null,null
-BQE,Recruitment Portal,medium,Jesus.M.Viray@prulifeuk.com.ph,GITHUB-BQE-Managers,GITHUB-BQE-Contributors,GITHUB-BQE-Viewers
-BRV,PACS,low,daniel.sk.chng@prudential.com.sg,GITHUB-BRV-Managers,GITHUB-BRV-Contributors,GITHUB-BRV-Viewers
-BY7,EAI,medium,Tan.See.Aik@prudential.com.my,GITHUB-BY7-Managers,GITHUB-BY7-Contributors,GITHUB-BY7-Viewers
-BYV,AskPRU ChatBot,low,edward.ak.tan@prudential.com.sg,GITHUB-BYV-Managers,GITHUB-BYV-Contributors,GITHUB-BYV-Viewers
-C2F,CFS,low,jacky.kc.chan@prudential.com.hk,GITHUB-C2F-Managers,GITHUB-C2F-Contributors,GITHUB-C2F-Viewers
-C2H,PAMB_DIST_CLOUD,low,nurul.aida.farisa@prudential.com.my,GITHUB-C2H-Managers,GITHUB-C2H-Contributors,GITHUB-C2H-Viewers
-C2X,HKRBC,low,matthew.sl.yeung@prudential.com.hk,GITHUB-C2X-Managers,GITHUB-C2X-Contributors,GITHUB-C2X-Viewers
-C5P,tango,low,ng.sei.weng@prudential.com.my,GITHUB-C5P-Managers,GITHUB-C5P-Contributors,GITHUB-C5P-Viewers
-C5W,APIM for PHLIFE (PLUK),high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-C5W-Managers,GITHUB-C5W-Contributors,GITHUB-C5W-Viewers
-C68,PDAS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-C68-Managers,GITHUB-C68-Contributors,GITHUB-C68-Viewers
-C6S,Win11 Cloud VDI - PABC,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-C6S-Managers,GITHUB-C6S-Contributors,GITHUB-C6S-Viewers
-C9D,PHKLHHCLAIMSAPI,low,ron.ky.chan@prudential.com.hk,GITHUB-C9D-Managers,GITHUB-C9D-Contributors,GITHUB-C9D-Viewers
-CAF,Win11 Cloud VDI - pva,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-CAF-Managers,GITHUB-CAF-Contributors,GITHUB-CAF-Viewers
-CAM,CyberArk,low,Raja.Sekhara@prudential.com.sg,GITHUB-CAM-Managers,GITHUB-CAM-Contributors,GITHUB-CAM-Viewers
-CB6,Life Goal (Prueshop),low,null,null,null,null
-CBV,PruForce,low,Nanda.Pradnyana@prudential.co.id,GITHUB-CBV-Managers,GITHUB-CBV-Contributors,GITHUB-CBV-Viewers
-CCX,IFRS,low,ramil.joaquin@prulifeuk.com.ph,GITHUB-CCX-Managers,GITHUB-CCX-Contributors,GITHUB-CCX-Viewers
-CES,Win11 Cloud VDI - HKLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-CES-Managers,GITHUB-CES-Contributors,GITHUB-CES-Viewers
-CF5,AMLA,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-CF5-Managers,GITHUB-CF5-Contributors,GITHUB-CF5-Viewers
-CFF,Monitoring,low,Ronald.Buder@prudential.com.sg,GITHUB-CFF-Managers,GITHUB-CFF-Contributors,GITHUB-CFF-Viewers
-CFJ,VM Operations - HKLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-CFJ-Managers,GITHUB-CFJ-Contributors,GITHUB-CFJ-Viewers
-CFS,Prushoppe,low,Felix.He@prudential.com.cn,GITHUB-CFS-Managers,GITHUB-CFS-Contributors,GITHUB-CFS-Viewers
-CGD,iFileClaims,low,null,null,null,null
-CHG,SOMS,low,tony.mh.fu@prudential.com.hk,GITHUB-CHG-Managers,GITHUB-CHG-Contributors,GITHUB-CHG-Viewers
-CM7,PruForce,low,null,null,null,null
-CNV,prutwlife buildout techinical,low,null,null,null,null
-CPS,RPA,low,null,null,null,null
-CPZ,PVA- Distribution Compensation,low,Truong.Duc.Lam@prudential.com.vn,GITHUB-CPZ-Managers,GITHUB-CPZ-Contributors,GITHUB-CPZ-Viewers
-CRC,AICOE,low,Syam.Bandi@prudential.com.sg,GITHUB-CRC-Managers,GITHUB-CRC-Contributors,GITHUB-CRC-Viewers
-CRN,GP Migration,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-CRN-Managers,GITHUB-CRN-Contributors,GITHUB-CRN-Viewers
-CSA,ITO-Altiris,low,Daniel.Gnanapragasam@prudential.com.sg,GITHUB-CSA-Managers,GITHUB-CSA-Contributors,GITHUB-CSA-Viewers
-CTM,Smart Stream,low,Sachdev.Niraghatam@prudential.com.sg,GITHUB-CTM-Managers,GITHUB-CTM-Contributors,GITHUB-CTM-Viewers
-CTY,Azure - Global Firewall Rule for LBU Github Runner Private Networking,medium,Alex.Khaerov@prudential.com.sg,GITHUB-CTY-Managers,GITHUB-CTY-Contributors,GITHUB-CTY-Viewers
-CUT,PruGenAI PACS,low,wong.ling.yit@prudential.com.sg,GITHUB-CUT-Managers,GITHUB-CUT-Contributors,GITHUB-CUT-Viewers
-CUV,Automation Pipeline,low,lesley.lee@prudential.com.my,GITHUB-CUV-Managers,GITHUB-CUV-Contributors,GITHUB-CUV-Viewers
-CVY,ECorrespondence,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-CVY-Managers,GITHUB-CVY-Contributors,GITHUB-CVY-Viewers
-CWE,PVA - Self-Premium Calculator,medium,nguyen.huy.hoang@prudential.com.vn,GITHUB-CWE-Managers,GITHUB-CWE-Contributors,GITHUB-CWE-Viewers
-CWS,Pulse Policy Explorer (PPE),low,Vanness.XH.Dong@prudential.com.sg,GITHUB-CWS-Managers,GITHUB-CWS-Contributors,GITHUB-CWS-Viewers
-CXD,Actuary Server,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-CXD-Managers,GITHUB-CXD-Contributors,GITHUB-CXD-Viewers
-CXM,Unified Data Platform - UDP (aka. DataLake),low,SI.WAYNE.LONG@prudential.com.my,GITHUB-CXM-Managers,GITHUB-CXM-Contributors,GITHUB-CXM-Viewers
-CYX,PVA-BCP,low,l.dinhtam@prudential.com.vn,GITHUB-CYX-Managers,GITHUB-CYX-Contributors,GITHUB-CYX-Viewers
-CZC,enterprise,low,balasubramaniam.cr@prudential.com.sg,GITHUB-CZC-Managers,GITHUB-CZC-Contributors,GITHUB-CZC-Viewers
-D3X,SAM POC,medium,kam.m.sirajdin@prudential.com.sg,GITHUB-D3X-Managers,GITHUB-D3X-Contributors,GITHUB-D3X-Viewers
-D52,PLUK IT Security Service,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-D52-Managers,GITHUB-D52-Contributors,GITHUB-D52-Viewers
-D5N,GSOC,low,Joshua.Harp@prudential.com.my,GITHUB-D5N-Managers,GITHUB-D5N-Contributors,GITHUB-D5N-Viewers
-D74,GTOO Office Sandbox,low,Alex.Khaerov@prudential.com.sg,GITHUB-D74-Managers,GITHUB-D74-Contributors,GITHUB-D74-Viewers
-D75,PVA-PruGreat,medium,l.dinhtam@prudential.com.vn,GITHUB-D75-Managers,GITHUB-D75-Contributors,GITHUB-D75-Viewers
-D7Y,DynaTrace,low,wayne.ky.lam@prudential.com.hk,GITHUB-D7Y-Managers,GITHUB-D7Y-Contributors,GITHUB-D7Y-Viewers
-D8D,LPS and MIS,low,Khampasong.Noucksa@prudential.la,GITHUB-D8D-Managers,GITHUB-D8D-Contributors,GITHUB-D8D-Viewers
-D8F,SP,high,raymond.km.hsieh@prudential.com.hk,GITHUB-D8F-Managers,GITHUB-D8F-Contributors,GITHUB-D8F-Viewers
-DA4,PHKL Document Search Platform,low,matthew.sl.yeung@prudential.com.hk,GITHUB-DA4-Managers,GITHUB-DA4-Contributors,GITHUB-DA4-Viewers
-DAM,Branch Pack,low,elton.mark@prudential.com.sg,GITHUB-DAM-Managers,GITHUB-DAM-Contributors,GITHUB-DAM-Viewers
-DBA,PSS Automation Hub,low,Mrinmoy.Sandilya@prudential.com.sg,GITHUB-DBA-Managers,GITHUB-DBA-Contributors,GITHUB-DBA-Viewers
-DDH,Payment Platform,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-DDH-Managers,GITHUB-DDH-Contributors,GITHUB-DDH-Viewers
-DEH,iCommerce,low,Charassri.Prakongsai@prudential.co.th,GITHUB-DEH-Managers,GITHUB-DEH-Contributors,GITHUB-DEH-Viewers
-DEU,File Share,low,null,null,null,null
-DEV,Win11 Cloud VDI - pcla,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-DEV-Managers,GITHUB-DEV-Contributors,GITHUB-DEV-Viewers
-DF6,Win11 Cloud VDI - PCA (K1100),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-DF6-Managers,GITHUB-DF6-Contributors,GITHUB-DF6-Viewers
-DFT,Win11 Cloud VDI - MMLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-DFT-Managers,GITHUB-DFT-Contributors,GITHUB-DFT-Viewers
-DG7,Win11 Cloud VDI - Technology Risk Management CP24001,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-DG7-Managers,GITHUB-DG7-Contributors,GITHUB-DG7-Viewers
-DJF,Pru Hub,low,Rizky.Rinaldi@prudential.co.id,GITHUB-DJF-Managers,GITHUB-DJF-Contributors,GITHUB-DJF-Viewers
-DM3,PPMZ Applications,medium,nkosinathi@prudential.co.zm,GITHUB-DM3-Managers,GITHUB-DM3-Contributors,GITHUB-DM3-Viewers
-DPH,TellMe,low,shafi.ahmed@prudential.com.sg,GITHUB-DPH-Managers,GITHUB-DPH-Contributors,GITHUB-DPH-Viewers
-DPY,Oracle BI Publishers,low,T.Huynh@prudential.com.vn,GITHUB-DPY-Managers,GITHUB-DPY-Contributors,GITHUB-DPY-Viewers
-DQG,Unified Data Platform - UDP,low,desmond.hk.choong@prubsn.com.my,GITHUB-DQG-Managers,GITHUB-DQG-Contributors,GITHUB-DQG-Viewers
-DRS,PLC OneStream,high,andy.leach@prudentialplc.com,GITHUB-DRS-Managers,GITHUB-DRS-Contributors,GITHUB-DRS-Viewers
-DSA,IT SEC PORTAL,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-DSA-Managers,GITHUB-DSA-Contributors,GITHUB-DSA-Viewers
-DTK,Prophet,low,JIN.HONG.TEO@prubsn.com.my,GITHUB-DTK-Managers,GITHUB-DTK-Contributors,GITHUB-DTK-Viewers
-DTQ,PVA - ITO,low,n.ducthanh@prudential.com.vn,GITHUB-DTQ-Managers,GITHUB-DTQ-Contributors,GITHUB-DTQ-Viewers
-DWN,Distribution Support e-Stock,low,T.Huynh@prudential.com.vn,GITHUB-DWN-Managers,GITHUB-DWN-Contributors,GITHUB-DWN-Viewers
-DX7,Pulse Microsite,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-DX7-Managers,GITHUB-DX7-Contributors,GITHUB-DX7-Viewers
-E7C,PCLA STP e-PolicyKit,medium,Sokphea.Chea@prudential.com.kh,GITHUB-E7C-Managers,GITHUB-E7C-Contributors,GITHUB-E7C-Viewers
-E8M,PVA-Campaign,medium,l.dinhtam@prudential.com.vn,GITHUB-E8M-Managers,GITHUB-E8M-Contributors,GITHUB-E8M-Viewers
-ED4,HP SiteScope,low,qing.perk.goh@prudential.com.my,GITHUB-ED4-Managers,GITHUB-ED4-Contributors,GITHUB-ED4-Viewers
-EDD,PRUFast,high,Annas.Setiawan@prudential.co.id,GITHUB-EDD-Managers,GITHUB-EDD-Contributors,GITHUB-EDD-Viewers
-EDU,VDI,low,null,null,null,null
-EEB,GwIA TeamMate,low,null,null,null,null
-EFU,Platform Services,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-EFU-Managers,GITHUB-EFU-Contributors,GITHUB-EFU-Viewers
-EHN,CITS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-EHN-Managers,GITHUB-EHN-Contributors,GITHUB-EHN-Viewers
-EK3,PC Printing System,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-EK3-Managers,GITHUB-EK3-Contributors,GITHUB-EK3-Viewers
-ENN,UDP Data Governance,low,Lawrence.TL.Cheung@prudential.com.hk,GITHUB-ENN-Managers,GITHUB-ENN-Contributors,GITHUB-ENN-Viewers
-EP2,PRUForce,low,finlay.kong@prudential.com.cn,GITHUB-EP2-Managers,GITHUB-EP2-Contributors,GITHUB-EP2-Viewers
-EP7,ibm analytics,low,kean.woon.kok@prudential.com.my,GITHUB-EP7-Managers,GITHUB-EP7-Contributors,GITHUB-EP7-Viewers
-EPP,PVA-ZNS,low,l.dinhtam@prudential.com.vn,GITHUB-EPP-Managers,GITHUB-EPP-Contributors,GITHUB-EPP-Viewers
-ETA,GT DevOps,medium,Pavan.Raga1@prudential.com.sg,GITHUB-ETA-Managers,GITHUB-ETA-Contributors,GITHUB-ETA-Viewers
-ETE,Inquiry Management System,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-ETE-Managers,GITHUB-ETE-Contributors,GITHUB-ETE-Viewers
-EUH,EITH MIS Platform,high,Warin.Lao@eastspring.com,GITHUB-EUH-Managers,GITHUB-EUH-Contributors,GITHUB-EUH-Viewers
-EV3,Puppet Azure,high,Lafir.GK@prudential.com.sg,GITHUB-EV3-Managers,GITHUB-EV3-Contributors,GITHUB-EV3-Viewers
-EWM,assurance,low,Kimberly.Loh@prudential.com.sg,GITHUB-EWM-Managers,GITHUB-EWM-Contributors,GITHUB-EWM-Viewers
-EXM,Pru Life UK Hot House Repository,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-EXM-Managers,GITHUB-EXM-Contributors,GITHUB-EXM-Viewers
-EYS,EITH Special App System,high,Warin.Lao@eastspring.com,GITHUB-EYS-Managers,GITHUB-EYS-Contributors,GITHUB-EYS-Viewers
-F2A,Kofax Signdoc,low,alfie.obial@prudential.com.sg,GITHUB-F2A-Managers,GITHUB-F2A-Contributors,GITHUB-F2A-Viewers
-F37,Unified Communication Platform,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-F37-Managers,GITHUB-F37-Contributors,GITHUB-F37-Viewers
-F53,AIS,high,raymond.km.hsieh@prudential.com.hk,GITHUB-F53-Managers,GITHUB-F53-Contributors,GITHUB-F53-Viewers
-F57,VM Operations - MYPBTB,low,uma.maheswari@prudential.com.sg,GITHUB-F57-Managers,GITHUB-F57-Contributors,GITHUB-F57-Viewers
-F7Y,Common Reporting Standard,low,Adapon.Songkadi@prudential.co.th,GITHUB-F7Y-Managers,GITHUB-F7Y-Contributors,GITHUB-F7Y-Viewers
-F86,PCALT OI,high,Louie.KJ.Chung@pcalife.com.tw,GITHUB-F86-Managers,GITHUB-F86-Contributors,GITHUB-F86-Viewers
-F8H,RCC CRM,low,desmond.hk.choong@prubsn.com.my,GITHUB-F8H-Managers,GITHUB-F8H-Contributors,GITHUB-F8H-Viewers
-F99,PHS,low,Qorib.Munajats@prudential.co.id,GITHUB-F99-Managers,GITHUB-F99-Contributors,GITHUB-F99-Viewers
-F9Q,EISG MTMS Migration,high,mura.muthirevula@eastspring.com,GITHUB-F9Q-Managers,GITHUB-F9Q-Contributors,GITHUB-F9Q-Viewers
-FAD,MiE University,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-FAD-Managers,GITHUB-FAD-Contributors,GITHUB-FAD-Viewers
-FAR,TKSV2,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-FAR-Managers,GITHUB-FAR-Contributors,GITHUB-FAR-Viewers
-FBD,GTE-Analytics,low,Kimberly.Loh@prudential.com.sg,GITHUB-FBD-Managers,GITHUB-FBD-Contributors,GITHUB-FBD-Viewers
-FDR,CipherTrust,low,Fook.Cheong.Yong@prudential.com.sg,GITHUB-FDR-Managers,GITHUB-FDR-Contributors,GITHUB-FDR-Viewers
-FF6,IT Dashboard,low,subashree.ramesh@prudential.com.sg,GITHUB-FF6-Managers,GITHUB-FF6-Contributors,GITHUB-FF6-Viewers
-FFC,med-cms,low,kenny.ky.tsang@prudential.com.hk,GITHUB-FFC-Managers,GITHUB-FFC-Contributors,GITHUB-FFC-Viewers
-FH8,Pruchat,low,edward.ak.tan@prudential.com.sg,GITHUB-FH8-Managers,GITHUB-FH8-Contributors,GITHUB-FH8-Viewers
-FJA,CMS,medium,patawee.chaiarksornwech@prudential.co.th,GITHUB-FJA-Managers,GITHUB-FJA-Contributors,GITHUB-FJA-Viewers
-FJW,eOR,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-FJW-Managers,GITHUB-FJW-Contributors,GITHUB-FJW-Viewers
-FK2,Infrastructure,low,kim.chan.gan@prudential.com.my,GITHUB-FK2-Managers,GITHUB-FK2-Contributors,GITHUB-FK2-Viewers
-FKC,PVA - PruSecurity,low,l.dinhtam@prudential.com.vn,GITHUB-FKC-Managers,GITHUB-FKC-Contributors,GITHUB-FKC-Viewers
-FMZ,Apache,low,Kimberly.Loh@prudential.com.sg,GITHUB-FMZ-Managers,GITHUB-FMZ-Contributors,GITHUB-FMZ-Viewers
-FPH,Statistical Analysis System(SAS) business intelligent(BI) Tool,medium,pm.duy@prudential.com.vn,GITHUB-FPH-Managers,GITHUB-FPH-Contributors,GITHUB-FPH-Viewers
-FPK,Life Goal (Prueshop),low,null,null,null,null
-FRD,Magnum,medium,pani.venkatesh@prudential.com.sg,GITHUB-FRD-Managers,GITHUB-FRD-Contributors,GITHUB-FRD-Viewers
-FSQ,Dynatrace,low,subashree.ramesh@prudential.com.sg,GITHUB-FSQ-Managers,GITHUB-FSQ-Contributors,GITHUB-FSQ-Viewers
-FTB,EIS (Enterprise Integration Services),low,alfie.obial@prudential.com.sg,GITHUB-FTB-Managers,GITHUB-FTB-Contributors,GITHUB-FTB-Viewers
-FTJ,AS400,low,null,null,null,null
-FTW,Group Account System,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-FTW-Managers,GITHUB-FTW-Contributors,GITHUB-FTW-Viewers
-FUE,SiRegen IL,low,Tan.See.Aik@prudential.com.my,GITHUB-FUE-Managers,GITHUB-FUE-Contributors,GITHUB-FUE-Viewers
-FW4,Power BI Data Gateway,low,null,null,null,null
-FWJ,PVA - ITO,low,l.dinhtam@prudential.com.vn,GITHUB-FWJ-Managers,GITHUB-FWJ-Contributors,GITHUB-FWJ-Viewers
-FX5,Quantexa,low,Sachdev.Niraghatam@prudential.com.sg,GITHUB-FX5-Managers,GITHUB-FX5-Contributors,GITHUB-FX5-Viewers
-FXH,PD Platform,high,T.Huynh@prudential.com.vn,GITHUB-FXH-Managers,GITHUB-FXH-Contributors,GITHUB-FXH-Viewers
-FYW,EFM,low,null,null,null,null
-FZ8,STT,low,matthew.sl.yeung@prudential.com.hk,GITHUB-FZ8-Managers,GITHUB-FZ8-Contributors,GITHUB-FZ8-Viewers
-FZQ,prusglife buildout technical,low,Anton.Larkin@prudential.com.sg,GITHUB-FZQ-Managers,GITHUB-FZQ-Contributors,GITHUB-FZQ-Viewers
-G47,SAAS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-G47-Managers,GITHUB-G47-Contributors,GITHUB-G47-Viewers
-G4R,Jimmy IT Integrated Dashboard,low,justin.yip@prudential.com.sg,GITHUB-G4R-Managers,GITHUB-G4R-Contributors,GITHUB-G4R-Viewers
-G5T,SQS Offline,low,Foo.Chui.San@prudential.com.my,GITHUB-G5T-Managers,GITHUB-G5T-Contributors,GITHUB-G5T-Viewers
-G6A,PACS AKS Infrastructure,high,Vinoth.Kumar@prudential.com.sg,GITHUB-G6A-Managers,GITHUB-G6A-Contributors,GITHUB-G6A-Viewers
-G6H,Corporate Website (SiteCore),low,null,null,null,null
-G6K,AICOE,low,Syam.Bandi@prudential.com.sg,GITHUB-G6K-Managers,GITHUB-G6K-Contributors,GITHUB-G6K-Viewers
-G8T,DevOps Engineering,low,Vinoth.Kumar@prudential.com.sg,GITHUB-G8T-Managers,GITHUB-G8T-Contributors,GITHUB-G8T-Viewers
-G9H,PVA-Magnum 4x,low,nct.duy@prudential.com.vn,GITHUB-G9H-Managers,GITHUB-G9H-Contributors,GITHUB-G9H-Viewers
-G9Q,adf and ssisdb,low,jonathan.l.calatrava@prulifeuk.com.ph,GITHUB-G9Q-Managers,GITHUB-G9Q-Contributors,GITHUB-G9Q-Viewers
-GA6,eDoc,low,AjiRachmatCiptawijaya@prudential.co.id,GITHUB-GA6-Managers,GITHUB-GA6-Contributors,GITHUB-GA6-Viewers
-GAB,PROPSYS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-GAB-Managers,GITHUB-GAB-Contributors,GITHUB-GAB-Viewers
-GAT,SAAM,high,raymond.km.hsieh@prudential.com.hk,GITHUB-GAT-Managers,GITHUB-GAT-Contributors,GITHUB-GAT-Viewers
-GBA,Data Science,low,bui.huuphuoc@prudential.com.vn,GITHUB-GBA-Managers,GITHUB-GBA-Contributors,GITHUB-GBA-Viewers
-GCK,VTS,low,null,null,null,null
-GD3,APIM - EITH PVD Digital Platform,high,Warin.Lao@eastspring.com,GITHUB-GD3-Managers,GITHUB-GD3-Contributors,GITHUB-GD3-Viewers
-GFS,Premium Collection Web Backend Services - PCWeb,medium,Nguyen.Thanh.Trung@prudential.com.vn,GITHUB-GFS-Managers,GITHUB-GFS-Contributors,GITHUB-GFS-Viewers
-GG2,Business Process Manager,medium,Tan.See.Aik@prudential.com.my,GITHUB-GG2-Managers,GITHUB-GG2-Contributors,GITHUB-GG2-Viewers
-GG3,Splunk Integration,low,karthik.es@prudential.com.sg,GITHUB-GG3-Managers,GITHUB-GG3-Contributors,GITHUB-GG3-Viewers
-GGU,Threat and Vulnerability Management,low,wong.kong.yew@prudential.com.my,GITHUB-GGU-Managers,GITHUB-GGU-Contributors,GITHUB-GGU-Viewers
-GJE,Domain Controllers,low,dhananjay.kadam@prudential.com.sg,GITHUB-GJE-Managers,GITHUB-GJE-Contributors,GITHUB-GJE-Viewers
-GJH,PCAMI,low,sheena.john@prudential.com.hk,GITHUB-GJH-Managers,GITHUB-GJH-Contributors,GITHUB-GJH-Viewers
-GKG,VIBER BOT,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-GKG-Managers,GITHUB-GKG-Contributors,GITHUB-GKG-Viewers
-GM9,SAWF,medium,vichet.lay@prudential.com.kh,GITHUB-GM9-Managers,GITHUB-GM9-Contributors,GITHUB-GM9-Viewers
-GPM,Workflow,low,ronald.sk.chan@prudential.com.hk,GITHUB-GPM-Managers,GITHUB-GPM-Contributors,GITHUB-GPM-Viewers
-GPQ,Pacsnet,low,subashree.ramesh@prudential.com.sg,GITHUB-GPQ-Managers,GITHUB-GPQ-Contributors,GITHUB-GPQ-Viewers
-GSE,CyberArk,high,Raja.Sekhara@prudential.com.sg,GITHUB-GSE-Managers,GITHUB-GSE-Contributors,GITHUB-GSE-Viewers
-GSN,PCLACSCMP,medium,Malen.Sok@prudential.com.kh,GITHUB-GSN-Managers,GITHUB-GSN-Contributors,GITHUB-GSN-Viewers
-GTX,"MPP,OLD DIST,XCODE,DISTSS",low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-GTX-Managers,GITHUB-GTX-Contributors,GITHUB-GTX-Viewers
-GUB,DPAS,low,Yuan.Gao@prudential.com.cn,GITHUB-GUB-Managers,GITHUB-GUB-Contributors,GITHUB-GUB-Viewers
-GUE,EBS - Enterprise Business Solutions,low,Hardi.Kusumawijaya@prudential.com.sg,GITHUB-GUE-Managers,GITHUB-GUE-Contributors,GITHUB-GUE-Viewers
-GUJ,Win11 Cloud VDI - afr,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-GUJ-Managers,GITHUB-GUJ-Contributors,GITHUB-GUJ-Viewers
-GV6,FCRM,medium,Sachin.Panwar@prudential.com.my,GITHUB-GV6-Managers,GITHUB-GV6-Contributors,GITHUB-GV6-Viewers
-GW3,CARA Testing,low,leo.dang@prudential.com.sg,GITHUB-GW3-Managers,GITHUB-GW3-Contributors,GITHUB-GW3-Viewers
-GW8,GTE Cloud Economics,low,victor.pham@prudential.com.sg,GITHUB-GW8-Managers,GITHUB-GW8-Contributors,GITHUB-GW8-Viewers
-GXA,sunsystems6,low,null,null,null,null
-GXX,PaC testing for GitHub,low,wong.nyook.yeen@prudential.com.my,null,null,null
-GY9,Win11 Cloud VDI - LALIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-GY9-Managers,GITHUB-GY9-Contributors,GITHUB-GY9-Viewers
-GZ2,SNOW License Manager and Inventory,high,Sathyanarayanan.Ramu@prudentialplc.com,GITHUB-GZ2-Managers,GITHUB-GZ2-Contributors,GITHUB-GZ2-Viewers
-GZ9,PVD,low,mura.muthirevula@eastspring.com,GITHUB-GZ9-Managers,GITHUB-GZ9-Contributors,GITHUB-GZ9-Viewers
-GZU,Win11 Cloud VDI - pca (D1600),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-GZU-Managers,GITHUB-GZU-Contributors,GITHUB-GZU-Viewers
-H34,Ghana Applications,low,ransford.bisiw@prudential.com.gh,GITHUB-H34-Managers,GITHUB-H34-Contributors,GITHUB-H34-Viewers
-H3X,Investment Marketing Portal,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-H3X-Managers,GITHUB-H3X-Contributors,GITHUB-H3X-Viewers
-H5D,Centralized Screen System,low,Daniel.Gnanapragasam@prudential.com.sg,GITHUB-H5D-Managers,GITHUB-H5D-Contributors,GITHUB-H5D-Viewers
-H5G,IAMPRU,low,Amal.Arockianathan@prudential.com.sg,GITHUB-H5G-Managers,GITHUB-H5G-Contributors,GITHUB-H5G-Viewers
-H63,GISP Splunk,low,Kendrick.Chew@prudential.com.sg,GITHUB-H63-Managers,GITHUB-H63-Contributors,GITHUB-H63-Viewers
-H67,PVA - IFRS17 - UDA,medium,hm.dat@prudential.com.vn,GITHUB-H67-Managers,GITHUB-H67-Contributors,GITHUB-H67-Viewers
-H6Q,eForm,medium,desmond.hk.choong@prubsn.com.my,GITHUB-H6Q-Managers,GITHUB-H6Q-Contributors,GITHUB-H6Q-Viewers
-H6Z,UnderWriteMe (UME),high,Bharat.Dhir@prudential.com.sg,GITHUB-H6Z-Managers,GITHUB-H6Z-Contributors,GITHUB-H6Z-Viewers
-H77,Symphony Platform,medium,Graeme.kelly@prudential.com.sg,GITHUB-H77-Managers,GITHUB-H77-Contributors,GITHUB-H77-Viewers
-H79,TBC,low,mahak.kamra@prudential.com.sg,GITHUB-H79-Managers,GITHUB-H79-Contributors,GITHUB-H79-Viewers
-H7Q,WebPoS,medium,vichet.lay@prudential.com.kh,GITHUB-H7Q-Managers,GITHUB-H7Q-Contributors,GITHUB-H7Q-Viewers
-H92,E-Recruit,low,nathaniel.kw.cheung@prudential.com.hk,GITHUB-H92-Managers,GITHUB-H92-Contributors,GITHUB-H92-Viewers
-HAY,One Pulse,low,AjiRachmatCiptawijaya@prudential.co.id,GITHUB-HAY-Managers,GITHUB-HAY-Contributors,GITHUB-HAY-Viewers
-HCV,PLUK-GL,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-HCV-Managers,GITHUB-HCV-Contributors,GITHUB-HCV-Viewers
-HDF,Outstanding Requirements,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-HDF-Managers,GITHUB-HDF-Contributors,GITHUB-HDF-Viewers
-HEM,vormetric,high,Fook.Cheong.Yong@prudential.com.sg,GITHUB-HEM-Managers,GITHUB-HEM-Contributors,GITHUB-HEM-Viewers
-HFU,One Pulse,low,Jagadeesh.Babu.Kongara@prudential.co.th,GITHUB-HFU-Managers,GITHUB-HFU-Contributors,GITHUB-HFU-Viewers
-HGA,GTE Cloud Enablement and Ignition Projects,low,uma.maheswari@prudential.com.sg,GITHUB-HGA-Managers,GITHUB-HGA-Contributors,GITHUB-HGA-Viewers
-HH2,Front End,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-HH2-Managers,GITHUB-HH2-Contributors,GITHUB-HH2-Viewers
-HHZ,PCLABAU,medium,Malen.Sok@prudential.com.kh,GITHUB-HHZ-Managers,GITHUB-HHZ-Contributors,GITHUB-HHZ-Viewers
-HJA,Win11 Cloud VDI - platform build,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-HJA-Managers,GITHUB-HJA-Contributors,GITHUB-HJA-Viewers
-HJD,PruGenAI,low,steven.sc.chau@prudential.com.hk,GITHUB-HJD-Managers,GITHUB-HJD-Contributors,GITHUB-HJD-Viewers
-HJN,eRecruitment,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-HJN-Managers,GITHUB-HJN-Contributors,GITHUB-HJN-Viewers
-HKW,Videris,low,null,null,null,null
-HMN,PVA,medium,T.Huynh@prudential.com.vn,GITHUB-HMN-Managers,GITHUB-HMN-Contributors,GITHUB-HMN-Viewers
-HN3,eForms,low,Agnes.SE.Lim@prudential.com.sg,GITHUB-HN3-Managers,GITHUB-HN3-Contributors,GITHUB-HN3-Viewers
-HNU,RPA Automation Anywhere,medium,Hon.Yew.Ng@prudential.com.my,GITHUB-HNU-Managers,GITHUB-HNU-Contributors,GITHUB-HNU-Viewers
-HNV,Magnum4.x UW,low,T.Huynh@prudential.com.vn,GITHUB-HNV-Managers,GITHUB-HNV-Contributors,GITHUB-HNV-Viewers
-HP8,EITH MTMS Migration,high,mura.muthirevula@eastspring.com,GITHUB-HP8-Managers,GITHUB-HP8-Contributors,GITHUB-HP8-Viewers
-HPY,PCLASERV,medium,Malen.Sok@prudential.com.kh,GITHUB-HPY-Managers,GITHUB-HPY-Contributors,GITHUB-HPY-Viewers
-HQ8,pltint,low,Attaphon.Mongkolsakulkit@prudential.co.th,GITHUB-HQ8-Managers,GITHUB-HQ8-Contributors,GITHUB-HQ8-Viewers
-HQH,Mitracomm,low,MochamadArifHaryadi@prudential.co.id,GITHUB-HQH-Managers,GITHUB-HQH-Contributors,GITHUB-HQH-Viewers
-HQW,FATCA,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-HQW-Managers,GITHUB-HQW-Contributors,GITHUB-HQW-Viewers
-HR7,STP Claim,medium,Samarn.Kumwelo@prudential.co.th,GITHUB-HR7-Managers,GITHUB-HR7-Contributors,GITHUB-HR7-Viewers
-HXS,GTE Network Golden Config,low,edwin.ngin@prudential.com.sg,GITHUB-HXS-Managers,GITHUB-HXS-Contributors,GITHUB-HXS-Viewers
-HYH,EIS Cloud & DevOps,low,akshay.ahuja@eastspring.com,GITHUB-HYH-Managers,GITHUB-HYH-Contributors,GITHUB-HYH-Viewers
-HYR,Group Compliance,low,mahak.kamra@prudential.com.sg,GITHUB-HYR-Managers,GITHUB-HYR-Contributors,GITHUB-HYR-Viewers
-HZ2,WeDoKOL,low,qing.perk.goh@prudential.com.my,GITHUB-HZ2-Managers,GITHUB-HZ2-Contributors,GITHUB-HZ2-Viewers
-J2J,PCALT Cloud Migration,low,pablo.sj.shen@pcalife.com.tw,GITHUB-J2J-Managers,GITHUB-J2J-Contributors,GITHUB-J2J-Viewers
-J3R,PruMap,medium,raymond.km.hsieh@prudential.com.hk,GITHUB-J3R-Managers,GITHUB-J3R-Contributors,GITHUB-J3R-Viewers
-J46,PACS APIM,high,achanta.prasad@prudential.com.sg,GITHUB-J46-Managers,GITHUB-J46-Contributors,GITHUB-J46-Viewers
-J4Y,Win11 Cloud VDI - pss(tpp),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-J4Y-Managers,GITHUB-J4Y-Contributors,GITHUB-J4Y-Viewers
-J5G,PAM,high,Raja.Sekhara@prudential.com.sg,GITHUB-J5G-Managers,GITHUB-J5G-Contributors,GITHUB-J5G-Viewers
-J5V,PLT Webview,medium,Pavariss.Lintha@prudential.co.th,GITHUB-J5V-Managers,GITHUB-J5V-Contributors,GITHUB-J5V-Viewers
-J6X,Prophet,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-J6X-Managers,GITHUB-J6X-Contributors,GITHUB-J6X-Viewers
-J76,Web Application,low,null,null,null,null
-J87,PruOne,low,jonathan.l.calatrava@prulifeuk.com.ph,GITHUB-J87-Managers,GITHUB-J87-Contributors,GITHUB-J87-Viewers
-J8J,Orchestron,low,pravin.hari.ramalu@prudential.com.sg,GITHUB-J8J-Managers,GITHUB-J8J-Contributors,GITHUB-J8J-Viewers
-J92,Notices Database,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-J92-Managers,GITHUB-J92-Contributors,GITHUB-J92-Viewers
-JB7,IFRS17-PGHK,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-JB7-Managers,GITHUB-JB7-Contributors,GITHUB-JB7-Viewers
-JCK,FileServerCommon,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-JCK-Managers,GITHUB-JCK-Contributors,GITHUB-JCK-Viewers
-JCV,Green Lantern Coronavirus,low,Pavariss.Lintha@prudential.co.th,GITHUB-JCV-Managers,GITHUB-JCV-Contributors,GITHUB-JCV-Viewers
-JD8,eACR,low,matthew.sl.yeung@prudential.com.hk,GITHUB-JD8-Managers,GITHUB-JD8-Contributors,GITHUB-JD8-Viewers
-JEJ,PBTB APIM,low,desmond.hk.choong@prubsn.com.my,GITHUB-JEJ-Managers,GITHUB-JEJ-Contributors,GITHUB-JEJ-Viewers
-JFD,PHKL PRUForce,low,yat.wing.choy@prudential.com.hk,GITHUB-JFD-Managers,GITHUB-JFD-Contributors,GITHUB-JFD-Viewers
-JG2,OPOE/OnePOS,medium,rusmanto.wiriadinata@prudential.com.sg,GITHUB-JG2-Managers,GITHUB-JG2-Contributors,GITHUB-JG2-Viewers
-JHH,PCA - Pulse For Operations,high,nguyen.dinh.thinh@prudential.com.vn,GITHUB-JHH-Managers,GITHUB-JHH-Contributors,GITHUB-JHH-Viewers
-JJQ,Win11 Cloud VDI - plt,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-JJQ-Managers,GITHUB-JJQ-Contributors,GITHUB-JJQ-Viewers
-JN4,IWA-Internal Web Application,low,subashree.ramesh@prudential.com.sg,GITHUB-JN4-Managers,GITHUB-JN4-Contributors,GITHUB-JN4-Viewers
-JNE,RPA,low,VaishaliChaudhary@prudential.com.sg,GITHUB-JNE-Managers,GITHUB-JNE-Contributors,GITHUB-JNE-Viewers
-JNH,PVA - OCR Integration,medium,nguyen.dinh.thinh@prudential.com.vn,GITHUB-JNH-Managers,GITHUB-JNH-Contributors,GITHUB-JNH-Viewers
-JNJ,Download Server Application,low,ray.wong@prudential.com.hk,GITHUB-JNJ-Managers,GITHUB-JNJ-Contributors,GITHUB-JNJ-Viewers
-JP7,Pulse Ops PostgreSQL,high,T.Huynh@prudential.com.vn,GITHUB-JP7-Managers,GITHUB-JP7-Contributors,GITHUB-JP7-Viewers
-JPN,PVA - Contact Strategy,high,nguyen.dinh.thinh@prudential.com.vn,GITHUB-JPN-Managers,GITHUB-JPN-Contributors,GITHUB-JPN-Viewers
-JPR,OnlineCC (CyberSource),high,Hardi.Kusumawijaya@prudential.com.sg,GITHUB-JPR-Managers,GITHUB-JPR-Contributors,GITHUB-JPR-Viewers
-JPY,Training Management System - TMS portal,medium,l.dinhtam@prudential.com.vn,GITHUB-JPY-Managers,GITHUB-JPY-Contributors,GITHUB-JPY-Viewers
-JQ3,Win11 Cloud VDI - pca (h1800),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-JQ3-Managers,GITHUB-JQ3-Contributors,GITHUB-JQ3-Viewers
-JQR,DPES Refer2earn,medium,Hon.Yew.Ng@prudential.com.my,GITHUB-JQR-Managers,GITHUB-JQR-Contributors,GITHUB-JQR-Viewers
-JRP,Payment Services,high,Avik.Sengupta@prudential.com.sg,GITHUB-JRP-Managers,GITHUB-JRP-Contributors,GITHUB-JRP-Viewers
-JUP,plt devdb pltint,low,Jagadeesh.Babu.Kongara@prudential.co.th,GITHUB-JUP-Managers,GITHUB-JUP-Contributors,GITHUB-JUP-Viewers
-JVZ,IVRS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-JVZ-Managers,GITHUB-JVZ-Contributors,GITHUB-JVZ-Viewers
-JWB,ESB Services,medium,Tan.See.Aik@prudential.com.my,GITHUB-JWB-Managers,GITHUB-JWB-Contributors,GITHUB-JWB-Viewers
-JXQ,Win11 Cloud VDI - pss(rt),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-JXQ-Managers,GITHUB-JXQ-Contributors,GITHUB-JXQ-Viewers
-JXY,IDSS,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-JXY-Managers,GITHUB-JXY-Contributors,GITHUB-JXY-Viewers
-JY3,PVA - ITO,medium,l.dinhtam@prudential.com.vn,GITHUB-JY3-Managers,GITHUB-JY3-Contributors,GITHUB-JY3-Viewers
-JYH,TS LS,low,null,null,null,null
-JZ5,PVA-ESB,medium,l.dinhtam@prudential.com.vn,GITHUB-JZ5-Managers,GITHUB-JZ5-Contributors,GITHUB-JZ5-Viewers
-JZV,PLT Datalake,low,Kritsana.Chansathit@prudential.co.th,GITHUB-JZV-Managers,GITHUB-JZV-Contributors,GITHUB-JZV-Viewers
-K2F,E-Claim,medium,Nguyen.Thanh.Trung@prudential.com.vn,GITHUB-K2F-Managers,GITHUB-K2F-Contributors,GITHUB-K2F-Viewers
-K3S,PRUCoach,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-K3S-Managers,GITHUB-K3S-Contributors,GITHUB-K3S-Viewers
-K4H,PCLALIBS,medium,vichet.lay@prudential.com.kh,GITHUB-K4H-Managers,GITHUB-K4H-Contributors,GITHUB-K4H-Viewers
-K6D,DPAS,low,Charassri.Prakongsai@prudential.co.th,GITHUB-K6D-Managers,GITHUB-K6D-Contributors,GITHUB-K6D-Viewers
-K7K,Bank Reconcilation System,low,rachel.wp.lee@prudential.com.my,GITHUB-K7K-Managers,GITHUB-K7K-Contributors,GITHUB-K7K-Viewers
-K88,GSOCAutomation,low,karthik.es@prudential.com.sg,GITHUB-K88-Managers,GITHUB-K88-Contributors,GITHUB-K88-Viewers
-K8G,Win11 Cloud VDI - cth,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-K8G-Managers,GITHUB-K8G-Contributors,GITHUB-K8G-Viewers
-K8T,Engineering Templates,low,Vinoth.Kumar@prudential.com.sg,GITHUB-K8T-Managers,GITHUB-K8T-Contributors,GITHUB-K8T-Viewers
-K9C,eFiled - Smart claims Adjudication,low,madhan.seduraman@prudential.com.sg,GITHUB-K9C-Managers,GITHUB-K9C-Contributors,GITHUB-K9C-Viewers
-K9M,PLT eDocument Services,medium,Adapon.Songkadi@prudential.co.th,GITHUB-K9M-Managers,GITHUB-K9M-Contributors,GITHUB-K9M-Viewers
-K9U,Win11 Cloud VDI - P1400,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-K9U-Managers,GITHUB-K9U-Contributors,GITHUB-K9U-Viewers
-KAD,SMS,low,Nur.Widyanto@prudential.co.id,GITHUB-KAD-Managers,GITHUB-KAD-Contributors,GITHUB-KAD-Viewers
-KB4,QlikSense,low,desmond.hk.choong@prubsn.com.my,GITHUB-KB4-Managers,GITHUB-KB4-Contributors,GITHUB-KB4-Viewers
-KD8,PVA-MB,medium,l.dinhtam@prudential.com.vn,GITHUB-KD8-Managers,GITHUB-KD8-Contributors,GITHUB-KD8-Viewers
-KEH,phlife - web application,low,jonathan.l.calatrava@prulifeuk.com.ph,GITHUB-KEH-Managers,GITHUB-KEH-Contributors,GITHUB-KEH-Viewers
-KFP,IOC Cloud Ops DevOps,high,srinivas.vaddi@prudential.com.sg,GITHUB-KFP-Managers,GITHUB-KFP-Contributors,GITHUB-KFP-Viewers
-KFT,jumpbox,medium,bt.lan@prudential.com.vn,GITHUB-KFT-Managers,GITHUB-KFT-Contributors,GITHUB-KFT-Viewers
-KH4,DBNet,low,null,null,null,null
-KH9,GISP STO Automation,medium,samuel.ng@prudential.com.sg,GITHUB-KH9-Managers,GITHUB-KH9-Contributors,GITHUB-KH9-Viewers
-KHP,eaps-dp-pruquote,low,tabish.masroor@prudential.com.kh,GITHUB-KHP-Managers,GITHUB-KHP-Contributors,GITHUB-KHP-Viewers
-KHQ,SCCM,low,prajeesh.pm@prudential.com.sg,GITHUB-KHQ-Managers,GITHUB-KHQ-Contributors,GITHUB-KHQ-Viewers
-KHX,PRUCENTRE,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-KHX-Managers,GITHUB-KHX-Contributors,GITHUB-KHX-Viewers
-KJH,PMN,low,Fajar.Trio.Wijanarko@prudential.co.id,GITHUB-KJH-Managers,GITHUB-KJH-Contributors,GITHUB-KJH-Viewers
-KKG,PTPLA IT Release,high,Fajar.Rivai@prudential.co.id,GITHUB-KKG-Managers,GITHUB-KKG-Contributors,GITHUB-KKG-Viewers
-KPD,sunGL Accounting System,low,l.dinhtam@prudential.com.vn,GITHUB-KPD-Managers,GITHUB-KPD-Contributors,GITHUB-KPD-Viewers
-KRY,Datasharing,low,anurag.shukla@prudential.com.sg,GITHUB-KRY-Managers,GITHUB-KRY-Contributors,GITHUB-KRY-Viewers
-KSK,chatbot,low,Lawrence.TL.Cheung@prudential.com.hk,GITHUB-KSK-Managers,GITHUB-KSK-Contributors,GITHUB-KSK-Viewers
-KSZ,PRUBuddy,low,null,null,null,null
-KT7,Correspondence Batch Print,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-KT7-Managers,GITHUB-KT7-Contributors,GITHUB-KT7-Viewers
-KU4,Askpru Lite,low,edward.ak.tan@prudential.com.sg,GITHUB-KU4-Managers,GITHUB-KU4-Contributors,GITHUB-KU4-Viewers
-KUQ,PHKL-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-KUQ-Managers,GITHUB-KUQ-Contributors,GITHUB-KUQ-Viewers
-KXB,SpiderGate Call Recording File Manager,low,null,null,null,null
-KZK,VM Operations - AFRTSS,low,uma.maheswari@prudential.com.sg,GITHUB-KZK-Managers,GITHUB-KZK-Contributors,GITHUB-KZK-Viewers
-KZZ,Pulse HotHouse,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-KZZ-Managers,GITHUB-KZZ-Contributors,GITHUB-KZZ-Viewers
-M4C,PVADL,high,Le.Thi.Ngoc.Phuoc@prudential.com.vn,GITHUB-M4C-Managers,GITHUB-M4C-Contributors,GITHUB-M4C-Viewers
-M4Q,Network Detection and Response,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-M4Q-Managers,GITHUB-M4Q-Contributors,GITHUB-M4Q-Viewers
-M5S,GTE Cloud Foundation Production Services,high,Alex.Khaerov@prudential.com.sg,GITHUB-M5S-Managers,GITHUB-M5S-Contributors,GITHUB-M5S-Viewers
-M69,TMBAM Public Facing Applications,low,Andre.Walderbach@eastspring.com,GITHUB-M69-Managers,GITHUB-M69-Contributors,GITHUB-M69-Viewers
-M89,Zscaler Proxy,low,abhay.kumar.singh@prudential.com.sg,GITHUB-M89-Managers,GITHUB-M89-Contributors,GITHUB-M89-Viewers
-MAR,ForgeRock,low,null,null,null,null
-MCV,ANH,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-MCV-Managers,GITHUB-MCV-Contributors,GITHUB-MCV-Viewers
-MD7,GPU OCR,low,null,null,null,null
-MDY,PruForce (COE),low,chitrarath.bhattacharjee@prudential.com.sg,GITHUB-MDY-Managers,GITHUB-MDY-Contributors,GITHUB-MDY-Viewers
-MFA,Webapi,low,wayne.ky.lam@prudential.com.hk,GITHUB-MFA-Managers,GITHUB-MFA-Contributors,GITHUB-MFA-Viewers
-MG4,Common Modules,low,qing.perk.goh@prudential.com.my,GITHUB-MG4-Managers,GITHUB-MG4-Contributors,GITHUB-MG4-Viewers
-MHC,PRUReward,low,l.dinhtam@prudential.com.vn,GITHUB-MHC-Managers,GITHUB-MHC-Contributors,GITHUB-MHC-Viewers
-MHV,SunGL,medium,ryan.l.armintia@prulifeuk.com.ph,GITHUB-MHV-Managers,GITHUB-MHV-Contributors,GITHUB-MHV-Viewers
-MJH,PruEntrepreneur,low,siti.khairunnissa.yahya@prudential.com.my,GITHUB-MJH-Managers,GITHUB-MJH-Contributors,GITHUB-MJH-Viewers
-MN2,Cloud Component Self Service Portal,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-MN2-Managers,GITHUB-MN2-Contributors,GITHUB-MN2-Viewers
-MNG,PRUBuddy,low,madhan.seduraman@prudential.com.sg,GITHUB-MNG-Managers,GITHUB-MNG-Contributors,GITHUB-MNG-Viewers
-MNR,PVA-Claim,medium,l.dinhtam@prudential.com.vn,GITHUB-MNR-Managers,GITHUB-MNR-Contributors,GITHUB-MNR-Viewers
-MS2,DevSecOps,low,pravin.hari.ramalu@prudential.com.sg,GITHUB-MS2-Managers,GITHUB-MS2-Contributors,GITHUB-MS2-Viewers
-MTJ,Automation Process,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-MTJ-Managers,GITHUB-MTJ-Contributors,GITHUB-MTJ-Viewers
-MVE,Win11 Cloud VDI - 1AC,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-MVE-Managers,GITHUB-MVE-Contributors,GITHUB-MVE-Viewers
-MW9,File Uploader,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-MW9-Managers,GITHUB-MW9-Contributors,GITHUB-MW9-Viewers
-MWR,RTCIS Libraries,low,Felix.He@prudential.com.cn,GITHUB-MWR-Managers,GITHUB-MWR-Contributors,GITHUB-MWR-Viewers
-MWY,GISP STO Automation2,medium,samuel.ng@prudential.com.sg,GITHUB-MWY-Managers,GITHUB-MWY-Contributors,GITHUB-MWY-Viewers
-MY7,Win11 Cloud VDI - VNLIFE,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-MY7-Managers,GITHUB-MY7-Contributors,GITHUB-MY7-Viewers
-MYB,Pruwayplus,high,tzong.yuh.tang@prudential.com.my,GITHUB-MYB-Managers,GITHUB-MYB-Contributors,GITHUB-MYB-Viewers
-MYC,NB Workflow,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-MYC-Managers,GITHUB-MYC-Contributors,GITHUB-MYC-Viewers
-N2B,ACS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-N2B-Managers,GITHUB-N2B-Contributors,GITHUB-N2B-Viewers
-N3M,PVA - ITO,low,nguyen.dinh.thinh@prudential.com.vn,GITHUB-N3M-Managers,GITHUB-N3M-Contributors,GITHUB-N3M-Viewers
-N3W,IFRS17-PVA,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-N3W-Managers,GITHUB-N3W-Contributors,GITHUB-N3W-Viewers
-N54,PCA-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-N54-Managers,GITHUB-N54-Contributors,GITHUB-N54-Viewers
-N5E,DPAS,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-N5E-Managers,GITHUB-N5E-Contributors,GITHUB-N5E-Viewers
-N6T,Prukasih,low,aylwin.bc.chen@prudential.com.my,GITHUB-N6T-Managers,GITHUB-N6T-Contributors,GITHUB-N6T-Viewers
-N6Y,GTE CF Ansible Repositories (Playbooks and Roles),low,Alex.Khaerov@prudential.com.sg,GITHUB-N6Y-Managers,GITHUB-N6Y-Contributors,GITHUB-N6Y-Viewers
-N7M,PruConsent,low,Vinoth.Kumar@prudential.com.sg,GITHUB-N7M-Managers,GITHUB-N7M-Contributors,GITHUB-N7M-Viewers
-N7X,RAISe,low,qing.perk.goh@prudential.com.my,GITHUB-N7X-Managers,GITHUB-N7X-Contributors,GITHUB-N7X-Viewers
-N9F,PBTB - PruBSN Navigator,low,dax.yl.cheng@prudential.com.my,GITHUB-N9F-Managers,GITHUB-N9F-Contributors,GITHUB-N9F-Viewers
-NA7,GISP SOAR,low,Kendrick.Chew@prudential.com.sg,GITHUB-NA7-Managers,GITHUB-NA7-Contributors,GITHUB-NA7-Viewers
-NAY,MMLIFEPRUFP,low,tabish.masroor@prudential.com.kh,GITHUB-NAY-Managers,GITHUB-NAY-Contributors,GITHUB-NAY-Viewers
-NCC,Backend Enablement,low,tony.hiu@prudential.co.id,GITHUB-NCC-Managers,GITHUB-NCC-Contributors,GITHUB-NCC-Viewers
-NDF,PTPLA Cloud Infrastructure,high,bahtiarwidayanto@prudential.co.id,GITHUB-NDF-Managers,GITHUB-NDF-Contributors,GITHUB-NDF-Viewers
-NE6,GICC Dynatrace,high,PalaniArun@prudential.com.my,GITHUB-NE6-Managers,GITHUB-NE6-Contributors,GITHUB-NE6-Viewers
-NEN,Microsite,low,tabish.masroor@prudential.com.kh,GITHUB-NEN-Managers,GITHUB-NEN-Contributors,GITHUB-NEN-Viewers
-NFS,MISP,low,Kendrick.Chew@prudential.com.sg,GITHUB-NFS-Managers,GITHUB-NFS-Contributors,GITHUB-NFS-Viewers
-NHU,Core Technology,low,Adapon.Songkadi@prudential.co.th,GITHUB-NHU-Managers,GITHUB-NHU-Contributors,GITHUB-NHU-Viewers
-NJM,CWS,high,raymond.km.hsieh@prudential.com.hk,GITHUB-NJM-Managers,GITHUB-NJM-Contributors,GITHUB-NJM-Viewers
-NJQ,PruPolicy,low,Attaphon.Mongkolsakulkit@prudential.co.th,GITHUB-NJQ-Managers,GITHUB-NJQ-Contributors,GITHUB-NJQ-Viewers
-NJT,DPAS,low,null,null,null,null
-NPA,IFRS17-PAMB,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-NPA-Managers,GITHUB-NPA-Contributors,GITHUB-NPA-Viewers
-NQQ,OneHealth App,medium,ron.ky.chan@prudential.com.hk,GITHUB-NQQ-Managers,GITHUB-NQQ-Contributors,GITHUB-NQQ-Viewers
-NTB,IFRS17-PCALTITN,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-NTB-Managers,GITHUB-NTB-Contributors,GITHUB-NTB-Viewers
-NTS,CORS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-NTS-Managers,GITHUB-NTS-Contributors,GITHUB-NTS-Viewers
-NXA,PVA-Newinvoice,medium,l.dinhtam@prudential.com.vn,GITHUB-NXA-Managers,GITHUB-NXA-Contributors,GITHUB-NXA-Viewers
-NXF,AIS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-NXF-Managers,GITHUB-NXF-Contributors,GITHUB-NXF-Viewers
-NYG,Scheduling and Monitoring,low,sivaganesan.pertheban@prudential.com.my,GITHUB-NYG-Managers,GITHUB-NYG-Contributors,GITHUB-NYG-Viewers
-NZB,Prophet,low,null,null,null,null
-NZT,Win11 Cloud VDI - THESIV,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-NZT-Managers,GITHUB-NZT-Contributors,GITHUB-NZT-Viewers
-P26,HR Payroll,low,null,null,null,null
-P2K,TE PAMB,medium,Hon.Yew.Ng@prudential.com.my,GITHUB-P2K-Managers,GITHUB-P2K-Contributors,GITHUB-P2K-Viewers
-P2N,CAPABILITY,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-P2N-Managers,GITHUB-P2N-Contributors,GITHUB-P2N-Viewers
-P3R,OnDemand,high,raymond.km.hsieh@prudential.com.hk,GITHUB-P3R-Managers,GITHUB-P3R-Contributors,GITHUB-P3R-Viewers
-P3Y,VM Operations - KHLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-P3Y-Managers,GITHUB-P3Y-Contributors,GITHUB-P3Y-Viewers
-P55,Planner (New Project),low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-P55-Managers,GITHUB-P55-Contributors,GITHUB-P55-Viewers
-P59,OSS,low,winston.lim@prudential.com.sg,GITHUB-P59-Managers,GITHUB-P59-Contributors,GITHUB-P59-Viewers
-P69,Wealth,low,Lucas.Deng@prudential.com.cn,GITHUB-P69-Managers,GITHUB-P69-Contributors,GITHUB-P69-Viewers
-P8D,NewPulse,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-P8D-Managers,GITHUB-P8D-Contributors,GITHUB-P8D-Viewers
-P8W,Cyberreason,high,SEBASTIEN.CHONG@prudential.com.cn,GITHUB-P8W-Managers,GITHUB-P8W-Contributors,GITHUB-P8W-Viewers
-PA6,eFiled - Smart claims Adjudication,low,jakeer.mahammed@prudential.com.sg,GITHUB-PA6-Managers,GITHUB-PA6-Contributors,GITHUB-PA6-Viewers
-PAW,Group Managed,low,tanmoy.mishra@prudential.com.sg,GITHUB-PAW-Managers,GITHUB-PAW-Contributors,GITHUB-PAW-Viewers
-PDD,EIS,low,alfie.obial@prudential.com.sg,GITHUB-PDD-Managers,GITHUB-PDD-Contributors,GITHUB-PDD-Viewers
-PDN,PCLAM,medium,Rathina.Vellu.Selladorai@prudential.com.my,GITHUB-PDN-Managers,GITHUB-PDN-Contributors,GITHUB-PDN-Viewers
-PEN,IFRS17-PLAI,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-PEN-Managers,GITHUB-PEN-Contributors,GITHUB-PEN-Viewers
-PES,PVA-PruLead,medium,l.dinhtam@prudential.com.vn,GITHUB-PES-Managers,GITHUB-PES-Contributors,GITHUB-PES-Viewers
-PFC,GTE Cloud Foundation Infra Foundation,high,Alex.Khaerov@prudential.com.sg,GITHUB-PFC-Managers,GITHUB-PFC-Contributors,GITHUB-PFC-Viewers
-PFN,LifeOpsDashboard,low,Daniel.Gnanapragasam@prudential.com.sg,GITHUB-PFN-Managers,GITHUB-PFN-Contributors,GITHUB-PFN-Viewers
-PFQ,PruQuote,medium,ray.wong@prudential.com.hk,GITHUB-PFQ-Managers,GITHUB-PFQ-Contributors,GITHUB-PFQ-Viewers
-PGH,PACS Kafka Rest Proxy,low,alfie.obial@prudential.com.sg,GITHUB-PGH-Managers,GITHUB-PGH-Contributors,GITHUB-PGH-Viewers
-PJ9,Environment Isolation Deployment Project,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-PJ9-Managers,GITHUB-PJ9-Contributors,GITHUB-PJ9-Viewers
-PJZ,FFP - Financial Data Repository (FDR),low,Vidhya.M.Majunatha@prudential.com.hk,GITHUB-PJZ-Managers,GITHUB-PJZ-Contributors,GITHUB-PJZ-Viewers
-PM4,PVA - AAMS,low,l.dinhtam@prudential.com.vn,GITHUB-PM4-Managers,GITHUB-PM4-Contributors,GITHUB-PM4-Viewers
-PMZ,Win11 Cloud VDI - EIJP,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-PMZ-Managers,GITHUB-PMZ-Contributors,GITHUB-PMZ-Viewers
-PN6,PULSE Webapp,low,howard.hd.kwong@prudential.com.hk,GITHUB-PN6-Managers,GITHUB-PN6-Contributors,GITHUB-PN6-Viewers
-PNV,POC,low,RonnieTengYan.Khoo@prudential.com.my,GITHUB-PNV-Managers,GITHUB-PNV-Contributors,GITHUB-PNV-Viewers
-PPU,Security application,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-PPU-Managers,GITHUB-PPU-Contributors,GITHUB-PPU-Viewers
-PQ6,Customer Web Portal,medium,Tan.See.Aik@prudential.com.my,GITHUB-PQ6-Managers,GITHUB-PQ6-Contributors,GITHUB-PQ6-Viewers
-PQ9,PBTB - SMS & Email Portal,low,dax.yl.cheng@prudential.com.my,GITHUB-PQ9-Managers,GITHUB-PQ9-Contributors,GITHUB-PQ9-Viewers
-PQJ,Vormetric Encryption,low,null,null,null,null
-PRN,CC MACRO,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-PRN-Managers,GITHUB-PRN-Contributors,GITHUB-PRN-Viewers
-PSH,eApproval,high,sachin.bhadane@prudential.com.sg,GITHUB-PSH-Managers,GITHUB-PSH-Contributors,GITHUB-PSH-Viewers
-PT5,VEOSSystems,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-PT5-Managers,GITHUB-PT5-Contributors,GITHUB-PT5-Viewers
-PV3,AI/ML Platform,low,darek.cieslinski@prudential.com.sg,GITHUB-PV3-Managers,GITHUB-PV3-Contributors,GITHUB-PV3-Viewers
-PVJ,eForms,low,Bharat.Dhir@prudential.com.sg,GITHUB-PVJ-Managers,GITHUB-PVJ-Contributors,GITHUB-PVJ-Viewers
-PX5,PERSISTENCY,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-PX5-Managers,GITHUB-PX5-Contributors,GITHUB-PX5-Viewers
-PZA,Bank Recon System,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-PZA-Managers,GITHUB-PZA-Contributors,GITHUB-PZA-Viewers
-Q2C,McAfee,low,PasalaVanaja@prudential.com.sg,GITHUB-Q2C-Managers,GITHUB-Q2C-Contributors,GITHUB-Q2C-Viewers
-Q5R,Workflow,low,Adapon.Songkadi@prudential.co.th,GITHUB-Q5R-Managers,GITHUB-Q5R-Contributors,GITHUB-Q5R-Viewers
-Q6P,SuperDW,low,T.Huynh@prudential.com.vn,GITHUB-Q6P-Managers,GITHUB-Q6P-Contributors,GITHUB-Q6P-Viewers
-Q7E,PAMB-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-Q7E-Managers,GITHUB-Q7E-Contributors,GITHUB-Q7E-Viewers
-Q7J,CIS,low,Graeme.kelly@prudential.com.sg,GITHUB-Q7J-Managers,GITHUB-Q7J-Contributors,GITHUB-Q7J-Viewers
-Q87,Finance Workflow,high,PrudhviRajYerriboyina@prudentialplc.co.in,GITHUB-Q87-Managers,GITHUB-Q87-Contributors,GITHUB-Q87-Viewers
-Q8N,Pru Hub,low,null,null,null,null
-Q8S,Autorun,low,raymond.km.hsieh@prudential.com.hk,GITHUB-Q8S-Managers,GITHUB-Q8S-Contributors,GITHUB-Q8S-Viewers
-QA2,Kofax,low,null,null,null,null
-QAN,PruAction,low,tanmoy.mishra@prudential.com.sg,GITHUB-QAN-Managers,GITHUB-QAN-Contributors,GITHUB-QAN-Viewers
-QAU,Tango File Server,low,Tan.See.Aik@prudential.com.my,GITHUB-QAU-Managers,GITHUB-QAU-Contributors,GITHUB-QAU-Viewers
-QAW,TIMEPAGE,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-QAW-Managers,GITHUB-QAW-Contributors,GITHUB-QAW-Viewers
-QDD,Download Server Application,low,null,null,null,null
-QED,Win11 Cloud VDI - pss(gbs),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-QED-Managers,GITHUB-QED-Contributors,GITHUB-QED-Viewers
-QF5,Microsite for e-Communication,low,ng.sei.weng@prudential.com.my,GITHUB-QF5-Managers,GITHUB-QF5-Contributors,GITHUB-QF5-Viewers
-QF6,Partners,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-QF6-Managers,GITHUB-QF6-Contributors,GITHUB-QF6-Viewers
-QGM,eForms (FrontEnd),low,Bharat.Dhir@prudential.com.sg,GITHUB-QGM-Managers,GITHUB-QGM-Contributors,GITHUB-QGM-Viewers
-QJV,Finance Encryption,low,chang.shuh.tyng@prudential.com.my,GITHUB-QJV-Managers,GITHUB-QJV-Contributors,GITHUB-QJV-Viewers
-QMQ,RTC,low,null,null,null,null
-QN8,COMPRESS REP,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-QN8-Managers,GITHUB-QN8-Contributors,GITHUB-QN8-Viewers
-QNF,VM Operations - VNLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-QNF-Managers,GITHUB-QNF-Contributors,GITHUB-QNF-Viewers
-QNZ,Testing,low,rohit.gokhale@prudential.com.sg,GITHUB-QNZ-Managers,GITHUB-QNZ-Contributors,GITHUB-QNZ-Viewers
-QQC,Magnum 4X,high,henry.chan@prudential.com.hk,GITHUB-QQC-Managers,GITHUB-QQC-Contributors,GITHUB-QQC-Viewers
-QRJ,Win11 Cloud VDI - pacs,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-QRJ-Managers,GITHUB-QRJ-Contributors,GITHUB-QRJ-Viewers
-QRY,VM Operations - PHLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-QRY-Managers,GITHUB-QRY-Contributors,GITHUB-QRY-Viewers
-QS4,PruTopia (Intranet),low,subashree.ramesh@prudential.com.sg,GITHUB-QS4-Managers,GITHUB-QS4-Contributors,GITHUB-QS4-Viewers
-QSN,MOSFIN,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-QSN-Managers,GITHUB-QSN-Contributors,GITHUB-QSN-Viewers
-QSR,PruSales,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-QSR-Managers,GITHUB-QSR-Contributors,GITHUB-QSR-Viewers
-QUG,PruGalaxy (VPMS),high,subramanyan.nv@prudential.com.sg,GITHUB-QUG-Managers,GITHUB-QUG-Contributors,GITHUB-QUG-Viewers
-QUU,Compliance and Vulnerability,low,wong.kong.yew@prudential.com.my,GITHUB-QUU-Managers,GITHUB-QUU-Contributors,GITHUB-QUU-Viewers
-QVC,Software Engineering Templates,low,sanjay.singh@prudential.com.sg,GITHUB-QVC-Managers,GITHUB-QVC-Contributors,GITHUB-QVC-Viewers
-QVH,GISP - SEO,high,Winston.Lim@prudential.com.sg,GITHUB-QVH-Managers,GITHUB-QVH-Contributors,GITHUB-QVH-Viewers
-QZE,PFM(Par Fund Management),low,subramanyan.nv@prudential.com.sg,GITHUB-QZE-Managers,GITHUB-QZE-Contributors,GITHUB-QZE-Viewers
-QZM,PVA - ITO,low,l.dinhtam@prudential.com.vn,GITHUB-QZM-Managers,GITHUB-QZM-Contributors,GITHUB-QZM-Viewers
-R3A,GISP,high,Fook.Cheong.Yong@prudential.com.sg,GITHUB-R3A-Managers,GITHUB-R3A-Contributors,GITHUB-R3A-Viewers
-R52,Modus,low,bhargavi.vajrala1@prudential.com.sg,GITHUB-R52-Managers,GITHUB-R52-Contributors,GITHUB-R52-Viewers
-R6X,Business@Pulse,medium,Samarn.Kumwelo@prudential.co.th,GITHUB-R6X-Managers,GITHUB-R6X-Contributors,GITHUB-R6X-Viewers
-R7U,ECAP Unify Solution,low,phani.kumar@prudential.com.sg,GITHUB-R7U-Managers,GITHUB-R7U-Contributors,GITHUB-R7U-Viewers
-R7X,mis,low,Kritsana.Chansathit@prudential.co.th,GITHUB-R7X-Managers,GITHUB-R7X-Contributors,GITHUB-R7X-Viewers
-R93,EBSME,low,Thejus.A@prudentialplc.co.in,GITHUB-R93-Managers,GITHUB-R93-Contributors,GITHUB-R93-Viewers
-RAM,PruForce (COE),low,chitrarath.bhattacharjee@prudential.com.sg,GITHUB-RAM-Managers,GITHUB-RAM-Contributors,GITHUB-RAM-Viewers
-RDQ,CMEK,low,null,null,null,null
-REB,MI AML,low,null,null,null,null
-RF7,UiPath - RPA Platform,low,Lam.Thanh.Nghi@prudential.com.vn,GITHUB-RF7-Managers,GITHUB-RF7-Contributors,GITHUB-RF7-Viewers
-RFB,PruDMTM,high,raymond.km.hsieh@prudential.com.hk,GITHUB-RFB-Managers,GITHUB-RFB-Contributors,GITHUB-RFB-Viewers
-RFE,Nigeria Applications,low,Peace.Okhianmhense-Philips@prudentialzenith.com,GITHUB-RFE-Managers,GITHUB-RFE-Contributors,GITHUB-RFE-Viewers
-RFJ,MDP,low,Sachdev.Niraghatam@prudential.com.sg,GITHUB-RFJ-Managers,GITHUB-RFJ-Contributors,GITHUB-RFJ-Viewers
-RFK,GTE CF Self-Service Tool - GCP IAM,medium,Anton.Larkin@prudential.com.sg,GITHUB-RFK-Managers,GITHUB-RFK-Contributors,GITHUB-RFK-Viewers
-RFS,UDP (Data Lake),medium,Kritsana.Chansathit@prudential.co.th,GITHUB-RFS-Managers,GITHUB-RFS-Contributors,GITHUB-RFS-Viewers
-RKG,PLUK Common SQLMI,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-RKG-Managers,GITHUB-RKG-Contributors,GITHUB-RKG-Viewers
-RKS,PrAccess,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-RKS-Managers,GITHUB-RKS-Contributors,GITHUB-RKS-Viewers
-RNH,MiE University,low,Jesus.M.Viray@prulifeuk.com.ph,GITHUB-RNH-Managers,GITHUB-RNH-Contributors,GITHUB-RNH-Viewers
-RSP,ESI Portal Servers Migration,low,takayuki.enomoto@eastspring.com,GITHUB-RSP-Managers,GITHUB-RSP-Contributors,GITHUB-RSP-Viewers
-RSW,eInvoice (PBTB),high,WilliamChoongWaiLim@prubsn.com.my,GITHUB-RSW-Managers,GITHUB-RSW-Contributors,GITHUB-RSW-Viewers
-RU4,CLIENT MONITOR,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-RU4-Managers,GITHUB-RU4-Contributors,GITHUB-RU4-Viewers
-RUM,IFRS17-PHKL,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-RUM-Managers,GITHUB-RUM-Contributors,GITHUB-RUM-Viewers
-RX3,FAS,high,tony.mh.fu@prudential.com.hk,GITHUB-RX3-Managers,GITHUB-RX3-Contributors,GITHUB-RX3-Viewers
-RY2,SendFiles,low,null,null,null,null
-RZT,Finance,low,Ronald.Buder@prudential.com.sg,GITHUB-RZT-Managers,GITHUB-RZT-Contributors,GITHUB-RZT-Viewers
-S5X,PCS,high,ron.ky.chan@prudential.com.hk,GITHUB-S5X-Managers,GITHUB-S5X-Contributors,GITHUB-S5X-Viewers
-S6A,GTE Cloud Foundation Team Sandbox,low,Alex.Khaerov@prudential.com.sg,GITHUB-S6A-Managers,GITHUB-S6A-Contributors,GITHUB-S6A-Viewers
-S74,SQL Managed Instance,low,bt.lan@prudential.com.vn,GITHUB-S74-Managers,GITHUB-S74-Contributors,GITHUB-S74-Viewers
-SB7,eSubmission PA,high,steve.sl.tso@prudential.com.hk,GITHUB-SB7-Managers,GITHUB-SB7-Contributors,GITHUB-SB7-Viewers
-SBE,Ruby Advice,low,philipp.pg.gschoepf@prudential.com.hk,GITHUB-SBE-Managers,GITHUB-SBE-Contributors,GITHUB-SBE-Viewers
-SE7,PAMB - PRUinfo Plus and PRUinfo Partner,low,SI.WAYNE.LONG@prudential.com.my,GITHUB-SE7-Managers,GITHUB-SE7-Contributors,GITHUB-SE7-Viewers
-SFK,sample demo,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-SFK-Managers,GITHUB-SFK-Contributors,GITHUB-SFK-Viewers
-SGJ,PCA,medium,shafi.ahmed@prudential.com.sg,GITHUB-SGJ-Managers,GITHUB-SGJ-Contributors,GITHUB-SGJ-Viewers
-SGW,Room Booking System,low,ming.fat.wong@prudential.com.hk,GITHUB-SGW-Managers,GITHUB-SGW-Contributors,GITHUB-SGW-Viewers
-SH2,Win11 Cloud VDI - pca (l1300),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-SH2-Managers,GITHUB-SH2-Contributors,GITHUB-SH2-Viewers
-SHT,PAMTC WEBSITE,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-SHT-Managers,GITHUB-SHT-Contributors,GITHUB-SHT-Viewers
-SJU,IOT COE,low,SI.WAYNE.LONG@prudential.com.my,GITHUB-SJU-Managers,GITHUB-SJU-Contributors,GITHUB-SJU-Viewers
-SKH,DPAS,low,null,null,null,null
-SMA,Campaign Master,medium,Ravin.Mittapally@prudentialplc.co.in,GITHUB-SMA-Managers,GITHUB-SMA-Contributors,GITHUB-SMA-Viewers
-SMV,PSP,low,lesley.lee@prudential.com.my,GITHUB-SMV-Managers,GITHUB-SMV-Contributors,GITHUB-SMV-Viewers
-SN2,Whatsapp Business,low,AjiRachmatCiptawijaya@prudential.co.id,GITHUB-SN2-Managers,GITHUB-SN2-Contributors,GITHUB-SN2-Viewers
-SNX,Wealth,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-SNX-Managers,GITHUB-SNX-Contributors,GITHUB-SNX-Viewers
-SQ4,Global Secret Mngt Service (HashiCorp Vault),high,null,null,null,null
-SQP,PLTPN,low,Charassri.Prakongsai@prudential.co.th,GITHUB-SQP-Managers,GITHUB-SQP-Contributors,GITHUB-SQP-Viewers
-SQV,PruPlus,high,Siriphat.Oumtrakul@prudential.co.th,GITHUB-SQV-Managers,GITHUB-SQV-Contributors,GITHUB-SQV-Viewers
-SR7,PTPLA Power BI Data Gateway,low,Han.Hartono@prudential.co.id,GITHUB-SR7-Managers,GITHUB-SR7-Contributors,GITHUB-SR7-Viewers
-SRZ,EIS GBWM,low,jon.freeman@eastspring.com,GITHUB-SRZ-Managers,GITHUB-SRZ-Contributors,GITHUB-SRZ-Viewers
-SSC,IGOAL,high,William.KH.Wang@eastspring.com,GITHUB-SSC-Managers,GITHUB-SSC-Contributors,GITHUB-SSC-Viewers
-SSZ,Failure Demand,low,null,null,null,null
-STH,PLAL - Microsite,low,tabish.masroor@prudential.com.kh,GITHUB-STH-Managers,GITHUB-STH-Contributors,GITHUB-STH-Viewers
-SUX,DCMS Integration,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-SUX-Managers,GITHUB-SUX-Contributors,GITHUB-SUX-Viewers
-SWC,CS Logic app,low,jacky.kc.chan@prudential.com.hk,GITHUB-SWC-Managers,GITHUB-SWC-Contributors,GITHUB-SWC-Viewers
-SWG,Sharepoint Online,low,desmond.hk.choong@prubsn.com.my,GITHUB-SWG-Managers,GITHUB-SWG-Contributors,GITHUB-SWG-Viewers
-SY4,Network Detection and Response,low,Fook.Cheong.Yong@prudential.com.sg,GITHUB-SY4-Managers,GITHUB-SY4-Contributors,GITHUB-SY4-Viewers
-SYG,GTE PMA - Azure Data Stack,low,null,null,null,null
-SZQ,DCMS,low,andy.lo@prudential.com.hk,GITHUB-SZQ-Managers,GITHUB-SZQ-Contributors,GITHUB-SZQ-Viewers
-SZU,PCLASTP,medium,vichet.lay@prudential.com.kh,GITHUB-SZU-Managers,GITHUB-SZU-Contributors,GITHUB-SZU-Viewers
-T2K,PruForce,high,minnie.yoneyama@prulifeuk.com.ph,GITHUB-T2K-Managers,GITHUB-T2K-Contributors,GITHUB-T2K-Viewers
-T47,Splunk Integration,low,karthik.es@prudential.com.sg,GITHUB-T47-Managers,GITHUB-T47-Contributors,GITHUB-T47-Viewers
-T6U,PULSE,low,Syam.Bandi@prudential.com.sg,GITHUB-T6U-Managers,GITHUB-T6U-Contributors,GITHUB-T6U-Viewers
-T8P,iFileClaim,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-T8P-Managers,GITHUB-T8P-Contributors,GITHUB-T8P-Viewers
-T9D,Customer Non Pulse,high,ThomasIvantoro.Prasetyo@prudential.co.id,GITHUB-T9D-Managers,GITHUB-T9D-Contributors,GITHUB-T9D-Viewers
-T9E,VDI,low,null,null,null,null
-TAQ,IFRS 17,medium,matthew.sl.yeung@prudential.com.hk,GITHUB-TAQ-Managers,GITHUB-TAQ-Contributors,GITHUB-TAQ-Viewers
-TB9,PLT,low,Ekapop.Boonrote@prudential.co.th,GITHUB-TB9-Managers,GITHUB-TB9-Contributors,GITHUB-TB9-Viewers
-TBR,PAMB-HAS,low,qing.perk.goh@prudential.com.my,GITHUB-TBR-Managers,GITHUB-TBR-Contributors,GITHUB-TBR-Viewers
-TC8,PCLAPSEZ,medium,vichet.lay@prudential.com.kh,GITHUB-TC8-Managers,GITHUB-TC8-Contributors,GITHUB-TC8-Viewers
-TDH,PruLifeUK Claims Management System,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-TDH-Managers,GITHUB-TDH-Contributors,GITHUB-TDH-Viewers
-TDV,GTP-Finance Test CoE,low,rakesh.gohil@prudential.com.hk,GITHUB-TDV-Managers,GITHUB-TDV-Contributors,GITHUB-TDV-Viewers
-TE8,IAC,low,Clement.Tan@prudential.com.sg,GITHUB-TE8-Managers,GITHUB-TE8-Contributors,GITHUB-TE8-Viewers
-TER,Digital Service,low,null,null,null,null
-TET,CM and CMOD Cloud Migration,medium,raymond.km.hsieh@prudential.com.hk,GITHUB-TET-Managers,GITHUB-TET-Contributors,GITHUB-TET-Viewers
-TGJ,SFS,low,dax.yl.cheng@prudential.com.my,GITHUB-TGJ-Managers,GITHUB-TGJ-Contributors,GITHUB-TGJ-Viewers
-TGT,Calculator,low,Lihour.Tang@prudential.com.kh,GITHUB-TGT-Managers,GITHUB-TGT-Contributors,GITHUB-TGT-Viewers
-TJ6,Network Detection and Response,low,Fook.Cheong.Yong@prudential.com.sg,GITHUB-TJ6-Managers,GITHUB-TJ6-Contributors,GITHUB-TJ6-Viewers
-TJT,IBSOIC Gateway,low,Adapon.Songkadi@prudential.co.th,GITHUB-TJT-Managers,GITHUB-TJT-Contributors,GITHUB-TJT-Viewers
-TKA,Remote Desktop Gateway,low,null,null,null,null
-TN3,Pruone Workflow,high,jonathan.l.calatrava@prulifeuk.com.ph,GITHUB-TN3-Managers,GITHUB-TN3-Contributors,GITHUB-TN3-Viewers
-TPG,Win11 Cloud VDI - pca (k1100),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-TPG-Managers,GITHUB-TPG-Contributors,GITHUB-TPG-Viewers
-TPK,OPM Reports,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-TPK-Managers,GITHUB-TPK-Contributors,GITHUB-TPK-Viewers
-TQG,Automation,low,SEBASTIEN.CHONG@prudential.com.cn,GITHUB-TQG-Managers,GITHUB-TQG-Contributors,GITHUB-TQG-Viewers
-TS9,Ruby Advice,low,Felix.He@prudential.com.cn,GITHUB-TS9-Managers,GITHUB-TS9-Contributors,GITHUB-TS9-Viewers
-TSY,hklife esso,low,andy.hc.lau@prudential.com.hk,GITHUB-TSY-Managers,GITHUB-TSY-Contributors,GITHUB-TSY-Viewers
-TTF,Anaplan,low,jayaraman.sudhakar@prudential.com.sg,GITHUB-TTF-Managers,GITHUB-TTF-Contributors,GITHUB-TTF-Viewers
-TTG,PRUGENius,high,raymond.km.hsieh@prudential.com.hk,GITHUB-TTG-Managers,GITHUB-TTG-Contributors,GITHUB-TTG-Viewers
-TX3,PHKL PRUServices,high,johnny.yb.sze@prudential.com.hk,GITHUB-TX3-Managers,GITHUB-TX3-Contributors,GITHUB-TX3-Viewers
-TYY,PruThiDau,medium,pt.long@prudential.com.vn,GITHUB-TYY-Managers,GITHUB-TYY-Contributors,GITHUB-TYY-Viewers
-TZW,Asset Master,low,Vamsi.VN.Naidu@prudential.com.hk,GITHUB-TZW-Managers,GITHUB-TZW-Contributors,GITHUB-TZW-Viewers
-U46,BitBucket Archive,low,abhinay.etikalapadu@prudential.com.sg,GITHUB-U46-Managers,GITHUB-U46-Contributors,GITHUB-U46-Viewers
-U5X,Workflow,high,Bharat.Dhir@prudential.com.sg,GITHUB-U5X-Managers,GITHUB-U5X-Contributors,GITHUB-U5X-Viewers
-U62,GTE CF Self-Service Tool - Vault IAM,medium,Alex.Khaerov@prudential.com.sg,GITHUB-U62-Managers,GITHUB-U62-Contributors,GITHUB-U62-Viewers
-U67,Agency eBriefcase,low,nathaniel.kw.cheung@prudential.com.hk,GITHUB-U67-Managers,GITHUB-U67-Contributors,GITHUB-U67-Viewers
-U69,Win11 Cloud VDI - rits,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-U69-Managers,GITHUB-U69-Contributors,GITHUB-U69-Viewers
-U6M,Simple CRM,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-U6M-Managers,GITHUB-U6M-Contributors,GITHUB-U6M-Viewers
-U6X,RITS,low,wong.kong.yew@prudential.com.my,GITHUB-U6X-Managers,GITHUB-U6X-Contributors,GITHUB-U6X-Viewers
-U7B,esso,low,ricco.py.ho@prudential.com.hk,GITHUB-U7B-Managers,GITHUB-U7B-Contributors,GITHUB-U7B-Viewers
-U8D,Win11 Cloud VDI - MYPBTB,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-U8D-Managers,GITHUB-U8D-Contributors,GITHUB-U8D-Viewers
-U9F,Security,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-U9F-Managers,GITHUB-U9F-Contributors,GITHUB-U9F-Viewers
-UAH,EBSME,low,Thejus.A@prudentialplc.co.in,GITHUB-UAH-Managers,GITHUB-UAH-Contributors,GITHUB-UAH-Viewers
-UAJ,ePA,high,steve.sl.tso@prudential.com.hk,GITHUB-UAJ-Managers,GITHUB-UAJ-Contributors,GITHUB-UAJ-Viewers
-UCD,Partner PAMB,low,rachel.wp.lee@prudential.com.my,GITHUB-UCD-Managers,GITHUB-UCD-Contributors,GITHUB-UCD-Viewers
-UCY,CAP Cloud Migration,low,qing.perk.goh@prudential.com.my,GITHUB-UCY-Managers,GITHUB-UCY-Contributors,GITHUB-UCY-Viewers
-UDG,Pulse-Messaging-Service,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-UDG-Managers,GITHUB-UDG-Contributors,GITHUB-UDG-Viewers
-UDK,Teams,low,null,null,null,null
-UE7,PruBooking,low,nathaniel.kw.cheung@prudential.com.hk,GITHUB-UE7-Managers,GITHUB-UE7-Contributors,GITHUB-UE7-Viewers
-UEH,VM Operations - RTPRU1,low,uma.maheswari@prudential.com.sg,GITHUB-UEH-Managers,GITHUB-UEH-Contributors,GITHUB-UEH-Viewers
-UFJ,PruForce,medium,tabish.masroor@prudential.com.kh,GITHUB-UFJ-Managers,GITHUB-UFJ-Contributors,GITHUB-UFJ-Viewers
-UG8,NUIX,medium,steve.yy.tam@prudential.com.hk,GITHUB-UG8-Managers,GITHUB-UG8-Contributors,GITHUB-UG8-Viewers
-UGH,Core System,high,William.KH.Wang@eastspring.com,GITHUB-UGH-Managers,GITHUB-UGH-Contributors,GITHUB-UGH-Viewers
-UHH,CONTACTS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-UHH-Managers,GITHUB-UHH-Contributors,GITHUB-UHH-Viewers
-UJP,Win11 Cloud VDI - pca (e1301),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-UJP-Managers,GITHUB-UJP-Contributors,GITHUB-UJP-Viewers
-UJQ,ES 3.0 ODM,high,gomathi.sankar.ramakrishnan@eastspring.com,GITHUB-UJQ-Managers,GITHUB-UJQ-Contributors,GITHUB-UJQ-Viewers
-UJU,Underwriting eDatasheet,low,n.nhattai@prudential.com.vn,GITHUB-UJU-Managers,GITHUB-UJU-Contributors,GITHUB-UJU-Viewers
-UKB,IOC Cloud Ops,low,srinivas.vaddi@prudential.com.sg,GITHUB-UKB-Managers,GITHUB-UKB-Contributors,GITHUB-UKB-Viewers
-UMJ,PLUK UDP,low,randy.d.perez@prulifeuk.com.ph,GITHUB-UMJ-Managers,GITHUB-UMJ-Contributors,GITHUB-UMJ-Viewers
-UMY,Online Quotation Application,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-UMY-Managers,GITHUB-UMY-Contributors,GITHUB-UMY-Viewers
-UP7,Win11 Cloud VDI - P1401,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-UP7-Managers,GITHUB-UP7-Contributors,GITHUB-UP7-Viewers
-URM,Integration Platform Services,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-URM-Managers,GITHUB-URM-Contributors,GITHUB-URM-Viewers
-URX,PAMTCAdmin,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-URX-Managers,GITHUB-URX-Contributors,GITHUB-URX-Viewers
-US7,PAMB - SI Regen,low,Foo.Chui.San@prudential.com.my,GITHUB-US7-Managers,GITHUB-US7-Contributors,GITHUB-US7-Viewers
-USE,AIDA AI,low,madhan.seduraman@prudential.com.sg,GITHUB-USE-Managers,GITHUB-USE-Contributors,GITHUB-USE-Viewers
-USV,IDMS DMS (DBSCM),low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-USV-Managers,GITHUB-USV-Contributors,GITHUB-USV-Viewers
-UTF,PVA - PRUfrontend,low,l.dinhtam@prudential.com.vn,GITHUB-UTF-Managers,GITHUB-UTF-Contributors,GITHUB-UTF-Viewers
-UTK,Project Platform Services,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-UTK-Managers,GITHUB-UTK-Contributors,GITHUB-UTK-Viewers
-UUM,PRUWorks,high,raymond.km.hsieh@prudential.com.hk,GITHUB-UUM-Managers,GITHUB-UUM-Contributors,GITHUB-UUM-Viewers
-UUR,Business Automation Workflow,medium,ng.sei.weng@prudential.com.my,GITHUB-UUR-Managers,GITHUB-UUR-Contributors,GITHUB-UUR-Viewers
-UVJ,AES,high,steve.sl.tso@prudential.com.hk,GITHUB-UVJ-Managers,GITHUB-UVJ-Contributors,GITHUB-UVJ-Viewers
-UVK,datalake,low,Chester.CC.Lim@pcalife.com.tw,GITHUB-UVK-Managers,GITHUB-UVK-Contributors,GITHUB-UVK-Viewers
-UY3,sub and release,low,rachel.wp.lee@prudential.com.my,GITHUB-UY3-Managers,GITHUB-UY3-Contributors,GITHUB-UY3-Viewers
-UZU,Actuarial,low,null,null,null,null
-V2K,GISP EPT API,low,chong.sheng.goh@prudential.com.my,GITHUB-V2K-Managers,GITHUB-V2K-Contributors,GITHUB-V2K-Viewers
-V43,GCP-GUDP-CCK,high,Ravin.Mittapally@prudentialplc.co.in,GITHUB-V43-Managers,GITHUB-V43-Contributors,GITHUB-V43-Viewers
-V47,Zambia Applications,low,bornwell@prudential.co.zm,GITHUB-V47-Managers,GITHUB-V47-Contributors,GITHUB-V47-Viewers
-V49,BACK TO PRU,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-V49-Managers,GITHUB-V49-Contributors,GITHUB-V49-Viewers
-V4E,AICoE Smart Claim,low,steven.sc.chau@prudential.com.hk,GITHUB-V4E-Managers,GITHUB-V4E-Contributors,GITHUB-V4E-Viewers
-V4P,Operator Server,low,simon.dw.lee@prudential.com.hk,GITHUB-V4P-Managers,GITHUB-V4P-Contributors,GITHUB-V4P-Viewers
-V68,Pulse Health,low,Felix.He@prudential.com.cn,GITHUB-V68-Managers,GITHUB-V68-Contributors,GITHUB-V68-Viewers
-V69,EISG Dataparser,medium,mura.muthirevula@eastspring.com,GITHUB-V69-Managers,GITHUB-V69-Contributors,GITHUB-V69-Viewers
-V6Y,PruCashier,medium,ron.ky.chan@prudential.com.hk,GITHUB-V6Y-Managers,GITHUB-V6Y-Contributors,GITHUB-V6Y-Viewers
-V85,E-Printing,medium,n.nhattai@prudential.com.vn,GITHUB-V85-Managers,GITHUB-V85-Contributors,GITHUB-V85-Viewers
-V99,HR File Server,low,tony.mh.fu@prudential.com.hk,GITHUB-V99-Managers,GITHUB-V99-Contributors,GITHUB-V99-Viewers
-V9P,Underwriting Aggregation Program,medium,Tan.See.Aik@prudential.com.my,GITHUB-V9P-Managers,GITHUB-V9P-Contributors,GITHUB-V9P-Viewers
-VAK,PruPay,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-VAK-Managers,GITHUB-VAK-Contributors,GITHUB-VAK-Viewers
-VCJ,Kenya Applications,low,Gideon.Wachira@prudentiallife.co.ke,GITHUB-VCJ-Managers,GITHUB-VCJ-Contributors,GITHUB-VCJ-Viewers
-VEN,Win11 Cloud VDI - pamb,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-VEN-Managers,GITHUB-VEN-Contributors,GITHUB-VEN-Viewers
-VGE,PruAwesomeHub,medium,Samarn.Kumwelo@prudential.co.th,GITHUB-VGE-Managers,GITHUB-VGE-Contributors,GITHUB-VGE-Viewers
-VHS,Bank Reconcile,low,Charassri.Prakongsai@prudential.co.th,GITHUB-VHS-Managers,GITHUB-VHS-Contributors,GITHUB-VHS-Viewers
-VJJ,ePOS,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-VJJ-Managers,GITHUB-VJJ-Contributors,GITHUB-VJJ-Viewers
-VJP,PAMB-CWP,low,qing.perk.goh@prudential.com.my,GITHUB-VJP-Managers,GITHUB-VJP-Contributors,GITHUB-VJP-Viewers
-VKS,Home Address Management,low,wayne.ky.lam@prudential.com.hk,GITHUB-VKS-Managers,GITHUB-VKS-Contributors,GITHUB-VKS-Viewers
-VMS,FundPricing_CWS,low,nurul.aida.farisa@prudential.com.my,GITHUB-VMS-Managers,GITHUB-VMS-Contributors,GITHUB-VMS-Viewers
-VNE,PTPLA Pruworks New System,low,Paulus.Yansen@prudential.co.id,GITHUB-VNE-Managers,GITHUB-VNE-Contributors,GITHUB-VNE-Viewers
-VNH,GTO GICC Global Integrated Command Centre,high,RaghuPol@prudential.com.sg,null,null,null
-VNU,Optimus,high,akshay.ahuja@eastspring.com,GITHUB-VNU-Managers,GITHUB-VNU-Contributors,GITHUB-VNU-Viewers
-VPU,IFRS17-PLT,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-VPU-Managers,GITHUB-VPU-Contributors,GITHUB-VPU-Viewers
-VSD,GISP Thales HSM and CipherTrust Manager,low,null,null,null,null
-VU4,gwia,low,shafi.ahmed@prudential.com.sg,GITHUB-VU4-Managers,GITHUB-VU4-Contributors,GITHUB-VU4-Viewers
-VUP,Renova,low,null,null,null,null
-VYW,VM Operations - SGRTSS,low,uma.maheswari@prudential.com.sg,GITHUB-VYW-Managers,GITHUB-VYW-Contributors,GITHUB-VYW-Viewers
-VZ2,PAMB APIM,low,kim.chan.gan@prudential.com.my,GITHUB-VZ2-Managers,GITHUB-VZ2-Contributors,GITHUB-VZ2-Viewers
-VZN,PCACWS - IOC Cloud Ops,low,Anson.CH.Cheung@prudential.com.hk,GITHUB-VZN-Managers,GITHUB-VZN-Contributors,GITHUB-VZN-Viewers
-W2Y,Avaya,low,null,null,null,null
-W3K,PROD: VM Operations - THLIFE PRODUCTION,low,uma.maheswari@prudential.com.sg,GITHUB-W3K-Managers,GITHUB-W3K-Contributors,GITHUB-W3K-Viewers
-W5F,CreditShield,low,qing.perk.goh@prudential.com.my,GITHUB-W5F-Managers,GITHUB-W5F-Contributors,GITHUB-W5F-Viewers
-W68,Six Sigma (PRES Connect),low,null,null,null,null
-W6F,Ecard,low,vichet.lay@prudential.com.kh,GITHUB-W6F-Managers,GITHUB-W6F-Contributors,GITHUB-W6F-Viewers
-W6W,PRUServices (New Pruaccess),low,chan.lai.see@prudential.com.sg,GITHUB-W6W-Managers,GITHUB-W6W-Contributors,GITHUB-W6W-Viewers
-W9C,Azure Kubernetes Service,low,ben.yl.chui@prudential.com.hk,GITHUB-W9C-Managers,GITHUB-W9C-Contributors,GITHUB-W9C-Viewers
-W9G,MYLIFE - SI Regen,low,Foo.Chui.San@prudential.com.my,GITHUB-W9G-Managers,GITHUB-W9G-Contributors,GITHUB-W9G-Viewers
-WD8,AIOCE,low,T.Huynh@prudential.com.vn,GITHUB-WD8-Managers,GITHUB-WD8-Contributors,GITHUB-WD8-Viewers
-WDA,GISP - SEO - GitHubReadOnlyAccess,high,Winston.Lim@prudential.com.sg,GITHUB-WDA-Managers,GITHUB-WDA-Contributors,GITHUB-WDA-Viewers
-WDF,Matchbook,medium,l.dinhtam@prudential.com.vn,GITHUB-WDF-Managers,GITHUB-WDF-Contributors,GITHUB-WDF-Viewers
-WDU,customer,low,null,null,null,null
-WFJ,MI,low,null,null,null,null
-WHM,MIS Collibra Edge Server,low,Nur.Widyanto@prudential.co.id,GITHUB-WHM-Managers,GITHUB-WHM-Contributors,GITHUB-WHM-Viewers
-WKT,PTPLA Billing,low,null,null,null,null
-WMB,CPR,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-WMB-Managers,GITHUB-WMB-Contributors,GITHUB-WMB-Viewers
-WMJ,IRASCOM,low,subashree.ramesh@prudential.com.sg,GITHUB-WMJ-Managers,GITHUB-WMJ-Contributors,GITHUB-WMJ-Viewers
-WMP,Prudentity,low,Scott.Tan@prudential.com.sg,GITHUB-WMP-Managers,GITHUB-WMP-Contributors,GITHUB-WMP-Viewers
-WMX,Win11 Cloud VDI - pca (c2250),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-WMX-Managers,GITHUB-WMX-Contributors,GITHUB-WMX-Viewers
-WQW,App Insights,low,null,null,null,null
-WRH,GTE CF Azure Terraform Modules GitHub Repositories,medium,Anton.Larkin@prudential.com.sg,GITHUB-WRH-Managers,GITHUB-WRH-Contributors,GITHUB-WRH-Viewers
-WSQ,FFP – Actuarial Ecosystems,high,Vidhya.M.Majunatha@prudential.com.hk,GITHUB-WSQ-Managers,GITHUB-WSQ-Contributors,GITHUB-WSQ-Viewers
-WSW,Pulse Food SDK,low,Felix.He@prudential.com.cn,GITHUB-WSW-Managers,GITHUB-WSW-Contributors,GITHUB-WSW-Viewers
-WT4,IGW-delete,medium,kim.chan.gan@prudential.com.my,null,null,null
-WVV,SMS,low,null,null,null,null
-WW6,File Server - SFS,low,jayhson.ronario.ipi@prulifeuk.com.ph,GITHUB-WW6-Managers,GITHUB-WW6-Contributors,GITHUB-WW6-Viewers
-WWM,hklife varonis,low,pele.kn.cheung@prudential.com.hk,GITHUB-WWM-Managers,GITHUB-WWM-Contributors,GITHUB-WWM-Viewers
-WWT,Magnum 4X,low,null,null,null,null
-WXK,Sigma,low,howard.hd.kwong@prudential.com.hk,GITHUB-WXK-Managers,GITHUB-WXK-Contributors,GITHUB-WXK-Viewers
-WXR,EPF,low,rachel.wp.lee@prudential.com.my,GITHUB-WXR-Managers,GITHUB-WXR-Contributors,GITHUB-WXR-Viewers
-WXV,Solvency,medium,akshay.ahuja@eastspring.com,GITHUB-WXV-Managers,GITHUB-WXV-Contributors,GITHUB-WXV-Viewers
-WYG,Qualys,low,wong.kong.yew@prudential.com.my,GITHUB-WYG-Managers,GITHUB-WYG-Contributors,GITHUB-WYG-Viewers
-X2J,PLT EAxAI BAU,medium,Patawee.Chaiarksornwech@prudential.co.th,GITHUB-X2J-Managers,GITHUB-X2J-Contributors,GITHUB-X2J-Viewers
-X3C,Win11 Cloud VDI - ai coe,high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-X3C-Managers,GITHUB-X3C-Contributors,GITHUB-X3C-Viewers
-X3J,ipe application,low,avel.e.villamin@prulifeuk.com.ph,GITHUB-X3J-Managers,GITHUB-X3J-Contributors,GITHUB-X3J-Viewers
-X3Z,PRUChat,low,Tan.See.Aik@prudential.com.my,GITHUB-X3Z-Managers,GITHUB-X3Z-Contributors,GITHUB-X3Z-Viewers
-X6J,One Pulse Integration Template,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-X6J-Managers,GITHUB-X6J-Contributors,GITHUB-X6J-Viewers
-X6U,PLUK ESU,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-X6U-Managers,GITHUB-X6U-Contributors,GITHUB-X6U-Viewers
-X7Y,Prophet Enterprise Manager (PEM),low,kim.kh.leong@prudential.com.hk,GITHUB-X7Y-Managers,GITHUB-X7Y-Contributors,GITHUB-X7Y-Viewers
-X8E,VM Operations - PSS,low,uma.maheswari@prudential.com.sg,GITHUB-X8E-Managers,GITHUB-X8E-Contributors,GITHUB-X8E-Viewers
-X8G,VM Operations - IDLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-X8G-Managers,GITHUB-X8G-Contributors,GITHUB-X8G-Viewers
-X8S,PVA - ITO,low,pt.long@prudential.com.vn,GITHUB-X8S-Managers,GITHUB-X8S-Contributors,GITHUB-X8S-Viewers
-X9P,RIS,high,samuel.tan@prudential.com.hk,GITHUB-X9P-Managers,GITHUB-X9P-Contributors,GITHUB-X9P-Viewers
-XBT,SSO,low,T.Huynh@prudential.com.vn,GITHUB-XBT-Managers,GITHUB-XBT-Contributors,GITHUB-XBT-Viewers
-XDV,Monitoring,low,Graeme.kelly@prudential.com.sg,GITHUB-XDV-Managers,GITHUB-XDV-Contributors,GITHUB-XDV-Viewers
-XEY,SUNGL,medium,vannak.suon@prudential.com.kh,GITHUB-XEY-Managers,GITHUB-XEY-Contributors,GITHUB-XEY-Viewers
-XF4,PHKL - Pruonelite,low,null,null,null,null
-XFQ,PruThidau,low,l.dinhtam@prudential.com.vn,GITHUB-XFQ-Managers,GITHUB-XFQ-Contributors,GITHUB-XFQ-Viewers
-XGG,MyEastspring,low,azmi.raif@eastspring.com,GITHUB-XGG-Managers,GITHUB-XGG-Contributors,GITHUB-XGG-Viewers
-XGK,CoreTech,low,null,null,null,null
-XH6,MeChoice,low,l.dinhtam@prudential.com.vn,GITHUB-XH6-Managers,GITHUB-XH6-Contributors,GITHUB-XH6-Viewers
-XHK,PHKLHHAPIMCLAIMS,high,ron.ky.chan@prudential.com.hk,GITHUB-XHK-Managers,GITHUB-XHK-Contributors,GITHUB-XHK-Viewers
-XJA,ADF (Azure Data Factory),low,Kyaw.Zin.Bo@prudential.com.mm,GITHUB-XJA-Managers,GITHUB-XJA-Contributors,GITHUB-XJA-Viewers
-XJG,PACS-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-XJG-Managers,GITHUB-XJG-Contributors,GITHUB-XJG-Viewers
-XK2,thlife,low,Athikhom.Singhatao@prudential.co.th,GITHUB-XK2-Managers,GITHUB-XK2-Contributors,GITHUB-XK2-Viewers
-XM7,SALES DB,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-XM7-Managers,GITHUB-XM7-Contributors,GITHUB-XM7-Viewers
-XMA,Magnum PURE,high,henry.chan@prudential.com.hk,GITHUB-XMA-Managers,GITHUB-XMA-Contributors,GITHUB-XMA-Viewers
-XMM,PVA - HR Business Automation Portal,medium,nguyen.dinh.thinh@prudential.com.vn,GITHUB-XMM-Managers,GITHUB-XMM-Contributors,GITHUB-XMM-Viewers
-XMX,Collibra,low,Syam.Bandi@prudential.com.sg,GITHUB-XMX-Managers,GITHUB-XMX-Contributors,GITHUB-XMX-Viewers
-XNB,IFRS17-PCALT,medium,SudeekshaSooda@prudentialplc.co.in,GITHUB-XNB-Managers,GITHUB-XNB-Contributors,GITHUB-XNB-Viewers
-XP2,PHKLNBO,medium,kenny.tong@prudential.com.hk,GITHUB-XP2-Managers,GITHUB-XP2-Contributors,GITHUB-XP2-Viewers
-XP9,ForgeRock,low,null,null,null,null
-XPF,Software Engineering Templates,low,sanjay.singh@prudential.com.sg,GITHUB-XPF-Managers,GITHUB-XPF-Contributors,GITHUB-XPF-Viewers
-XPX,Corporate Website PFA,low,melissa.leo@prudential.com.sg,GITHUB-XPX-Managers,GITHUB-XPX-Contributors,GITHUB-XPX-Viewers
-XQ5,Ecashback,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-XQ5-Managers,GITHUB-XQ5-Contributors,GITHUB-XQ5-Viewers
-XQ6,GTE CF Automation Tool: Apigee configuration,medium,Anton.Larkin@prudential.com.sg,GITHUB-XQ6-Managers,GITHUB-XQ6-Contributors,GITHUB-XQ6-Viewers
-XQZ,AI claims,low,nathaniel.kw.cheung@prudential.com.hk,GITHUB-XQZ-Managers,GITHUB-XQZ-Contributors,GITHUB-XQZ-Viewers
-XRP,PCLALPS,medium,Malen.Sok@prudential.com.kh,GITHUB-XRP-Managers,GITHUB-XRP-Contributors,GITHUB-XRP-Viewers
-XSY,PSLA,low,Asrori.Hudri.Hariri@prudential.co.id,GITHUB-XSY-Managers,GITHUB-XSY-Contributors,GITHUB-XSY-Viewers
-XTE,PCALT UDP,high,Chester.CC.Lim@pcalife.com.tw,GITHUB-XTE-Managers,GITHUB-XTE-Contributors,GITHUB-XTE-Viewers
-XUS,Coupa (PruPay4U),low,pradeep.sebastian@prudential.com.sg,GITHUB-XUS-Managers,GITHUB-XUS-Contributors,GITHUB-XUS-Viewers
-XV5,PPC,low,null,null,null,null
-XVD,Data Streaming,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-XVD-Managers,GITHUB-XVD-Contributors,GITHUB-XVD-Viewers
-XW6,DCD,low,Vinoth.Kumar@prudential.com.sg,GITHUB-XW6-Managers,GITHUB-XW6-Contributors,GITHUB-XW6-Viewers
-XWF,Mendix,low,Adapon.Songkadi@prudential.co.th,GITHUB-XWF-Managers,GITHUB-XWF-Contributors,GITHUB-XWF-Viewers
-XXM,enterprise service bus,low,null,null,null,null
-XXY,OR Printer,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-XXY-Managers,GITHUB-XXY-Contributors,GITHUB-XXY-Viewers
-XZD,eSubmission,low,tracy.tsang@prudential.com.hk,GITHUB-XZD-Managers,GITHUB-XZD-Contributors,GITHUB-XZD-Viewers
-Y2R,FIS,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-Y2R-Managers,GITHUB-Y2R-Contributors,GITHUB-Y2R-Viewers
-Y2Y,PruSales Enterprise (PSE) PACS,high,sanjay.singh@prudential.com.sg,GITHUB-Y2Y-Managers,GITHUB-Y2Y-Contributors,GITHUB-Y2Y-Viewers
-Y4K,Symphony,low,Felix.He@prudential.com.cn,GITHUB-Y4K-Managers,GITHUB-Y4K-Contributors,GITHUB-Y4K-Viewers
-Y54,PVA - DNC,low,l.dinhtam@prudential.com.vn,GITHUB-Y54-Managers,GITHUB-Y54-Contributors,GITHUB-Y54-Viewers
-Y5Q,SVD,low,null,null,null,null
-Y68,GTIS Sandbox,low,Adam.Ataar@prudential.com.sg,GITHUB-Y68-Managers,GITHUB-Y68-Contributors,GITHUB-Y68-Viewers
-Y6S,SharePoint - PIL,low,matthew.sl.yeung@prudential.com.hk,GITHUB-Y6S-Managers,GITHUB-Y6S-Contributors,GITHUB-Y6S-Viewers
-Y6W,ITSS,low,minnie.yoneyama@prulifeuk.com.ph,GITHUB-Y6W-Managers,GITHUB-Y6W-Contributors,GITHUB-Y6W-Viewers
-Y7C,MMLIFE SVC,low,vichet.lay@prudential.com.kh,GITHUB-Y7C-Managers,GITHUB-Y7C-Contributors,GITHUB-Y7C-Viewers
-Y7K,SCC,low,Clement.Tan@prudential.com.sg,GITHUB-Y7K-Managers,GITHUB-Y7K-Contributors,GITHUB-Y7K-Viewers
-Y7P,hklife tfs,low,ricco.py.ho@prudential.com.hk,GITHUB-Y7P-Managers,GITHUB-Y7P-Contributors,GITHUB-Y7P-Viewers
-Y7R,TakafulNet Portal,medium,Tan.See.Aik@prudential.com.my,GITHUB-Y7R-Managers,GITHUB-Y7R-Contributors,GITHUB-Y7R-Viewers
-Y8N,GTE-Analytics,low,Kimberly.Loh@prudential.com.sg,GITHUB-Y8N-Managers,GITHUB-Y8N-Contributors,GITHUB-Y8N-Viewers
-YA9,OVO,low,Herdianto.H@prudential.co.id,GITHUB-YA9-Managers,GITHUB-YA9-Contributors,GITHUB-YA9-Viewers
-YB6,NBU Reports,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-YB6-Managers,GITHUB-YB6-Contributors,GITHUB-YB6-Viewers
-YCP,SVN Source Control,low,null,null,null,null
-YEM,PVA - ITO,low,Nguyen.Thanh.Trung@prudential.com.vn,GITHUB-YEM-Managers,GITHUB-YEM-Contributors,GITHUB-YEM-Viewers
-YG2,pruvnlife buildout technical,low,Anton.Larkin@prudential.com.sg,GITHUB-YG2-Managers,GITHUB-YG2-Contributors,GITHUB-YG2-Viewers
-YGE,PCALT Cloud Infrastructure Operation,low,Kenny.YC.Wu@pcalife.com.tw,GITHUB-YGE-Managers,GITHUB-YGE-Contributors,GITHUB-YGE-Viewers
-YGG,Security Library,high,ryan.l.armintia@prulifeuk.com.ph,GITHUB-YGG-Managers,GITHUB-YGG-Contributors,GITHUB-YGG-Viewers
-YGT,PCLA Biz Workbench,medium,Sokphea.Chea@prudential.com.kh,GITHUB-YGT-Managers,GITHUB-YGT-Contributors,GITHUB-YGT-Viewers
-YH8,PEL DGMT,low,null,null,null,null
-YHJ,New Business Workflow,high,Odianto.Odianto@prudential.co.id,GITHUB-YHJ-Managers,GITHUB-YHJ-Contributors,GITHUB-YHJ-Viewers
-YHU,Cloud ERP,low,sujith.kumar@eastspring.com,GITHUB-YHU-Managers,GITHUB-YHU-Contributors,GITHUB-YHU-Viewers
-YHY,Win11 Cloud VDI - pss (FCIU),high,Saurabh.Susvirkar@prudential.com.sg,GITHUB-YHY-Managers,GITHUB-YHY-Contributors,GITHUB-YHY-Viewers
-YKX,PAMB Shared Applications,high,lesley.lee@prudential.com.my,GITHUB-YKX-Managers,GITHUB-YKX-Contributors,GITHUB-YKX-Viewers
-YSH,Cloud EDW,low,Lawrence.TL.Cheung@prudential.com.hk,GITHUB-YSH-Managers,GITHUB-YSH-Contributors,GITHUB-YSH-Viewers
-YTQ,LPS and MIS,low,tabish.masroor@prudential.com.kh,GITHUB-YTQ-Managers,GITHUB-YTQ-Contributors,GITHUB-YTQ-Viewers
-YYC,PRUQLite,low,subashree.ramesh@prudential.com.sg,GITHUB-YYC-Managers,GITHUB-YYC-Contributors,GITHUB-YYC-Viewers
-YYE,Lead Tracking System - LTS,low,l.dinhtam@prudential.com.vn,GITHUB-YYE-Managers,GITHUB-YYE-Contributors,GITHUB-YYE-Viewers
-YZP,PAMB-CAU,low,qing.perk.goh@prudential.com.my,GITHUB-YZP-Managers,GITHUB-YZP-Contributors,GITHUB-YZP-Viewers
-Z2Z,NTU Reports,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-Z2Z-Managers,GITHUB-Z2Z-Contributors,GITHUB-Z2Z-Viewers
-Z3R,Code Templates,low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-Z3R-Managers,GITHUB-Z3R-Contributors,GITHUB-Z3R-Viewers
-Z5Z,GT Engineering Core Infrastructure,high,Alex.Khaerov@prudential.com.sg,GITHUB-Z5Z-Managers,GITHUB-Z5Z-Contributors,GITHUB-Z5Z-Viewers
-Z6Z,GPU,low,null,null,null,null
-Z7B,SCV (Database),low,ryan.l.armintia@prulifeuk.com.ph,GITHUB-Z7B-Managers,GITHUB-Z7B-Contributors,GITHUB-Z7B-Viewers
-Z7D,BCP Call Tree,low,l.dinhtam@prudential.com.vn,GITHUB-Z7D-Managers,GITHUB-Z7D-Contributors,GITHUB-Z7D-Viewers
-Z8G,PLT-APIM,high,Ekapop.Boonrote@prudential.co.th,GITHUB-Z8G-Managers,GITHUB-Z8G-Contributors,GITHUB-Z8G-Viewers
-Z8T,VM Operations - SGLIFE,low,uma.maheswari@prudential.com.sg,GITHUB-Z8T-Managers,GITHUB-Z8T-Contributors,GITHUB-Z8T-Viewers
-Z9C,PHKL POC Data Platform,low,Lawrence.TL.Cheung@prudential.com.hk,GITHUB-Z9C-Managers,GITHUB-Z9C-Contributors,GITHUB-Z9C-Viewers
-ZCZ,CIAM,low,melvin.carbajal@prudential.com.sg,GITHUB-ZCZ-Managers,GITHUB-ZCZ-Contributors,GITHUB-ZCZ-Viewers
-ZEN,VPMS,low,sin.yang.chin@prudential.com.my,GITHUB-ZEN-Managers,GITHUB-ZEN-Contributors,GITHUB-ZEN-Viewers
-ZHK,Azure AD Application (SSO) Self-Service,medium,Alex.Khaerov@prudential.com.sg,GITHUB-ZHK-Managers,GITHUB-ZHK-Contributors,GITHUB-ZHK-Viewers
-ZHS,E-Commerce,medium,l.dinhtam@prudential.com.vn,GITHUB-ZHS-Managers,GITHUB-ZHS-Contributors,GITHUB-ZHS-Viewers
-ZJK,str,medium,null,null,null,null
-ZJQ,eACR,low,matthew.sl.yeung@prudential.com.hk,GITHUB-ZJQ-Managers,GITHUB-ZJQ-Contributors,GITHUB-ZJQ-Viewers
-ZK2,Whatsapp Chatbot,low,lesley.lee@prudential.com.my,GITHUB-ZK2-Managers,GITHUB-ZK2-Contributors,GITHUB-ZK2-Viewers
-ZK8,PTLS-Imperva-WAF-Automation,medium,samuel.ng@prudential.com.sg,GITHUB-ZK8-Managers,GITHUB-ZK8-Contributors,GITHUB-ZK8-Viewers
-ZKA,Seven Sisters Integration,low,eddie.cheung@prudential.com.hk,GITHUB-ZKA-Managers,GITHUB-ZKA-Contributors,GITHUB-ZKA-Viewers
-ZMB,VM Operations - SGRSSS,low,uma.maheswari@prudential.com.sg,GITHUB-ZMB-Managers,GITHUB-ZMB-Contributors,GITHUB-ZMB-Viewers
-ZN6,PVA - APIM,high,nguyen.dinh.thinh@prudential.com.vn,GITHUB-ZN6-Managers,GITHUB-ZN6-Contributors,GITHUB-ZN6-Viewers
-ZNZ,Customer Porta,low,prajeesh.pm@prudential.com.sg,GITHUB-ZNZ-Managers,GITHUB-ZNZ-Contributors,GITHUB-ZNZ-Viewers
-ZQF,PruEntrepreneur,low,qing.perk.goh@prudential.com.my,GITHUB-ZQF-Managers,GITHUB-ZQF-Contributors,GITHUB-ZQF-Viewers
-ZQJ,Letter Generator,low,Tan.See.Aik@prudential.com.my,GITHUB-ZQJ-Managers,GITHUB-ZQJ-Contributors,GITHUB-ZQJ-Viewers
-ZQT,PHKL DevOps,low,tyrone.ky.chan@prudential.com.hk,GITHUB-ZQT-Managers,GITHUB-ZQT-Contributors,GITHUB-ZQT-Viewers
-ZQY,PCLATELEGRAM,medium,Lihour.Tang@prudential.com.kh,GITHUB-ZQY-Managers,GITHUB-ZQY-Contributors,GITHUB-ZQY-Viewers
-ZRF,PVA-ORACLE-POC,low,T.Huynh@prudential.com.vn,GITHUB-ZRF-Managers,GITHUB-ZRF-Contributors,GITHUB-ZRF-Viewers
-ZSD,PLT Azure Kubernetes Service,low,Ekapop.Boonrote@prudential.co.th,GITHUB-ZSD-Managers,GITHUB-ZSD-Contributors,GITHUB-ZSD-Viewers
-ZSP,PruPrompt,medium,Saranya.Thanrattanamongkhon@prudential.co.th,GITHUB-ZSP-Managers,GITHUB-ZSP-Contributors,GITHUB-ZSP-Viewers
-ZSS,Document Management,low,null,null,null,null
-ZTB,Azure DevOps,low,steve.sl.tso@prudential.com.hk,GITHUB-ZTB-Managers,GITHUB-ZTB-Contributors,GITHUB-ZTB-Viewers
-ZTE,PHKL - Databox,low,null,null,null,null
-ZTF,Azure Arc Extended Security Update,low,desmond.hk.choong@prubsn.com.my,GITHUB-ZTF-Managers,GITHUB-ZTF-Contributors,GITHUB-ZTF-Viewers
-ZUA,Polaris,low,winston.lim@prudential.com.sg,GITHUB-ZUA-Managers,GITHUB-ZUA-Contributors,GITHUB-ZUA-Viewers
-ZV5,Claims-API,low,edward.ak.tan@prudential.com.sg,GITHUB-ZV5-Managers,GITHUB-ZV5-Contributors,GITHUB-ZV5-Viewers
-ZWN,Splunk Integration,low,karthik.es@prudential.com.sg,GITHUB-ZWN-Managers,GITHUB-ZWN-Contributors,GITHUB-ZWN-Viewers
-ZX3,QR Service,low,rusmanto.wiriadinata@prudential.com.sg,GITHUB-ZX3-Managers,GITHUB-ZX3-Contributors,GITHUB-ZX3-Viewers
-ZY4,GTP Cloud DevOps,medium,Allen.Ling@prudential.com.sg,GITHUB-ZY4-Managers,GITHUB-ZY4-Contributors,GITHUB-ZY4-Viewers
-ZYM,Claim,low,madhan.seduraman@prudential.com.sg,GITHUB-ZYM-Managers,GITHUB-ZYM-Contributors,GITHUB-ZYM-Viewers
-ZYQ,VM Operations - SGRASS,low,uma.maheswari@prudential.com.sg,GITHUB-ZYQ-Managers,GITHUB-ZYQ-Contributors,GITHUB-ZYQ-Viewers
-ZZ2,PCS PAMB,high,lum.poh.khiam@prudential.com.my,GITHUB-ZZ2-Managers,GITHUB-ZZ2-Contributors,GITHUB-ZZ2-Viewers
-ZZH,AAD,low,rohit.gokhale@prudential.com.sg,GITHUB-ZZH-Managers,GITHUB-ZZH-Contributors,GITHUB-ZZH-Viewers
-ZZW,Customer Universe,low,Han.Hartono@prudential.co.id,GITHUB-ZZW-Managers,GITHUB-ZZW-Contributors,GITHUB-ZZW-Viewers
+code,name,criticality
+24X,Bank Recon System,high
+252,Kofax OCR,low
+25Y,PReS Connect,low
+26P,LA outsource sftp,low
+289,PCLAFNA,medium
+2A7,Win11 Cloud VDI - KHLIFE,high
+2AW,IFRS17ETL,high
+2CJ,DSR,low
+2D8,Win11 Cloud VDI - PHLIFE,high
+2DF,eInvoice(MoF Invoice standardized) Service,low
+2DK,WebSphere Upgrade to 9,low
+2E4,Collection System,low
+2HS,Client,low
+2J2,Messaging,low
+2J7,TEST AUTO,low
+2JC,TMS_DMTM,low
+2KN,CMS copy,medium
+2KX,PROCESSOR,low
+2M9,Automation Anywhere Cloud Migration,low
+2QH,AISUU,low
+2QK,ME 3.0,low
+2QR,TeeUp,low
+2R8,PHKL PRUOne,high
+2S6,Claims,low
+2TR,DevOps,low
+2XB,IOC Cloud Ops Ansible Roles,low
+2YV,PVA - Claims Document Fraud Detection,medium
+2YX,Imperva,low
+334,PRURIDER,low
+34Z,Prophet,low
+358,APIM- Finance Modernization,high
+35X,dgcoe_collibra,low
+36Q,Regional Claims System,medium
+37C,Smart Claim,low
+37F,PRUtxt,low
+3AP,Tango 4,low
+3B5,tfs,low
+3DE,PCLABGSVC,medium
+3EC,iQuotation,low
+3EY,api,low
+3F8,PHKL AKS,medium
+3KV,PruForce,low
+3KZ,IFRS17-PBTB,medium
+3M8,PHKL Payment Gateway,high
+3MP,Win11 Cloud VDI - IDLIFE,high
+3ND,PHKLSTT,low
+3NF,PLT IFRS17,medium
+3NW,Queue Management System,low
+3QS,Web Portal,low
+3R3,Prudential Financial Adviser,low
+3R7,Microservices API,medium
+3RG,PVA - Automation Testing,medium
+3RY,eForms (FrontEnd),low
+3SP,MagumPure UW,low
+3U7,PruRecruit,low
+3UZ,Unified Data Platform - UDP (aka. DataLake),low
+3W4,Redhat Satellite,low
+3WN,Prudirect,medium
+3WS,GCP Security Command Center Notification,low
+3WT,Prophet (Actuarial),low
+3WZ,GTE CF Self-Service Tool - APIM Config Repositories,medium
+3YA,Alteryx,low
+3YJ,SMS,high
+3YV,PLT APIs,low
+3ZS,GCP_Dev_Prophet,low
+42C,IOC Cloud Ops Ansible Playbooks,low
+42H,NB/POS FollowUp,low
+42M,Smart Claim,low
+433,EAI,low
+43P,PHKL SRE Monitoring,low
+443,Unified Asia End User VPN Service,high
+44S,JOBREQ,low
+457,eForms,low
+45M,Digital Platform,low
+46G,EIMY-Imperva-WAF-Automation,medium
+47P,agency portal,high
+48N,Tool Sets,low
+48Y,MMLIFECALCULATOR,low
+494,Online POE/OnePOS,high
+4AJ,Africa Sunrise,low
+4B5,Test Automation,low
+4CK,GTE CF Fabric layer components,medium
+4CZ,Fortify,low
+4D8,BPM,high
+4DC,Pulse Backend API,low
+4DX,PACSANALYTICS,low
+4EE,PRUSales Enterprise (PSE),low
+4EN,Puppet On-prem,high
+4FW,Payment Hub,low
+4H9,Citrix,low
+4HD,varonis,low
+4HP,PHKL FFP Actuarial,medium
+4JK,API HealthCheck,medium
+4KQ,CWS,medium
+4KR,Online Selling Portal,low
+4KS,Win11 Cloud VDI - P1100,high
+4MB,SMS Mitracomm,low
+4MG,AMLScreening (filesrv Tool),low
+4P5,3rd Party Payor AML,low
+4PC,CSBO,high
+4QA,AMS - Asset Management System,low
+4QV,RDCService,low
+4QW,Win11 Cloud VDI - pss(sdbo),high
+4SS,PTPLA RND,low
+4TD,PruLeads,low
+4VH,Timekeeping,low
+4W3,PRUWorks,high
+4WK,CustWebAPI,low
+4XK,logical sql server,low
+4YC,ES 3.0,low
+4Z4,Jimmy - GTO IT Integrated Dashboard (UAT),low
+4Z6,GISP-Imperva-WAF-Automation,medium
+527,PCLAPRUFP,medium
+52C,Kubernetes CloudGrid,medium
+52J,Win11 Cloud VDI - SGESIV,high
+53X,Couchbase,low
+54G,ePos,high
+54K,AKS,low
+588,PACS Core Infrastructure,low
+58F,PCLAMYPRU,medium
+5A4,VM Operations - LALIFE,low
+5AE,AKV,low
+5AH,One Pulse,low
+5BG,Win11 Cloud VDI - inlife,high
+5CT,Prulens,low
+5D6,Proposal Submission System,medium
+5DT,Win11 Cloud VDI - eis,high
+5DW,SAS,low
+5H6,iRequest,low
+5H9,Win11 Cloud VDI - TechM,high
+5M4,PLT INT,low
+5N4,Africa TACACS,medium
+5N9,Smart Claim,low
+5P7,eInvoice(PAMB),high
+5PR,Actuarial Cloud,low
+5QB,compliance,low
+5QM,NBAcustom activity app,low
+5QV,PRUClock,high
+5TR,FKAS,high
+5TS,Payment Gateway,medium
+5UZ,RightFax,low
+5VS,Kenya Application,low
+5W3,ForcePoint,medium
+5XF,eQuotes,high
+5XK,Common Bank Interface,low
+5XW,Win11 Cloud VDI - pss(proc),high
+5Y8,AKS Pruforce,high
+5YA,Group Actuarial,medium
+5ZQ,Claims AI,low
+625,Win11 Cloud VDI - AFPRHO,high
+63Z,eClaims (PruAccess),low
+642,Underwriting Aggregation Program,medium
+64A,AI OCR Service,medium
+64D,EB Portal,low
+64Z,EB,low
+66Y,PCLAPRUSERVICES,medium
+67U,Prudential Corporate Website,high
+69F,Blueprism,low
+69X,PRUOne Express (POE),high
+6A5,CTRLM,low
+6B6,ePayment,low
+6BC,CRM,low
+6E8,iPay,high
+6EY,IGW,low
+6H7,Kafka,low
+6HR,Jasper-PCS,medium
+6J2,AMS - Asset Management System,low
+6J3,APIM,low
+6JE,VM Operations - EISSS,low
+6JU,RTS,medium
+6MQ,MOS-Act,high
+6PK,PHKL - Operator server application,low
+6PQ,UDA,low
+6Q8,CusSearch,medium
+6RC,BPM STP,high
+6TF,One Pulse,low
+6UJ,PruAI Lab Sandbox,low
+6VD,EDIS,low
+6VS,IFRS17-PLUK,medium
+6WD,H2H,low
+6WR,windows_testing,low
+6YQ,PSF,low
+6YX,Observer IT,low
+6ZN,ePOS Zambia/Uganda,high
+72A,HRMS - Candidate Recruitment,medium
+72S,IFRS17-DEVOPS-CICD,medium
+72U,Prudential Corporate Website,high
+73G,SME,low
+743,UDP DataHub,high
+74P,EITH PVD Digital Platform,high
+75G,REAL TIME PROD,low
+76U,WelcomeVideo,high
+775,EITH-Imperva-WAF-Automation,medium
+77X,attunity,low
+7B3,FSVAL,low
+7BD,PreAuth - Smart Claims,low
+7BR,PVA-Legacymigration,medium
+7CY,e-Receipt,low
+7D4,UDP AI services,low
+7E2,CC MACRO,low
+7E9,IFRS,low
+7F8,Iheat,low
+7H7,Security Validation,low
+7HG,GwIA_DA_POCs,low
+7J8,Darktrace,low
+7JK,Elasticsearch,low
+7KM,Platform Automation Testing,high
+7M4,IFRS17-RHO,medium
+7MD,ECAP,low
+7N7,PRUJourney,low
+7PC,Cloud DB,low
+7QU,Bindplane,low
+7RM,PVA-PruServices,high
+7TY,Payroll System (HR2),low
+7U9,GISP - ESAI,low
+7V6,CCFA,low
+7VS,IMP,low
+7W4,Jenkins,low
+7WD,Sahi,low
+7XP,PVA - ITO,low
+7YK,GT Operations Sandbox,low
+7ZX,Smart Underwriting,low
+7ZZ,PLC IT,high
+829,SUNGL,low
+82A,Banca PAMB,low
+83K,pruexpert,low
+86Z,Kofax OCR,low
+87K,PRUHOUSE,high
+87P,PruAward,medium
+88D,Campaign Engine,low
+89S,PruNews,low
+8AH,CIS,low
+8AR,POC Kafka Platform,low
+8BS,GTE CF ISS Foundations (Azure/GCP),high
+8BX,Simple Policy Administration System (SPAS),medium
+8CY,Workflow,high
+8D3,IMLINKED,low
+8EV,Agent Funnel System,low
+8G5,Azure App insight,low
+8GB,One DPAS,low
+8HJ,EIS HERA 2.0,high
+8JA,AP,high
+8JJ,Win11 Cloud VDI - GIECA(E1301),high
+8KJ,TripWire,low
+8KX,MRS,high
+8M8,Collection System,high
+8NE,COUPA,low
+8PV,Numara,low
+8Q8,Financial Investment System,low
+8RW,Collection File converter,low
+8SE,PAL - PACS,low
+8UG,Epos,low
+8US,HR Feedback,low
+8V8,Splunk Integration,low
+8VN,McAfee,low
+8WH,VM Operations - MYLIFE,low
+8Z3,ChatUX,medium
+92P,PTPLA PRUForce,low
+938,Digital Platforms (DP),low
+93H,Shared Project,low
+93U,MMLIFE MICROSITE,low
+953,Single Enquiry Screen,low
+96Z,Partner Web,low
+97A,DevOps,low
+98M,VM Operations - THLIFE,low
+99F,PruShare,low
+99R,PRUINFO,low
+9B8,AML,low
+9BH,Magnum Pure,low
+9DA,EITH PVF Platform,high
+9FB,PAMB-IEP,low
+9G3,Jemma,low
+9GF,PBTB-Imperva-WAF-Automation,medium
+9HA,AICOE,low
+9J7,Jemma,low
+9J8,PVA-CMS,medium
+9JR,ePolicy,low
+9KP,PDC,low
+9MC,PruShoppe,low
+9MG,oracle,low
+9MU,Security Analytics,low
+9N9,PruAccess PACS,high
+9NK,Digital Platforms (DP),high
+9Q4,ALM,low
+9SV,iEMS,low
+9T5,Unified Observability Dashboard Service (Grafana OnePru),medium
+9TQ,LDAP,low
+9TT,Letters,low
+9V9,Kenya Applications,low
+9VV,myPrudential,medium
+9WF,Prophet CLS,low
+9Y7,IQS,low
+9YU,PLUK DevOps Tools,low
+A4B,Shared Redis for D2C Production,low
+A4D,Qliksense,low
+A5P,Payment Abstraction Layer,low
+A6M,File Server,low
+A72,IL_Transformer,low
+A7H,Messaging,low
+A7Y,Win11 Cloud VDI - pca(c2220),high
+A88,Quants,low
+AAD,PruDMTM,low
+AAE,APP BUILDER,high
+AAH,PLA,low
+AAT,IL AUTOMATION,low
+AAU,Policy Aggregation Service,high
+AB4,H2P,low
+ABU,IFRS17-PACS,medium
+ACA,PLUK-AMS,high
+ACW,TCA Database,high
+AD3,PDCMS,low
+AEN,Regional Claim System - RCS,medium
+AFX,EBS,high
+AG6,HRMS,low
+AGH,PVA-Epolicy,medium
+AGR,MLOps AICOE,low
+AH2,Jenkins BYOA,low
+AJG,ERecruitment Portal,medium
+AJH,VirtualGP,low
+AM6,GISP Shared Cluster,high
+AMS,PLUK Magnum Pure,low
+ANM,To be deleted - Prulife,high
+APP,PCLAB,medium
+APZ,iCM Inspire,low
+AQZ,Win11 Cloud VDI - R1500 Group Risk Oversight,high
+AR2,Electronic Direct Journal,low
+AR8,PrutopiaAppsAuthenticator,low
+ARQ,PVA - VIB ULP,medium
+ARX,AskPRU ChatBot,low
+ATM,IAMPRU Integration,low
+AU3,PruAI Lab Sandbox,low
+AUW,EIVN EastSpring Application,low
+AVG,Symphony Platform,high
+AVH,IBM ODM,low
+AVK,Payment Hub,low
+AVT,EITH MTF Platform,high
+AYG,PruServices,medium
+AZJ,Win11 Cloud VDI - MYLIFE,high
+AZK,RCC,low
+B2T,omni,low
+B4D,VM Operations - PCA,low
+B4W,Win11 Cloud VDI - PHL GTP Finance,high
+B7W,FFP A&R Workstream Project,high
+B7X,Prulife,high
+B85,FLEXIBEN,low
+B96,eSubmission monitoring,low
+BAV,EAI,low
+BAY,PRMS,low
+BC4,PruForce,medium
+BCQ,PruConnect,high
+BD2,Win11 Cloud VDI - pca (gh28800),high
+BDQ,CIC,low
+BE5,SSIS DEV,low
+BGG,Win11 Cloud VDI - plaz,high
+BHA,Qliksense,low
+BJJ,PruAI Lab Sandbox,low
+BKP,PHKL Github Migration,low
+BNX,Symphony,low
+BQE,Recruitment Portal,medium
+BRV,PACS,low
+BY7,EAI,medium
+BYV,AskPRU ChatBot,low
+C2F,CFS,low
+C2H,PAMB_DIST_CLOUD,low
+C2X,HKRBC,low
+C5P,tango,low
+C5W,APIM for PHLIFE (PLUK),high
+C68,PDAS,low
+C6S,Win11 Cloud VDI - PABC,high
+C9D,PHKLHHCLAIMSAPI,low
+CAF,Win11 Cloud VDI - pva,high
+CAM,CyberArk,low
+CB6,Life Goal (Prueshop),low
+CBV,PruForce,low
+CCX,IFRS,low
+CES,Win11 Cloud VDI - HKLIFE,high
+CF5,AMLA,low
+CFF,Monitoring,low
+CFJ,VM Operations - HKLIFE,low
+CFS,Prushoppe,low
+CGD,iFileClaims,low
+CHG,SOMS,low
+CM7,PruForce,low
+CNV,prutwlife buildout techinical,low
+CPS,RPA,low
+CPZ,PVA- Distribution Compensation,low
+CRC,AICOE,low
+CRN,GP Migration,high
+CSA,ITO-Altiris,low
+CTM,Smart Stream,low
+CTY,Azure - Global Firewall Rule for LBU Github Runner Private Networking,medium
+CUT,PruGenAI PACS,low
+CUV,Automation Pipeline,low
+CVY,ECorrespondence,high
+CWE,PVA - Self-Premium Calculator,medium
+CWS,Pulse Policy Explorer (PPE),low
+CXD,Actuary Server,low
+CXM,Unified Data Platform - UDP (aka. DataLake),low
+CYX,PVA-BCP,low
+CZC,enterprise,low
+D3X,SAM POC,medium
+D52,PLUK IT Security Service,low
+D5N,GSOC,low
+D74,GTOO Office Sandbox,low
+D75,PVA-PruGreat,medium
+D7Y,DynaTrace,low
+D8D,LPS and MIS,low
+D8F,SP,high
+DA4,PHKL Document Search Platform,low
+DAM,Branch Pack,low
+DBA,PSS Automation Hub,low
+DDH,Payment Platform,high
+DEH,iCommerce,low
+DEU,File Share,low
+DEV,Win11 Cloud VDI - pcla,high
+DF6,Win11 Cloud VDI - PCA (K1100),high
+DFT,Win11 Cloud VDI - MMLIFE,high
+DG7,Win11 Cloud VDI - Technology Risk Management CP24001,high
+DJF,Pru Hub,low
+DM3,PPMZ Applications,medium
+DPH,TellMe,low
+DPY,Oracle BI Publishers,low
+DQG,Unified Data Platform - UDP,low
+DRS,PLC OneStream,high
+DSA,IT SEC PORTAL,low
+DTK,Prophet,low
+DTQ,PVA - ITO,low
+DWN,Distribution Support e-Stock,low
+DX7,Pulse Microsite,low
+E7C,PCLA STP e-PolicyKit,medium
+E8M,PVA-Campaign,medium
+ED4,HP SiteScope,low
+EDD,PRUFast,high
+EDU,VDI,low
+EEB,GwIA TeamMate,low
+EFU,Platform Services,high
+EHN,CITS,low
+EK3,PC Printing System,low
+ENN,UDP Data Governance,low
+EP2,PRUForce,low
+EP7,ibm analytics,low
+EPP,PVA-ZNS,low
+ETA,GT DevOps,medium
+ETE,Inquiry Management System,high
+EUH,EITH MIS Platform,high
+EV3,Puppet Azure,high
+EWM,assurance,low
+EXM,Pru Life UK Hot House Repository,low
+EYS,EITH Special App System,high
+F2A,Kofax Signdoc,low
+F37,Unified Communication Platform,high
+F53,AIS,high
+F57,VM Operations - MYPBTB,low
+F7Y,Common Reporting Standard,low
+F86,PCALT OI,high
+F8H,RCC CRM,low
+F99,PHS,low
+F9Q,EISG MTMS Migration,high
+FAD,MiE University,low
+FAR,TKSV2,low
+FBD,GTE-Analytics,low
+FDR,CipherTrust,low
+FF6,IT Dashboard,low
+FFC,med-cms,low
+FH8,Pruchat,low
+FJA,CMS,medium
+FJW,eOR,low
+FK2,Infrastructure,low
+FKC,PVA - PruSecurity,low
+FMZ,Apache,low
+FPH,Statistical Analysis System(SAS) business intelligent(BI) Tool,medium
+FPK,Life Goal (Prueshop),low
+FRD,Magnum,medium
+FSQ,Dynatrace,low
+FTB,EIS (Enterprise Integration Services),low
+FTJ,AS400,low
+FTW,Group Account System,high
+FUE,SiRegen IL,low
+FW4,Power BI Data Gateway,low
+FWJ,PVA - ITO,low
+FX5,Quantexa,low
+FXH,PD Platform,high
+FYW,EFM,low
+FZ8,STT,low
+FZQ,prusglife buildout technical,low
+G47,SAAS,low
+G4R,Jimmy IT Integrated Dashboard,low
+G5T,SQS Offline,low
+G6A,PACS AKS Infrastructure,high
+G6H,Corporate Website (SiteCore),low
+G6K,AICOE,low
+G8T,DevOps Engineering,low
+G9H,PVA-Magnum 4x,low
+G9Q,adf and ssisdb,low
+GA6,eDoc,low
+GAB,PROPSYS,low
+GAT,SAAM,high
+GBA,Data Science,low
+GCK,VTS,low
+GD3,APIM - EITH PVD Digital Platform,high
+GFS,Premium Collection Web Backend Services - PCWeb,medium
+GG2,Business Process Manager,medium
+GG3,Splunk Integration,low
+GGU,Threat and Vulnerability Management,low
+GJE,Domain Controllers,low
+GJH,PCAMI,low
+GKG,VIBER BOT,low
+GM9,SAWF,medium
+GPM,Workflow,low
+GPQ,Pacsnet,low
+GSE,CyberArk,high
+GSN,PCLACSCMP,medium
+GTX,"MPP,OLD DIST,XCODE,DISTSS",low
+GUB,DPAS,low
+GUE,EBS - Enterprise Business Solutions,low
+GUJ,Win11 Cloud VDI - afr,high
+GV6,FCRM,medium
+GW3,CARA Testing,low
+GW8,GTE Cloud Economics,low
+GXA,sunsystems6,low
+GXX,PaC testing for GitHub,low
+GY9,Win11 Cloud VDI - LALIFE,high
+GZ2,SNOW License Manager and Inventory,high
+GZ9,PVD,low
+GZU,Win11 Cloud VDI - pca (D1600),high
+H34,Ghana Applications,low
+H3X,Investment Marketing Portal,low
+H5D,Centralized Screen System,low
+H5G,IAMPRU,low
+H63,GISP Splunk,low
+H67,PVA - IFRS17 - UDA,medium
+H6Q,eForm,medium
+H6Z,UnderWriteMe (UME),high
+H77,Symphony Platform,medium
+H79,TBC,low
+H7Q,WebPoS,medium
+H92,E-Recruit,low
+HAY,One Pulse,low
+HCV,PLUK-GL,high
+HDF,Outstanding Requirements,low
+HEM,vormetric,high
+HFU,One Pulse,low
+HGA,GTE Cloud Enablement and Ignition Projects,low
+HH2,Front End,high
+HHZ,PCLABAU,medium
+HJA,Win11 Cloud VDI - platform build,high
+HJD,PruGenAI,low
+HJN,eRecruitment,low
+HKW,Videris,low
+HMN,PVA,medium
+HN3,eForms,low
+HNU,RPA Automation Anywhere,medium
+HNV,Magnum4.x UW,low
+HP8,EITH MTMS Migration,high
+HPY,PCLASERV,medium
+HQ8,pltint,low
+HQH,Mitracomm,low
+HQW,FATCA,low
+HR7,STP Claim,medium
+HXS,GTE Network Golden Config,low
+HYH,EIS Cloud & DevOps,low
+HYR,Group Compliance,low
+HZ2,WeDoKOL,low
+J2J,PCALT Cloud Migration,low
+J3R,PruMap,medium
+J46,PACS APIM,high
+J4Y,Win11 Cloud VDI - pss(tpp),high
+J5G,PAM,high
+J5V,PLT Webview,medium
+J6X,Prophet,low
+J76,Web Application,low
+J87,PruOne,low
+J8J,Orchestron,low
+J92,Notices Database,low
+JB7,IFRS17-PGHK,medium
+JCK,FileServerCommon,low
+JCV,Green Lantern Coronavirus,low
+JD8,eACR,low
+JEJ,PBTB APIM,low
+JFD,PHKL PRUForce,low
+JG2,OPOE/OnePOS,medium
+JHH,PCA - Pulse For Operations,high
+JJQ,Win11 Cloud VDI - plt,high
+JN4,IWA-Internal Web Application,low
+JNE,RPA,low
+JNH,PVA - OCR Integration,medium
+JNJ,Download Server Application,low
+JP7,Pulse Ops PostgreSQL,high
+JPN,PVA - Contact Strategy,high
+JPR,OnlineCC (CyberSource),high
+JPY,Training Management System - TMS portal,medium
+JQ3,Win11 Cloud VDI - pca (h1800),high
+JQR,DPES Refer2earn,medium
+JRP,Payment Services,high
+JUP,plt devdb pltint,low
+JVZ,IVRS,low
+JWB,ESB Services,medium
+JXQ,Win11 Cloud VDI - pss(rt),high
+JXY,IDSS,low
+JY3,PVA - ITO,medium
+JYH,TS LS,low
+JZ5,PVA-ESB,medium
+JZV,PLT Datalake,low
+K2F,E-Claim,medium
+K3S,PRUCoach,low
+K4H,PCLALIBS,medium
+K6D,DPAS,low
+K7K,Bank Reconcilation System,low
+K88,GSOCAutomation,low
+K8G,Win11 Cloud VDI - cth,high
+K8T,Engineering Templates,low
+K9C,eFiled - Smart claims Adjudication,low
+K9M,PLT eDocument Services,medium
+K9U,Win11 Cloud VDI - P1400,high
+KAD,SMS,low
+KB4,QlikSense,low
+KD8,PVA-MB,medium
+KEH,phlife - web application,low
+KFP,IOC Cloud Ops DevOps,high
+KFT,jumpbox,medium
+KH4,DBNet,low
+KH9,GISP STO Automation,medium
+KHP,eaps-dp-pruquote,low
+KHQ,SCCM,low
+KHX,PRUCENTRE,low
+KJH,PMN,low
+KKG,PTPLA IT Release,high
+KPD,sunGL Accounting System,low
+KRY,Datasharing,low
+KSK,chatbot,low
+KSZ,PRUBuddy,low
+KT7,Correspondence Batch Print,high
+KU4,Askpru Lite,low
+KUQ,PHKL-Imperva-WAF-Automation,medium
+KXB,SpiderGate Call Recording File Manager,low
+KZK,VM Operations - AFRTSS,low
+KZZ,Pulse HotHouse,high
+M4C,PVADL,high
+M4Q,Network Detection and Response,low
+M5S,GTE Cloud Foundation Production Services,high
+M69,TMBAM Public Facing Applications,low
+M89,Zscaler Proxy,low
+MAR,ForgeRock,low
+MCV,ANH,low
+MD7,GPU OCR,low
+MDY,PruForce (COE),low
+MFA,Webapi,low
+MG4,Common Modules,low
+MHC,PRUReward,low
+MHV,SunGL,medium
+MJH,PruEntrepreneur,low
+MN2,Cloud Component Self Service Portal,high
+MNG,PRUBuddy,low
+MNR,PVA-Claim,medium
+MS2,DevSecOps,low
+MTJ,Automation Process,low
+MVE,Win11 Cloud VDI - 1AC,high
+MW9,File Uploader,high
+MWR,RTCIS Libraries,low
+MWY,GISP STO Automation2,medium
+MY7,Win11 Cloud VDI - VNLIFE,high
+MYB,Pruwayplus,high
+MYC,NB Workflow,high
+N2B,ACS,low
+N3M,PVA - ITO,low
+N3W,IFRS17-PVA,medium
+N54,PCA-Imperva-WAF-Automation,medium
+N5E,DPAS,low
+N6T,Prukasih,low
+N6Y,GTE CF Ansible Repositories (Playbooks and Roles),low
+N7M,PruConsent,low
+N7X,RAISe,low
+N9F,PBTB - PruBSN Navigator,low
+NA7,GISP SOAR,low
+NAY,MMLIFEPRUFP,low
+NCC,Backend Enablement,low
+NDF,PTPLA Cloud Infrastructure,high
+NE6,GICC Dynatrace,high
+NEN,Microsite,low
+NFS,MISP,low
+NHU,Core Technology,low
+NJM,CWS,high
+NJQ,PruPolicy,low
+NJT,DPAS,low
+NPA,IFRS17-PAMB,medium
+NQQ,OneHealth App,medium
+NTB,IFRS17-PCALTITN,medium
+NTS,CORS,low
+NXA,PVA-Newinvoice,medium
+NXF,AIS,low
+NYG,Scheduling and Monitoring,low
+NZB,Prophet,low
+NZT,Win11 Cloud VDI - THESIV,high
+P26,HR Payroll,low
+P2K,TE PAMB,medium
+P2N,CAPABILITY,low
+P3R,OnDemand,high
+P3Y,VM Operations - KHLIFE,low
+P55,Planner (New Project),low
+P59,OSS,low
+P69,Wealth,low
+P8D,NewPulse,high
+P8W,Cyberreason,high
+PA6,eFiled - Smart claims Adjudication,low
+PAW,Group Managed,low
+PDD,EIS,low
+PDN,PCLAM,medium
+PEN,IFRS17-PLAI,medium
+PES,PVA-PruLead,medium
+PFC,GTE Cloud Foundation Infra Foundation,high
+PFN,LifeOpsDashboard,low
+PFQ,PruQuote,medium
+PGH,PACS Kafka Rest Proxy,low
+PJ9,Environment Isolation Deployment Project,high
+PJZ,FFP - Financial Data Repository (FDR),low
+PM4,PVA - AAMS,low
+PMZ,Win11 Cloud VDI - EIJP,high
+PN6,PULSE Webapp,low
+PNV,POC,low
+PPU,Security application,low
+PQ6,Customer Web Portal,medium
+PQ9,PBTB - SMS & Email Portal,low
+PQJ,Vormetric Encryption,low
+PRN,CC MACRO,low
+PSH,eApproval,high
+PT5,VEOSSystems,high
+PV3,AI/ML Platform,low
+PVJ,eForms,low
+PX5,PERSISTENCY,low
+PZA,Bank Recon System,high
+Q2C,McAfee,low
+Q5R,Workflow,low
+Q6P,SuperDW,low
+Q7E,PAMB-Imperva-WAF-Automation,medium
+Q7J,CIS,low
+Q87,Finance Workflow,high
+Q8N,Pru Hub,low
+Q8S,Autorun,low
+QA2,Kofax,low
+QAN,PruAction,low
+QAU,Tango File Server,low
+QAW,TIMEPAGE,low
+QDD,Download Server Application,low
+QED,Win11 Cloud VDI - pss(gbs),high
+QF5,Microsite for e-Communication,low
+QF6,Partners,high
+QGM,eForms (FrontEnd),low
+QJV,Finance Encryption,low
+QMQ,RTC,low
+QN8,COMPRESS REP,low
+QNF,VM Operations - VNLIFE,low
+QNZ,Testing,low
+QQC,Magnum 4X,high
+QRJ,Win11 Cloud VDI - pacs,high
+QRY,VM Operations - PHLIFE,low
+QS4,PruTopia (Intranet),low
+QSN,MOSFIN,low
+QSR,PruSales,low
+QUG,PruGalaxy (VPMS),high
+QUU,Compliance and Vulnerability,low
+QVC,Software Engineering Templates,low
+QVH,GISP - SEO,high
+QZE,PFM(Par Fund Management),low
+QZM,PVA - ITO,low
+R3A,GISP,high
+R52,Modus,low
+R6X,Business@Pulse,medium
+R7U,ECAP Unify Solution,low
+R7X,mis,low
+R93,EBSME,low
+RAM,PruForce (COE),low
+RDQ,CMEK,low
+REB,MI AML,low
+RF7,UiPath - RPA Platform,low
+RFB,PruDMTM,high
+RFE,Nigeria Applications,low
+RFJ,MDP,low
+RFK,GTE CF Self-Service Tool - GCP IAM,medium
+RFS,UDP (Data Lake),medium
+RKG,PLUK Common SQLMI,low
+RKS,PrAccess,low
+RNH,MiE University,low
+RSP,ESI Portal Servers Migration,low
+RSW,eInvoice (PBTB),high
+RU4,CLIENT MONITOR,low
+RUM,IFRS17-PHKL,medium
+RX3,FAS,high
+RY2,SendFiles,low
+RZT,Finance,low
+S5X,PCS,high
+S6A,GTE Cloud Foundation Team Sandbox,low
+S74,SQL Managed Instance,low
+SB7,eSubmission PA,high
+SBE,Ruby Advice,low
+SE7,PAMB - PRUinfo Plus and PRUinfo Partner,low
+SFK,sample demo,low
+SGJ,PCA,medium
+SGW,Room Booking System,low
+SH2,Win11 Cloud VDI - pca (l1300),high
+SHT,PAMTC WEBSITE,low
+SJU,IOT COE,low
+SKH,DPAS,low
+SMA,Campaign Master,medium
+SMV,PSP,low
+SN2,Whatsapp Business,low
+SNX,Wealth,low
+SQ4,Global Secret Mngt Service (HashiCorp Vault),high
+SQP,PLTPN,low
+SQV,PruPlus,high
+SR7,PTPLA Power BI Data Gateway,low
+SRZ,EIS GBWM,low
+SSC,IGOAL,high
+SSZ,Failure Demand,low
+STH,PLAL - Microsite,low
+SUX,DCMS Integration,low
+SWC,CS Logic app,low
+SWG,Sharepoint Online,low
+SY4,Network Detection and Response,low
+SYG,GTE PMA - Azure Data Stack,low
+SZQ,DCMS,low
+SZU,PCLASTP,medium
+T2K,PruForce,high
+T47,Splunk Integration,low
+T6U,PULSE,low
+T8P,iFileClaim,low
+T9D,Customer Non Pulse,high
+T9E,VDI,low
+TAQ,IFRS 17,medium
+TB9,PLT,low
+TBR,PAMB-HAS,low
+TC8,PCLAPSEZ,medium
+TDH,PruLifeUK Claims Management System,high
+TDV,GTP-Finance Test CoE,low
+TE8,IAC,low
+TER,Digital Service,low
+TET,CM and CMOD Cloud Migration,medium
+TGJ,SFS,low
+TGT,Calculator,low
+TJ6,Network Detection and Response,low
+TJT,IBSOIC Gateway,low
+TKA,Remote Desktop Gateway,low
+TN3,Pruone Workflow,high
+TPG,Win11 Cloud VDI - pca (k1100),high
+TPK,OPM Reports,low
+TQG,Automation,low
+TS9,Ruby Advice,low
+TSY,hklife esso,low
+TTF,Anaplan,low
+TTG,PRUGENius,high
+TX3,PHKL PRUServices,high
+TYY,PruThiDau,medium
+TZW,Asset Master,low
+U46,BitBucket Archive,low
+U5X,Workflow,high
+U62,GTE CF Self-Service Tool - Vault IAM,medium
+U67,Agency eBriefcase,low
+U69,Win11 Cloud VDI - rits,high
+U6M,Simple CRM,low
+U6X,RITS,low
+U7B,esso,low
+U8D,Win11 Cloud VDI - MYPBTB,high
+U9F,Security,low
+UAH,EBSME,low
+UAJ,ePA,high
+UCD,Partner PAMB,low
+UCY,CAP Cloud Migration,low
+UDG,Pulse-Messaging-Service,high
+UDK,Teams,low
+UE7,PruBooking,low
+UEH,VM Operations - RTPRU1,low
+UFJ,PruForce,medium
+UG8,NUIX,medium
+UGH,Core System,high
+UHH,CONTACTS,low
+UJP,Win11 Cloud VDI - pca (e1301),high
+UJQ,ES 3.0 ODM,high
+UJU,Underwriting eDatasheet,low
+UKB,IOC Cloud Ops,low
+UMJ,PLUK UDP,low
+UMY,Online Quotation Application,high
+UP7,Win11 Cloud VDI - P1401,high
+URM,Integration Platform Services,high
+URX,PAMTCAdmin,low
+US7,PAMB - SI Regen,low
+USE,AIDA AI,low
+USV,IDMS DMS (DBSCM),low
+UTF,PVA - PRUfrontend,low
+UTK,Project Platform Services,high
+UUM,PRUWorks,high
+UUR,Business Automation Workflow,medium
+UVJ,AES,high
+UVK,datalake,low
+UY3,sub and release,low
+UZU,Actuarial,low
+V2K,GISP EPT API,low
+V43,GCP-GUDP-CCK,high
+V47,Zambia Applications,low
+V49,BACK TO PRU,low
+V4E,AICoE Smart Claim,low
+V4P,Operator Server,low
+V68,Pulse Health,low
+V69,EISG Dataparser,medium
+V6Y,PruCashier,medium
+V85,E-Printing,medium
+V99,HR File Server,low
+V9P,Underwriting Aggregation Program,medium
+VAK,PruPay,high
+VCJ,Kenya Applications,low
+VEN,Win11 Cloud VDI - pamb,high
+VGE,PruAwesomeHub,medium
+VHS,Bank Reconcile,low
+VJJ,ePOS,high
+VJP,PAMB-CWP,low
+VKS,Home Address Management,low
+VMS,FundPricing_CWS,low
+VNE,PTPLA Pruworks New System,low
+VNH,GTO GICC Global Integrated Command Centre,high
+VNU,Optimus,high
+VPU,IFRS17-PLT,medium
+VSD,GISP Thales HSM and CipherTrust Manager,low
+VU4,gwia,low
+VUP,Renova,low
+VYW,VM Operations - SGRTSS,low
+VZ2,PAMB APIM,low
+VZN,PCACWS - IOC Cloud Ops,low
+W2Y,Avaya,low
+W3K,PROD: VM Operations - THLIFE PRODUCTION,low
+W5F,CreditShield,low
+W68,Six Sigma (PRES Connect),low
+W6F,Ecard,low
+W6W,PRUServices (New Pruaccess),low
+W9C,Azure Kubernetes Service,low
+W9G,MYLIFE - SI Regen,low
+WD8,AIOCE,low
+WDA,GISP - SEO - GitHubReadOnlyAccess,high
+WDF,Matchbook,medium
+WDU,customer,low
+WFJ,MI,low
+WHM,MIS Collibra Edge Server,low
+WKT,PTPLA Billing,low
+WMB,CPR,low
+WMJ,IRASCOM,low
+WMP,Prudentity,low
+WMX,Win11 Cloud VDI - pca (c2250),high
+WQW,App Insights,low
+WRH,GTE CF Azure Terraform Modules GitHub Repositories,medium
+WSQ,FFP – Actuarial Ecosystems,high
+WSW,Pulse Food SDK,low
+WT4,IGW-delete,medium
+WVV,SMS,low
+WW6,File Server - SFS,low
+WWM,hklife varonis,low
+WWT,Magnum 4X,low
+WXK,Sigma,low
+WXR,EPF,low
+WXV,Solvency,medium
+WYG,Qualys,low
+X2J,PLT EAxAI BAU,medium
+X3C,Win11 Cloud VDI - ai coe,high
+X3J,ipe application,low
+X3Z,PRUChat,low
+X6J,One Pulse Integration Template,high
+X6U,PLUK ESU,low
+X7Y,Prophet Enterprise Manager (PEM),low
+X8E,VM Operations - PSS,low
+X8G,VM Operations - IDLIFE,low
+X8S,PVA - ITO,low
+X9P,RIS,high
+XBT,SSO,low
+XDV,Monitoring,low
+XEY,SUNGL,medium
+XF4,PHKL - Pruonelite,low
+XFQ,PruThidau,low
+XGG,MyEastspring,low
+XGK,CoreTech,low
+XH6,MeChoice,low
+XHK,PHKLHHAPIMCLAIMS,high
+XJA,ADF (Azure Data Factory),low
+XJG,PACS-Imperva-WAF-Automation,medium
+XK2,thlife,low
+XM7,SALES DB,low
+XMA,Magnum PURE,high
+XMM,PVA - HR Business Automation Portal,medium
+XMX,Collibra,low
+XNB,IFRS17-PCALT,medium
+XP2,PHKLNBO,medium
+XP9,ForgeRock,low
+XPF,Software Engineering Templates,low
+XPX,Corporate Website PFA,low
+XQ5,Ecashback,low
+XQ6,GTE CF Automation Tool: Apigee configuration,medium
+XQZ,AI claims,low
+XRP,PCLALPS,medium
+XSY,PSLA,low
+XTE,PCALT UDP,high
+XUS,Coupa (PruPay4U),low
+XV5,PPC,low
+XVD,Data Streaming,high
+XW6,DCD,low
+XWF,Mendix,low
+XXM,enterprise service bus,low
+XXY,OR Printer,low
+XZD,eSubmission,low
+Y2R,FIS,low
+Y2Y,PruSales Enterprise (PSE) PACS,high
+Y4K,Symphony,low
+Y54,PVA - DNC,low
+Y5Q,SVD,low
+Y68,GTIS Sandbox,low
+Y6S,SharePoint - PIL,low
+Y6W,ITSS,low
+Y7C,MMLIFE SVC,low
+Y7K,SCC,low
+Y7P,hklife tfs,low
+Y7R,TakafulNet Portal,medium
+Y8N,GTE-Analytics,low
+YA9,OVO,low
+YB6,NBU Reports,low
+YCP,SVN Source Control,low
+YEM,PVA - ITO,low
+YG2,pruvnlife buildout technical,low
+YGE,PCALT Cloud Infrastructure Operation,low
+YGG,Security Library,high
+YGT,PCLA Biz Workbench,medium
+YH8,PEL DGMT,low
+YHJ,New Business Workflow,high
+YHU,Cloud ERP,low
+YHY,Win11 Cloud VDI - pss (FCIU),high
+YKX,PAMB Shared Applications,high
+YSH,Cloud EDW,low
+YTQ,LPS and MIS,low
+YYC,PRUQLite,low
+YYE,Lead Tracking System - LTS,low
+YZP,PAMB-CAU,low
+Z2Z,NTU Reports,low
+Z3R,Code Templates,low
+Z5Z,GT Engineering Core Infrastructure,high
+Z6Z,GPU,low
+Z7B,SCV (Database),low
+Z7D,BCP Call Tree,low
+Z8G,PLT-APIM,high
+Z8T,VM Operations - SGLIFE,low
+Z9C,PHKL POC Data Platform,low
+ZCZ,CIAM,low
+ZEN,VPMS,low
+ZHK,Azure AD Application (SSO) Self-Service,medium
+ZHS,E-Commerce,medium
+ZJK,str,medium
+ZJQ,eACR,low
+ZK2,Whatsapp Chatbot,low
+ZK8,PTLS-Imperva-WAF-Automation,medium
+ZKA,Seven Sisters Integration,low
+ZMB,VM Operations - SGRSSS,low
+ZN6,PVA - APIM,high
+ZNZ,Customer Porta,low
+ZQF,PruEntrepreneur,low
+ZQJ,Letter Generator,low
+ZQT,PHKL DevOps,low
+ZQY,PCLATELEGRAM,medium
+ZRF,PVA-ORACLE-POC,low
+ZSD,PLT Azure Kubernetes Service,low
+ZSP,PruPrompt,medium
+ZSS,Document Management,low
+ZTB,Azure DevOps,low
+ZTE,PHKL - Databox,low
+ZTF,Azure Arc Extended Security Update,low
+ZUA,Polaris,low
+ZV5,Claims-API,low
+ZWN,Splunk Integration,low
+ZX3,QR Service,low
+ZY4,GTP Cloud DevOps,medium
+ZYM,Claim,low
+ZYQ,VM Operations - SGRASS,low
+ZZ2,PCS PAMB,high
+ZZH,AAD,low
+ZZW,Customer Universe,low
