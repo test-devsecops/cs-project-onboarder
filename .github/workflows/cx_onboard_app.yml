@@ -3,7 +3,7 @@ name: Manual Checkmarx App Onboard
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
   schedule:
-    - cron:  '15 8 * * *'
+    - cron:  '30 23 * * *' # running every 23:30 UTC, is 7:30 SGT
   
 
 jobs:
