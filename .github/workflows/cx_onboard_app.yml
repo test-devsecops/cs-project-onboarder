@@ -2,6 +2,9 @@ name: Manual Checkmarx App Onboard
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
+  schedule:
+    - cron:  '58 15 * * *'
+  
 
 jobs:
   run-checkmarx-onboarder:
