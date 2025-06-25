@@ -1,0 +1,31 @@
+name: Manual Primary Branch Setup
+
+on:
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  run-checkmarx-onboarder:
+    runs-on: ubuntu-latest
+
+    env:
+      CX_TOKEN: ${{ secrets.CX_TOKEN }}
+      TENANT_NAME: ${{ secrets.TENANT_NAME }}
+      TENANT_IAM_URL: ${{ secrets.TENANT_IAM_URL }}
+      TENANT_URL: ${{ secrets.TENANT_URL }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Checkmarx App Onboarder script
+        run: python3 checkmarx_project_set_primary_branch.py
