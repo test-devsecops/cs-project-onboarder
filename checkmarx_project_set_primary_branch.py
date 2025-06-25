@@ -88,6 +88,14 @@ def main():
                 failed_projects.append(project_name)
                 project_failed_update_count += 1
 
+        # Renew access token after processing a batch
+        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        print("Access token renewed.")
+
+        if i + batch_size < len(cx_projects):  # Avoid sleeping after the last batch
+            print(f"Processed {i + batch_size} projects. Waiting {batch_timeout} seconds before the next batch...")
+            time.sleep(batch_timeout)  # Wait before processing the next batch
+
     print("Setting up Primary branch for the projects is completed.")
     print(f"Total Updated Projects: {project_success_update_count}")
     print(f"Total Project failed to update: {project_failed_update_count}")
