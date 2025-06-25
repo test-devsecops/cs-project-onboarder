@@ -1,4 +1,4 @@
-﻿Repository,Branch,In-Scope(YES)
+Repository,Branch,In-Scope(YES)
 pru-phkl/pss-eta-github_governance,feature/GTDE-145-new,
 pru-phkl/pss-eta-github_governance,feature/GTDE-145,
 pru-phkl/pss-eta-github_governance,main,
@@ -10324,7 +10324,7 @@ pru-phkl/phkl-xzd-rn_esub20,qa/20241022,
 pru-phkl/phkl-xzd-rn_esub20,qa/20241122,
 pru-phkl/phkl-xzd-rn_esub20,qa/20241210,
 pru-phkl/phkl-xzd-rn_esub20,ref/PHKLESUB2-4487,
-pru-phkl/phkl-xzd-rn_esub20,ref/chelä»”,
+pru-phkl/phkl-xzd-rn_esub20,ref/chel仔,
 pru-phkl/phkl-xzd-rn_esub20,refactor/signature-pad,
 pru-phkl/phkl-xzd-rn_esub20,releases/bis-CorpFNA/phase3_ken_5012,
 pru-phkl/phkl-xzd-rn_esub20,releases/bis-CorpFNA/phase3,
@@ -10595,7 +10595,7 @@ pru-phkl/phkl-xzd-web_one_signature,master,YES
 pru-phkl/phkl-xzd-web_one_signature,poc/PHKLPRUSUBMIT-121,
 pru-phkl/phkl-xzd-web_one_signature,poc/call-get-brochure-api-poc,
 pru-phkl/phkl-xzd-web_one_signature,poc/input-directives,
-pru-phkl/phkl-xzd-web_one_signature,poc/ðŸ¦§product-brochure-(PHKLPRUSUBMIT-382)/ðŸ¦§pb-preview-button,
+pru-phkl/phkl-xzd-web_one_signature,poc/🦧product-brochure-(PHKLPRUSUBMIT-382)/🦧pb-preview-button,
 pru-phkl/phkl-xzd-web_one_signature,pre-prod,
 pru-phkl/phkl-xzd-web_one_signature,pru/20230707,
 pru-phkl/phkl-xzd-web_one_signature,pru/20230818,
@@ -14036,7 +14036,7 @@ pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-51786-dev-add-status-can
 pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-51786-rollout-add-status-cancelled,
 pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52179-cb2-sprint18-dev,
 pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52179-cb2-sprint18,
-pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52185-resetâ€”password,
+pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52185-reset—password,
 pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52453,
 pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52733-ai-talkbot-ga,
 pru-phkl/phkl-jfd-common_public_frontend,feature/PCAAEB-52776-implement-page-ui-of-login-page,
@@ -23657,7 +23657,7 @@ pru-phkl/phkl-x9p-ris,release/RIS_20241121,
 pru-phkl/phkl-x9p-ris,release/RIS_20241209,
 pru-phkl/phkl-x9p-ris,release/RIS_20250116,
 pru-phkl/phkl-x9p-ris,release/RIS_20250320,
-pru-phkl/phkl-x9p-ris,security-scan,YES
+pru-phkl/phkl-x9p-ris,release.security-scan,YES
 pru-phkl/phkl-x9p-ris,share/P24-AnF-311-to-179,
 pru-phkl/phkl-x9p-ris,share/P24-PMT-249-to-179,
 pru-phkl/phkl-x9p-ris,todo/fix_rpt05_transfer_bug,
@@ -24454,6 +24454,6 @@ pru-phkl/phkl-7d4-reuseable-workflows,main,
 pru-phkl/phkl-6wd-h2h,release.preprod,YES
 pru-phkl/phkl-mhv-a016-sungl,release.security-scan,YES
 pru-phkl/phkl-mhv-a016-sungl,release.preprod,YES
-pru-phkl/phkl-x9p-ris,release.security-scan,YES
+pru-phkl/phkl-x9p-ris,release.security-scan2,YES
 pru-phkl/phkl-x9p-ris,release.preprod,YES
 pru-phkl/phkl-afx-a052-main,release.security-scan,YES
