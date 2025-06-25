@@ -398,7 +398,7 @@ class ApiActions:
         return response
 
     @ExceptionHandler.handle_exception
-    def get_application_by_tag(self, token, base_url, endpoint, tag):
+    def get_application_by_tag(self, token, base_url, endpoint, tag, offset, limit):
 
         url = f"https://{base_url}{endpoint}"
 
@@ -409,7 +409,9 @@ class ApiActions:
         }
 
         params = {
-            "tags-keys": tag
+            "tags-keys": thistag,
+            "limit": limit,
+            "offset": offset
         }
 
         response = self.httpRequest.get_api_request(url, headers=headers, params=params)
