@@ -1,4 +1,4 @@
-﻿Repository,Branch,In-Scope(YES)
+Repository,Branch,In-Scope(YES)
 pru-ptpla/pss-eta-github_governance,feature/GTDE-145-new,
 pru-ptpla/pss-eta-github_governance,feature/GTDE-145,
 pru-ptpla/pss-eta-github_governance,main,
@@ -13259,7 +13259,7 @@ pru-ptpla/ptpla-cbv-pf-security-qrks,tracing,
 pru-ptpla/ptpla-cbv-pf-security-qrks,uat,
 pru-ptpla/ptpla-cbv-pf-security-qrks,uat-092023,
 pru-ptpla/ptpla-cbv-pf-resource-client-service,master,
-pru-ptpla/ptpla-cbv-phs-cekatan-alter-backend,1/10/2024,
+pru-ptpla/ptpla-cbv-phs-cekatan-alter-backend,10/1/2024,
 pru-ptpla/ptpla-cbv-phs-cekatan-alter-backend,PTPLAPFSTB-398,
 pru-ptpla/ptpla-cbv-phs-cekatan-alter-backend,SIT,
 pru-ptpla/ptpla-cbv-phs-cekatan-alter-backend,UAT,
@@ -36000,3 +36000,5 @@ pru-ptpla/ptpla-edd-prufast-service-spaj-magnum,dev,YES
 pru-ptpla/ptpla-edd-prufast-service-spaj-magnum,uat,YES
 pru-ptpla/ptpla-2s6-cds-pspc-service,dev,YES
 pru-ptpla/ptpla-2s6-cds-pspc-service,master,YES
+pru-ptpla/ptpla-2s6-cds-scheduler,dev,YES
+pru-ptpla/ptpla-2s6-cds-scheduler,master,YES
