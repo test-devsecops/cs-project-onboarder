@@ -1,4 +1,4 @@
-name: Manual Checkmarx Add Protected Branch
+name: Checkmarx Add Protected Branch
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  run-checkmarx-onboarder:
+  run-checkmarx-add-protected-branch:
     runs-on: ubuntu-latest
 
     env:
