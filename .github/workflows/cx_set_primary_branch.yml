@@ -1,10 +1,10 @@
-name: Manual Primary Branch Setup
+name: Checkmarx Primary Branch Setup
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
 
 jobs:
-  run-checkmarx-onboarder:
+  run-checkmarx-primary-branch-setup:
     runs-on: ubuntu-latest
 
     env:
@@ -27,5 +27,5 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Checkmarx App Onboarder script
+      - name: Run Checkmarx Primary Branch Setup script
         run: python3 checkmarx_project_set_primary_branch.py

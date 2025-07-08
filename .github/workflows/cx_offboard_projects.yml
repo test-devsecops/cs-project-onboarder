@@ -1,4 +1,4 @@
-name: Manual Checkmarx Projects Offboarding
+name: Checkmarx Projects Offboarding
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  run-checkmarx-onboarder:
+  run-checkmarx-projects-offboarding:
     runs-on: ubuntu-latest
 
     env:

@@ -1,4 +1,4 @@
-name: Manual Checkmarx App Onboard
+name: Checkmarx App Onboard
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
