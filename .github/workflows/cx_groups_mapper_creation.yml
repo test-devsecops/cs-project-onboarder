@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      CX_TOKEN: ${{ secrets.CX_TOKEN }}
+      CX_TOKEN: ${{ secrets.CX_EU_TOKEN }}
       TENANT_NAME: ${{ vars.CX_TENANT_NAME }}
       TENANT_IAM_URL: ${{ vars.CX_TENANT_IAM_URL }}
       TENANT_URL: ${{ vars.CX_TENANT_URL }}
