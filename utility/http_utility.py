@@ -9,8 +9,8 @@ class HttpRequests:
         response = requests.post(url, headers=headers, data=data, params=params, json=json, timeout=120)
 
         # Debug print statements
-        # print("Request URL:", response.url)
-        # print("Status Code:", response.status_code)
+        print("Request URL:", response.url)
+        print("Status Code:", response.status_code)
         # print("Request Headers:", response.request.headers)
         # print("Request Body:", response.request.body)
 
@@ -28,8 +28,8 @@ class HttpRequests:
         response = requests.get(url, headers=headers, data=data, params=params, json=json)
 
         # Debug print statements
-        # print("Request URL:", response.url)
-        # print("Status Code:", response.status_code)
+        print("Request URL:", response.url)
+        print("Status Code:", response.status_code)
         # print("Request Headers:", response.request.headers)
         # print("Request Body:", response.request.body)
 
