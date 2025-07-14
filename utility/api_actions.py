@@ -409,7 +409,7 @@ class ApiActions:
         }
 
         params = {
-            "tags-keys": thistag,
+            "tags-keys": tag,
             "limit": limit,
             "offset": offset
         }
