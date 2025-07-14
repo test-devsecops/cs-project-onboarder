@@ -74,7 +74,7 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
             for app in apps:
                 # print(count, app["id"], app["name"])
                 count += 1
-                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app_id, 'application', app_name, routes, api_actions, logger)
+                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app["id"], 'application', app["name"], routes, api_actions, logger)
             apps_count -= limit
             offset += 100
             get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag, offset, limit)
