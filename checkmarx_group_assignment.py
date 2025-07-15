@@ -14,18 +14,18 @@ import re
 import time
 import json
 
-def assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, resource_id, resource_type, resource_name, routes, api_actions, logger):
+def assign_groups_to_resource(access_token, tenant_url, tenant_iam_url, tenant_name, groups, resource_id, resource_type, resource_name, routes, api_actions, logger):
     
     # Get route endpoints
     get_access_token_endpoint = routes.get_access_token(tenant_name)
     assign_group_to_resource_endpoint = routes.assign_group_to_resource()
     
-    access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+    #access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
 
     for groupId in groups:
         print(f"Creating Assignment for Group {groupId} for {resource_type} {resource_id} {resource_name}")
         logger.info(f"Creating Assignment for Group {groupId} for {resource_type} {resource_id} {resource_name}")
-        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        #access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         assign_group_to_resource_response = api_actions.assign_group_to_resource(access_token, tenant_url, assign_group_to_resource_endpoint, groupId, resource_id, resource_type)
 
 def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger):
@@ -38,72 +38,98 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
     get_application_endpoint = routes.get_application()
     get_projects_endpoint = routes.get_projects()
 
+    access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+
     for group in groups_list:
+
         print(f"Retrieving Id for Group {group}...")
         logger.info(f"Retrieving Id for Group {group}...")
-        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
         get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
         results = get_group_response
+
         if not len(results):
             print(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             logger.info(f"{group} not found in Checkmarx! Skipping group assignment for {group}")
             continue
+
         group_id = results[0].get('id', '')
         tag = groups_dict[group].get("tag")
+
         print(f"{group} found! Adding {group} id {group_id} to tag group {tag}")
         logger.info(f"{group} found! Adding {group} id {group_id} to tag group {tag}")
+
         if tag not in tag_groups:
             tag_groups[tag] = []
+
         tag_groups[tag].append(group_id)
 
-    access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
     for thistag, groups in tag_groups.items():
+
         print(f"Retrieving Application with {thistag} tag")
         logger.info(f"Retrieving Application with {thistag} tag")
+
         offset = 0
         limit = 100
+
         get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag, offset, limit)
         apps = get_application_response.get("applications",[])
         apps_count = get_application_response.get("filteredTotalCount",0)
+
         if apps_count == 0:
             print(f"No Application found for {thistag}")
             continue
+
         count = 1
         while apps_count > 0:
             for app in apps:
                 # print(count, app["id"], app["name"])
                 count += 1
-                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app["id"], 'application', app["name"], routes, api_actions, logger)
+                assign_groups_to_resource(access_token, tenant_url, tenant_iam_url, tenant_name, groups, app["id"], 'application', app["name"], routes, api_actions, logger)
+
             apps_count -= limit
             offset += 100
+
             get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag, offset, limit)
             apps = get_application_response.get("applications",[])
+        
+        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        print("Access token renewed.")
 
     for thistag, groups in tag_groups.items():
+        
         print(f"Retrieving Projects with {thistag} tag")
         logger.info(f"Retrieving Projects with {thistag} tag")
+
         offset = 0
         limit = 100
+
         get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
         results = get_projects_by_tags_response
         projects_count = results.get("filteredTotalCount", 0)
+
         if not projects_count:
             print(f"No projects found for tag {thistag}. Skipping ahead.")
             logger.info(f"No projects found for tag {thistag}. Skipping ahead.")
             continue
+
         projects = results.get("projects", [])
         count = 1
         while projects_count > 0:
             for project in projects:
                 # print(count, project["id"], project["name"])
                 count += 1
-                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
+                assign_groups_to_resource(access_token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
+
             projects_count -= limit
             offset += 100
+
             get_projects_by_tags_response = api_actions.get_projects_by_tags(access_token, tenant_url, get_projects_endpoint, thistag, offset, limit)
             results = get_projects_by_tags_response
             projects = results.get("projects", [])
+        
+        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        print("Access token renewed.")
 
 def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups_list, groups_dict, routes, api_actions, logger):
 
@@ -116,10 +142,11 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
     get_projects_endpoint = routes.get_projects()
     get_projects_through_searchbar_endpoint = routes.get_projects_through_searchbar()
 
+    access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+
     for group in groups_list:
         print(f"Retrieving Id for Group {group}...")
         logger.info(f"Retrieving Id for Group {group}...")
-        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
         
         get_group_response = api_actions.get_group(access_token, tenant_iam_url, get_groups_endpoint, group)
         results = get_group_response
@@ -135,7 +162,9 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
             ghorg_groups[ghorg] = []
         ghorg_groups[ghorg].append(group_id)
 
-    access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        print("Access token renewed.")
+
     for thisghorg, groups in ghorg_groups.items():
         print(f"Retrieving Projects with {thisghorg} ghorg")
         logger.info(f"Retrieving Projects with {thisghorg} ghorg")
@@ -154,12 +183,15 @@ def assign_group_by_GHOrg(token, tenant_name, tenant_iam_url, tenant_url, groups
             for project in projects:
                 # print(count, project["projectId"], project["projectName"])
                 count += 1
-                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
+                assign_groups_to_resource(access_token, tenant_url, tenant_iam_url, tenant_name, groups, project["id"], "project", project["name"], routes, api_actions, logger)
             projects_count -= limit
             offset += 100
             get_projects_through_searchbar_response = api_actions.get_projects_through_searchbar(access_token, tenant_url, get_projects_through_searchbar_endpoint, thisghorg, offset, limit)
             results = get_projects_through_searchbar_response
             projects = results.get("projects", [])
+        
+        access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
+        print("Access token renewed.")
 
 def main(filename, mode):
     
