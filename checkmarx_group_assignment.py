@@ -39,7 +39,6 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
     get_projects_endpoint = routes.get_projects()
 
     access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
-    print(access_token)
 
     for group in groups_list:
 
