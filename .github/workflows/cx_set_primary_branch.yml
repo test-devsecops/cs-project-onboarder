@@ -1,21 +1,17 @@
-name: Checkmarx Groups Onboard
+name: Checkmarx Primary Branch Setup
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
-    inputs:
-      filename:
-        description: 'Path to the project file (e.g. app_config.json)'
-        required: true
 
 jobs:
-  run-checkmarx-onboarder:
+  run-checkmarx-primary-branch-setup:
     runs-on: ubuntu-latest
 
     env:
       CX_TOKEN: ${{ secrets.CX_TOKEN }}
-      TENANT_NAME: ${{ vars.CX_TENANT_NAME_PROD }}
-      TENANT_IAM_URL: ${{ vars.CX_TENANT_IAM_URL_PROD }}
-      TENANT_URL: ${{ vars.CX_TENANT_URL_PROD }}
+      TENANT_NAME: ${{ secrets.CX_TENANT_NAME_PROD }}
+      TENANT_IAM_URL: ${{ secrets.CX_TENANT_IAM_URL_PROD }}
+      TENANT_URL: ${{ secrets.CX_TENANT_URL_PROD }}
 
     steps:
       - name: Checkout repository
@@ -31,5 +27,5 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Checkmarx Group Onboarder script
-        run: python3 checkmarx_groups_onboarder.py -filename=${{ github.event.inputs.filename }}
+      - name: Run Checkmarx Primary Branch Setup script
+        run: python3 checkmarx_project_set_primary_branch.py

@@ -6,12 +6,13 @@ code,name,criticality
 289,PCLAFNA,medium
 2A7,Win11 Cloud VDI - KHLIFE,high
 2AW,IFRS17ETL,high
+2BW,Cloud Clinic,low
 2CJ,DSR,low
 2D8,Win11 Cloud VDI - PHLIFE,high
 2DF,eInvoice(MoF Invoice standardized) Service,low
 2DK,WebSphere Upgrade to 9,low
 2E4,Collection System,low
-2HS,Client,low
+2HS,Client,medium
 2J2,Messaging,low
 2J7,TEST AUTO,low
 2JC,TMS_DMTM,low
@@ -40,6 +41,8 @@ code,name,criticality
 3EC,iQuotation,low
 3EY,api,low
 3F8,PHKL AKS,medium
+3HN,Pruasia_SCCM,high
+3KS,IFRS17-TF-NPROD,medium
 3KV,PruForce,low
 3KZ,IFRS17-PBTB,medium
 3M8,PHKL Payment Gateway,high
@@ -53,6 +56,7 @@ code,name,criticality
 3RG,PVA - Automation Testing,medium
 3RY,eForms (FrontEnd),low
 3SP,MagumPure UW,low
+3SQ,EIS DMP,high
 3U7,PruRecruit,low
 3UZ,Unified Data Platform - UDP (aka. DataLake),low
 3W4,Redhat Satellite,low
@@ -95,10 +99,12 @@ code,name,criticality
 4KQ,CWS,medium
 4KR,Online Selling Portal,low
 4KS,Win11 Cloud VDI - P1100,high
+4KV,ServiceNow Platform,high
 4MB,SMS Mitracomm,low
 4MG,AMLScreening (filesrv Tool),low
 4P5,3rd Party Payor AML,low
 4PC,CSBO,high
+4PX,Corporate Websites - Google Vertex AI Search,medium
 4QA,AMS - Asset Management System,low
 4QV,RDCService,low
 4QW,Win11 Cloud VDI - pss(sdbo),high
@@ -270,6 +276,7 @@ code,name,criticality
 9BH,Magnum Pure,low
 9DA,EITH PVF Platform,high
 9FB,PAMB-IEP,low
+9FK,EIS DEVOPS,low
 9G3,Jemma,low
 9GF,PBTB-Imperva-WAF-Automation,medium
 9HA,AICOE,low
@@ -287,7 +294,7 @@ code,name,criticality
 9T5,Unified Observability Dashboard Service (Grafana OnePru),medium
 9TQ,LDAP,low
 9TT,Letters,low
-9V9,Kenya Applications,low
+9V9,Kenya Applications,medium
 9VV,myPrudential,medium
 9WF,Prophet CLS,low
 9Y7,IQS,low
@@ -441,6 +448,7 @@ ENN,UDP Data Governance,low
 EP2,PRUForce,low
 EP7,ibm analytics,low
 EPP,PVA-ZNS,low
+ER8,PRUREWARDS PACS,medium
 ETA,GT DevOps,medium
 ETE,Inquiry Management System,high
 EUH,EITH MIS Platform,high
@@ -456,7 +464,7 @@ F7Y,Common Reporting Standard,low
 F86,PCALT OI,high
 F8H,RCC CRM,low
 F99,PHS,low
-F9Q,EISG MTMS Migration,high
+F9Q,EIS Test Automation,low
 FAD,MiE University,low
 FAR,TKSV2,low
 FBD,GTE-Analytics,low
@@ -471,6 +479,7 @@ FKC,PVA - PruSecurity,low
 FMZ,Apache,low
 FPH,Statistical Analysis System(SAS) business intelligent(BI) Tool,medium
 FPK,Life Goal (Prueshop),low
+FR3,DevsecOps Poc,low
 FRD,Magnum,medium
 FSQ,Dynatrace,low
 FTB,EIS (Enterprise Integration Services),low
@@ -492,6 +501,7 @@ G6H,Corporate Website (SiteCore),low
 G6K,AICOE,low
 G8T,DevOps Engineering,low
 G9H,PVA-Magnum 4x,low
+G9N,EIS UDP,low
 G9Q,adf and ssisdb,low
 GA6,eDoc,low
 GAB,PROPSYS,low
@@ -499,6 +509,7 @@ GAT,SAAM,high
 GBA,Data Science,low
 GCK,VTS,low
 GD3,APIM - EITH PVD Digital Platform,high
+GFD,EIS Factsheet,low
 GFS,Premium Collection Web Backend Services - PCWeb,medium
 GG2,Business Process Manager,medium
 GG3,Splunk Integration,low
@@ -511,7 +522,7 @@ GPM,Workflow,low
 GPQ,Pacsnet,low
 GSE,CyberArk,high
 GSN,PCLACSCMP,medium
-GTX,"MPP,OLD DIST,XCODE,DISTSS",low
+GTX,MPP-OLD-DIST-UPMS-XCODE-DISTSS,low
 GUB,DPAS,low
 GUE,EBS - Enterprise Business Solutions,low
 GUJ,Win11 Cloud VDI - afr,high
@@ -596,6 +607,7 @@ JRP,Payment Services,high
 JUP,plt devdb pltint,low
 JVZ,IVRS,low
 JWB,ESB Services,medium
+JWH,GUDP Data toolkit,high
 JXQ,Win11 Cloud VDI - pss(rt),high
 JXY,IDSS,low
 JY3,PVA - ITO,medium
@@ -813,6 +825,7 @@ SRZ,EIS GBWM,low
 SSC,IGOAL,high
 SSZ,Failure Demand,low
 STH,PLAL - Microsite,low
+STX,IFRS17-TF-PROD,medium
 SUX,DCMS Integration,low
 SWC,CS Logic app,low
 SWG,Sharepoint Online,low
@@ -884,7 +897,7 @@ URM,Integration Platform Services,high
 URX,PAMTCAdmin,low
 US7,PAMB - SI Regen,low
 USE,AIDA AI,low
-USV,IDMS DMS (DBSCM),low
+USV,IDMS-DMS(DBSCM),low
 UTF,PVA - PRUfrontend,low
 UTK,Project Platform Services,high
 UUM,PRUWorks,high
@@ -956,6 +969,7 @@ WXK,Sigma,low
 WXR,EPF,low
 WXV,Solvency,medium
 WYG,Qualys,low
+X29,EIS ControlM,medium
 X2J,PLT EAxAI BAU,medium
 X3C,Win11 Cloud VDI - ai coe,high
 X3J,ipe application,low
@@ -1029,6 +1043,7 @@ YHU,Cloud ERP,low
 YHY,Win11 Cloud VDI - pss (FCIU),high
 YKX,PAMB Shared Applications,high
 YSH,Cloud EDW,low
+YSK,EIS Corp Apps,low
 YTQ,LPS and MIS,low
 YYC,PRUQLite,low
 YYE,Lead Tracking System - LTS,low
@@ -1069,6 +1084,7 @@ ZUA,Polaris,low
 ZV5,Claims-API,low
 ZWN,Splunk Integration,low
 ZX3,QR Service,low
+ZXD,PHKL ControlM server migration,high
 ZY4,GTP Cloud DevOps,medium
 ZYM,Claim,low
 ZYQ,VM Operations - SGRASS,low

@@ -61,15 +61,24 @@ def assign_group_by_tag(token, tenant_name, tenant_iam_url, tenant_url, groups_l
     for thistag, groups in tag_groups.items():
         print(f"Retrieving Application with {thistag} tag")
         logger.info(f"Retrieving Application with {thistag} tag")
-        get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag)
-        results = get_application_response.get("applications", [])
-        if not len(results):
+        offset = 0
+        limit = 100
+        get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag, offset, limit)
+        apps = get_application_response.get("applications",[])
+        apps_count = get_application_response.get("filteredTotalCount",0)
+        if apps_count == 0:
             print(f"No Application found for {thistag}")
-            logger.info(f"No Application found for {thistag}")
             continue
-        app_id = results[0].get("id")
-        app_name = results[0].get("name")
-        assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app_id, 'application', app_name, routes, api_actions, logger)
+        count = 1
+        while apps_count > 0:
+            for app in apps:
+                # print(count, app["id"], app["name"])
+                count += 1
+                assign_groups_to_resource(token, tenant_url, tenant_iam_url, tenant_name, groups, app["id"], 'application', app["name"], routes, api_actions, logger)
+            apps_count -= limit
+            offset += 100
+            get_application_response = api_actions.get_application_by_tag(access_token, tenant_url, get_application_endpoint, thistag, offset, limit)
+            apps = get_application_response.get("applications",[])
 
     for thistag, groups in tag_groups.items():
         print(f"Retrieving Projects with {thistag} tag")

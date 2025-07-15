@@ -1,4 +1,4 @@
-name: Manual Checkmarx Projects Offboarding
+name: Checkmarx Projects Offboarding
 
 on:
   workflow_dispatch:
@@ -8,14 +8,14 @@ on:
         required: true
 
 jobs:
-  run-checkmarx-onboarder:
+  run-checkmarx-projects-offboarding:
     runs-on: ubuntu-latest
 
     env:
       CX_TOKEN: ${{ secrets.CX_TOKEN }}
-      TENANT_NAME: ${{ secrets.TENANT_NAME }}
-      TENANT_IAM_URL: ${{ secrets.TENANT_IAM_URL }}
-      TENANT_URL: ${{ secrets.TENANT_URL }}
+      TENANT_NAME: ${{ secrets.CX_TENANT_NAME_PROD }}
+      TENANT_IAM_URL: ${{ secrets.CX_TENANT_IAM_URL_PROD }}
+      TENANT_URL: ${{ secrets.CX_TENANT_URL_PROD }}
 
     steps:
       - name: Checkout repository

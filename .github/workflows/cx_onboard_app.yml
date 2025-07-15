@@ -1,7 +1,10 @@
-name: Manual Checkmarx App Onboard
+name: Checkmarx App Onboard
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
+  schedule:
+    - cron:  '30 23 * * *' # running every 23:30 UTC, is 7:30 SGT
+  
 
 jobs:
   run-checkmarx-onboarder:
@@ -9,9 +12,9 @@ jobs:
 
     env:
       CX_TOKEN: ${{ secrets.CX_TOKEN }}
-      TENANT_NAME: ${{ secrets.TENANT_NAME }}
-      TENANT_IAM_URL: ${{ secrets.TENANT_IAM_URL }}
-      TENANT_URL: ${{ secrets.TENANT_URL }}
+      TENANT_NAME: ${{ secrets.CX_TENANT_NAME_PROD }}
+      TENANT_IAM_URL: ${{ secrets.CX_TENANT_IAM_URL_PROD }}
+      TENANT_URL: ${{ secrets.CX_TENANT_URL_PROD }}
 
     steps:
       - name: Checkout repository

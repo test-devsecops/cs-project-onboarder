@@ -1,6 +1,6 @@
-b,Branch,In-Scope(YES),Application,Master / Main,
-pru-pamb/pss-eta-github_governance,feature/GTDE-145-new,,,,
 pru-pamb/pss-eta-github_governance,feature/GTDE-145,,,,
+GitHub Repo,Branch,In-Scope(YES),Application,Master / Main,Remarks
+pru-pamb/pss-eta-github_governance,feature/GTDE-145-new,,,,
 pru-pamb/pss-eta-github_governance,main,,,,
 pru-pamb/pamb-zz2-webapps,develop,,,,
 pru-pamb/pamb-zz2-webapps,feature/PAMBFTFCVC-48_1,,,,
@@ -263,7 +263,7 @@ pru-pamb/pamb-uur-ps-application-ui,master,YES,BPM,Y,
 pru-pamb/pamb-uur-ps-application-service,master,YES,BPM,Y,
 pru-pamb/pamb-uur-pamb-sls-il-ws-api,.,YES,BPM,,
 pru-pamb/pamb-uur-pamb-sls-il-ws-api,master,YES,BPM,Y,
-pru-pamb/pamb-uur-pamb-sls-endt,master,NO,BPM,,
+pru-pamb/pamb-uur-pamb-sls-endt,master,NO,BPM,,No longer in use
 pru-pamb/pamb-uur-pamb-sls-db,master,YES,BPM,Y,
 pru-pamb/pamb-uur-pamb-sls,feature/action-migration,NO,BPM,,
 pru-pamb/pamb-uur-pamb-sls,feature/sls-api,NO,BPM,,
@@ -290,7 +290,7 @@ pru-pamb/pamb-uur-pamb-lg-util,master,YES,BPM,Y,
 pru-pamb/pamb-uur-pamb-lg-db,feature/UAT,YES,BPM,,
 pru-pamb/pamb-uur-pamb-lg-db,master,YES,BPM,Y,
 pru-pamb/pamb-uur-pamb-hq-ws-delete,feature/UAT,NO,BPM,,
-pru-pamb/pamb-uur-pamb-hq-ws-delete,master,NO,BPM,Y,
+pru-pamb/pamb-uur-pamb-hq-ws-delete,master,NO,BPM,Y,No longer in use
 pru-pamb/pamb-uur-pamb-hq-ws-client,feature/UAT,YES,BPM,,
 pru-pamb/pamb-uur-pamb-hq-ws-client,master,YES,BPM,Y,
 pru-pamb/pamb-uur-pamb-hq-ws,feature/UAT,YES,BPM,,
@@ -306,44 +306,44 @@ pru-pamb/pamb-uur-pamb-aml-risk-scoring-core,master,YES,BPM,Y,
 pru-pamb/pamb-uur-pamb-aml-risk-scoring-client,master,YES,BPM,Y,
 pru-pamb/pamb-uur-hqeutil,feature/UAT,YES,BPM,,
 pru-pamb/pamb-uur-hqeutil,master,YES,BPM,Y,
-pru-pamb/pamb-uur-hqe.web-readonly,master,YES,BPM,Y,
+pru-pamb/pamb-uur-hqe.web-readonly,master,No,BPM,Y,Not in use anymore.
 pru-pamb/pamb-uur-hqe.web.revamp,feature/UAT,YES,BPM,,
 pru-pamb/pamb-uur-hqe.web.revamp,master,YES,BPM,Y,
-pru-pamb/pamb-uur-hqe.web.endt,master,YES,BPM,Y,
-pru-pamb/pamb-uur-hqe.web,master,YES,BPM,Y,
-pru-pamb/pamb-uur-dynamiceventframeworkweb,master,YES,BPM,Y,
+pru-pamb/pamb-uur-hqe.web.endt,master,No,BPM,Y,Not in use anymore.
+pru-pamb/pamb-uur-hqe.web,master,NO,BPM,Y,Not in use anymore.
+pru-pamb/pamb-uur-dynamiceventframeworkweb,master,No,BPM,Y,Not in use anymore.
 pru-pamb/pamb-uur-ds-extension-service,master,YES,BPM,Y,
 pru-pamb/pamb-uur-dashboard,master,YES,BPM,Y,
-pru-pamb/pamb-uur-cmextraction,master,YES,BPM,Y,
-pru-pamb/pamb-uur-cm-export,master,YES,BPM,Y,
+pru-pamb/pamb-uur-cmextraction,master,No,BPM,Y,Not in use anymore.
+pru-pamb/pamb-uur-cm-export,master,No,BPM,Y,Not in use anymore.
 pru-pamb/pamb-uur-cm-export,tsm-export,NO,BPM,,
 pru-pamb/pamb-uur-cm-deletion,feature/cm-client-data-cleanser,NO,BPM,,
-pru-pamb/pamb-uur-cm-deletion,master,YES,BPM,Y,
+pru-pamb/pamb-uur-cm-deletion,master,No,BPM,Y,Not in use anymore.
 pru-pamb/pamb-uur-cm-deletion,tsm-export,NO,BPM,,
 pru-pamb/pamb-uur-cm9-uat,master,YES,BPM,Y,
 pru-pamb/pamb-uur-cm9-uat,prakashjoshi_prudential.com.my/cm-config-server-service-deployment.yaml-1647585830798,NO,BPM,,
 pru-pamb/pamb-uur-ccsutil,master,YES,BPM,Y,
-pru-pamb/pamb-uur-azt-web5250,feature/scan,YES,BPM,,
-pru-pamb/pamb-uur-azt-web5250,master,YES,BPM,Y,
+pru-pamb/pamb-uur-azt-web5250,feature/scan,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-web5250,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
 pru-pamb/pamb-uur-azt-web5250,release,NO,BPM,,
 pru-pamb/pamb-uur-azt-web5250,release-scan,NO,BPM,,
-pru-pamb/pamb-uur-azt-psbpm-integration-service,master,YES,BPM,Y,
-pru-pamb/pamb-uur-azt-psbpm-integration-service,release,YES,BPM,,
-pru-pamb/pamb-uur-azt-nbbpm-userexit,master,YES,BPM,Y,
-pru-pamb/pamb-uur-azt-nbbpm-userexit,release,YES,BPM,,
-pru-pamb/pamb-uur-azt-nbbpm-integration-service,master,YES,BPM,Y,
-pru-pamb/pamb-uur-azt-nbbpm-integration-service,release,YES,BPM,,
-pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,develop,YES,BPM,,
+pru-pamb/pamb-uur-azt-psbpm-integration-service,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-psbpm-integration-service,release,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-nbbpm-userexit,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-nbbpm-userexit,release,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-nbbpm-integration-service,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-nbbpm-integration-service,release,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,develop,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
 pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,main,NO,BPM,,
-pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,master,YES,BPM,Y,
+pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
 pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,release,NO,BPM,,
 pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,release.1,NO,BPM,,
 pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,release.2,NO,BPM,,
 pru-pamb/pamb-uur-azt-dynamiceventframeworkweb,release.3,NO,BPM,,
-pru-pamb/pamb-uur-azt-ds-extension-service,master,YES,BPM,Y,
-pru-pamb/pamb-uur-azt-ds-extension-service,release,YES,BPM,,
-pru-pamb/pamb-uur-azt-bpm-cm-operations,master,YES,BPM,Y,
-pru-pamb/pamb-uur-azt-bpm-cm-operations,release,YES,BPM,,
+pru-pamb/pamb-uur-azt-ds-extension-service,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-ds-extension-service,release,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-bpm-cm-operations,master,No,BPM,Y,Not applicable for right now. This is for .war file deployment. This is on Prem.
+pru-pamb/pamb-uur-azt-bpm-cm-operations,release,No,BPM,,Not applicable for right now. This is for .war file deployment. This is on Prem.
 pru-pamb/pamb-uur-autoindexer,master,YES,BPM,Y,
 pru-pamb/pamb-uur-aml-cdd,master,YES,BPM,Y,
 pru-pamb/pamb-us7-sqsonline-packaging,master,NO,,,
@@ -393,7 +393,7 @@ pru-pamb/pamb-us7-siregen,master,YES,SI Regen,Y,
 pru-pamb/pamb-ucy-cap,SDLC00017599_Apache_Log4j_RCE_Vulnerability_enhc,NO,,,
 pru-pamb/pamb-ucy-cap,SDLC00021450_IFRS_New_IL_PCS_GLES_File,NO,,,
 pru-pamb/pamb-ucy-cap,feature/cap_maven,NO,,,
-pru-pamb/pamb-ucy-cap,feature/master_maven,NO,,Y,
+pru-pamb/pamb-ucy-cap,feature/master_maven,NO,CAP,Y,
 pru-pamb/pamb-ucy-cap,feature/master_merged_maven,NO,,,
 pru-pamb/pamb-ucy-cap,feature/uat_maven,NO,,,
 pru-pamb/pamb-ucy-cap,feature/uat_merged_maven,NO,,,
@@ -563,7 +563,7 @@ pru-pamb/pamb-smv-psp-automation-test,feature/PCACOEDEVSECOPS-5053,NO,,,
 pru-pamb/pamb-smv-psp-automation-test,feature/PCACOEDEVSECOPS-5636,NO,,,
 pru-pamb/pamb-smv-psp-automation-test,master,NO,,,
 pru-pamb/pamb-smv-pruserveplus-qlapproval,dev,NO,,,
-pru-pamb/pamb-smv-pruserveplus-qlapproval,master,Yes,PWP QL Approval,Y,
+pru-pamb/pamb-smv-pruserveplus-qlapproval,master,NO,PWP QL Approval,,
 pru-pamb/pamb-smv-pruserveplus-ipad,master,NO,,,
 pru-pamb/pamb-smv-pruserveplus-backoffice-latest,aug_2024_scanFixes,NO,,,
 pru-pamb/pamb-smv-pruserveplus-backoffice-latest,feature/jan_2025,NO,,,
@@ -1795,41 +1795,41 @@ pru-pamb/pamb-bc4-pruforce_app_my,master-bak-github,NO,,,
 pru-pamb/pamb-bc4-pruforce_app_my,release,NO,PRUForce,,
 pru-pamb/pamb-bc4-pruforce_app_my,release-2.0.7,NO,,,
 pru-pamb/pamb-bc4-pruforce_app_my,release-fix-conflict,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,18MarchBk,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,BackupJulMyDev,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-15466,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-33191-coesit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-37220-23.07LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-37220-23.10LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-37220-coesit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39768-sit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39768,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39789-sit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39789-upgrade-multer-protection-review,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-40065-sit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-40065,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-40631,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-45981,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-46996,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-48824-coesit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-48824,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-50995-coesit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-50995,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-51794-coesit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-51794,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/dev,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/master,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-22.10LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.01LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.04LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.04.1,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.07LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.10LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-24.01LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-24.04LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-24.10LTS,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/sit,NO,,,
-pru-pamb/pamb-bc4-protection_review_process_api,coe/v3.x/devsecops,NO,,,
+pru-pamb/pamb-bc4-protection_review_process_api,18MarchBk,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,BackupJulMyDev,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-15466,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-33191-coesit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-37220-23.07LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-37220-23.10LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-37220-coesit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39768-sit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39768,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39789-sit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-39789-upgrade-multer-protection-review,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-40065-sit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-40065,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-40631,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-45981,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-46996,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-48824-coesit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-48824,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-50995-coesit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-50995,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-51794-coesit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,bugfix/PCAAEB-51794,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/dev,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/master,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-22.10LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.01LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.04LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.04.1,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.07LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-23.10LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-24.01LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-24.04LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/rollout-24.10LTS,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/sit,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
+pru-pamb/pamb-bc4-protection_review_process_api,coe/v3.x/devsecops,NO,,,17/6/2025: Lesley confirmed the repo has been deleted. Not needed anymore.
 pru-pamb/pamb-bc4-protection_review_process_api,develop,NO,PRUForce,,
 pru-pamb/pamb-bc4-protection_review_process_api,feature/PCAAEB-19731,NO,,,
 pru-pamb/pamb-bc4-protection_review_process_api,feature/PCAAEB-20251_eric,NO,,,
@@ -3240,14 +3240,14 @@ pru-pamb/pamb-bc4-booking_process_api,feature/PCAAEB-13949-sitToRelease,NO,,,20/
 pru-pamb/pamb-bc4-booking_process_api,feature/PCAAEB-17108-solve-conflict,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,feature/sync-from-bitbucket-my/dev,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,hotfix/api_fix,NO,,,20/May/25: Lesley deleted the repo. No longer needed
-pru-pamb/pamb-bc4-booking_process_api,master,Yes,PRUForce,Y,20/May/25: Lesley deleted the repo. No longer needed
+pru-pamb/pamb-bc4-booking_process_api,master,No,PRUForce,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,master-bak-github,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,my/dev.bk.21Nov,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,my/dev,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,my/master,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,my/release,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,plai-coe/dev,NO,,,20/May/25: Lesley deleted the repo. No longer needed
-pru-pamb/pamb-bc4-booking_process_api,release,Yes,PRUForce,,20/May/25: Lesley deleted the repo. No longer needed
+pru-pamb/pamb-bc4-booking_process_api,release,No,PRUForce,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,release-bak-github,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,sit,NO,,,20/May/25: Lesley deleted the repo. No longer needed
 pru-pamb/pamb-bc4-booking_process_api,uat,NO,,,20/May/25: Lesley deleted the repo. No longer needed
@@ -3255,7 +3255,7 @@ pru-pamb/pamb-bc4-batch_performance,develop,NO,PRUForce,,23/May/25: Lesley delet
 pru-pamb/pamb-bc4-batch_performance,feature/PCAAEB-53856,NO,,,23/May/25: Lesley deleted the repo. No longer needed. No longer needed
 pru-pamb/pamb-bc4-batch_performance,feature/PCAAEB-55114-devsecops,NO,,,23/May/25: Lesley deleted the repo. No longer needed. No longer needed
 pru-pamb/pamb-bc4-batch_performance,feature/gh-action,NO,,,23/May/25: Lesley deleted the repo. No longer needed. No longer needed
-pru-pamb/pamb-bc4-batch_performance,master,Yes,PRUForce,Y,23/May/25: Lesley deleted the repo. No longer needed. No longer needed
+pru-pamb/pamb-bc4-batch_performance,master,Yes,PRUForce,Y,23/May/25: Lesley deleted the repo. No longer needed. 
 pru-pamb/pamb-bc4-batch_performance,release,Yes,PRUForce,,23/May/25: Lesley deleted the repo. No longer needed. No longer needed
 pru-pamb/pamb-bc4-batch_performance,release-bak-github,NO,,,23/May/25: Lesley deleted the repo. No longer needed. No longer needed
 pru-pamb/pamb-bc4-batch_messaging,18MarchBk,NO,,,
