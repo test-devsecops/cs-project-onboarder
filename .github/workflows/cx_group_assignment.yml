@@ -16,9 +16,9 @@ jobs:
 
     env:
       CX_TOKEN: ${{ secrets.CX_TOKEN }}
-      TENANT_NAME: ${{ secrets.CX_TENANT_NAME_PROD }}
-      TENANT_IAM_URL: ${{ secrets.CX_TENANT_IAM_URL_PROD }}
-      TENANT_URL: ${{ secrets.CX_TENANT_URL_PROD }}
+      TENANT_NAME: ${{ vars.CX_TENANT_NAME_PROD }}
+      TENANT_IAM_URL: ${{ vars.CX_TENANT_IAM_URL_PROD }}
+      TENANT_URL: ${{ vars.CX_TENANT_URL_PROD }}
 
     steps:
       - name: Checkout repository
