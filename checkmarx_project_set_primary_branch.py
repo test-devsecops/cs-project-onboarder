@@ -34,6 +34,7 @@ def main():
     project_failed_update_count = 0
 
     failed_projects = []
+    repos_missing_default_branch = []
 
     batch_size = 100
     batch_timeout = 60
@@ -68,6 +69,9 @@ def main():
                         primary_branch = "master"
                     else:
                         print("Neither 'main' nor 'master' branches were found in the repository.")
+                        repos_missing_default_branch.append(project_name)
+                        project_failed_update_count += 1
+                        failed_projects.append(project_name)
                         continue
                 else:
                     print("Failed to retrieve repository branches or unexpected response format.")
@@ -101,6 +105,12 @@ def main():
     print("Setting up Primary branch for the projects is completed.")
     print(f"Total Updated Projects: {project_success_update_count}")
     print(f"Total Project failed to update: {project_failed_update_count}")
+
+    # Print repos withouth main or master branch
+    if repos_missing_default_branch:
+        print("Repositories skipped due to missing 'main' or 'master' branches:")
+        for repo in repos_missing_default_branch:
+            print(f" - {repo}")
 
 if __name__ == "__main__":
     main()
