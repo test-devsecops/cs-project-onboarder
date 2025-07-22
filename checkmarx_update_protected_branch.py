@@ -101,6 +101,7 @@ def main(filename):
     repo_failed_update_count = 0
 
     failed_repositories = []
+    repos_missing_default_branch = []
 
     # Process each batch
     for idx, batch in enumerate(batches):
@@ -136,8 +137,29 @@ def main(filename):
                 available_repo_branches = api_actions.get_repo_branches(access_token, tenant_url, get_repo_branches_endpoint)
                 extracted_available_branches = set(branch["name"] for branch in available_repo_branches["branchWebDtoList"])
                 
+                # Check for presence of main or master
+                preferred_default_branch = None
+                if "main" in extracted_available_branches:
+                    preferred_default_branch = "main"
+
+                elif "master" in extracted_available_branches:
+                    preferred_default_branch = "master"
+
+                else:
+                    print(f"Project '{project_name}' has neither 'main' nor 'master' branch. Skipping...")
+
+                    repos_missing_default_branch.append(project_name)
+                    repo_failed_update_count += 1
+                    failed_repositories.append(repo_name)
+                    continue
+
                 # Identify branches that ARE in the extracted_available_branches list
                 new_branches = [branch for branch in branch_list if branch in extracted_available_branches]
+
+                # add the main or master branch in the new_branches if they are still not in new_branches
+                if preferred_default_branch not in new_branches:
+                    print(f"Adding default branch '{preferred_default_branch}' as a protected branch for repo: {project_name}")
+                    new_branches.append(preferred_default_branch)
 
                 # Get currently protected branches from repo_info
                 protected_branch_names = set(branch["name"] for branch in repo_info.get("branches", []))
@@ -184,6 +206,12 @@ def main(filename):
     print(f"Total repositories updated: {repo_updated_count}")
     print(f"Total repositories failed: {repo_failed_update_count}")
     print(f"Failed Repositories: {failed_repositories}")
+
+    # Print repos withouth main or master branch
+    if repos_missing_default_branch:
+        print("Repositories skipped due to missing 'main' or 'master' branches:")
+        for repo in repos_missing_default_branch:
+            print(f" - {repo}")
 
     export_failed_repos_to_csv(failed_repositories)
 
