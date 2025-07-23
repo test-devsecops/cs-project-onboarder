@@ -1,10 +1,17 @@
 import os
 import sys
+from dotenv import load_dotenv
+from pathlib import Path
 
 class Config:
     
     def __init__(self):
         """Initialize and load configuration from environment variables."""
+
+        # Load the .env file from the same directory as the script. Uncomment this when running the scripts on your local machine
+        # env_path = Path(__file__).resolve().parent / '.env'
+        # load_dotenv(dotenv_path=env_path)
+
         self.token = os.getenv('CX_TOKEN')
         self.tenant_name = os.getenv('TENANT_NAME')
         self.tenant_iam_url = os.getenv('TENANT_IAM_URL')
