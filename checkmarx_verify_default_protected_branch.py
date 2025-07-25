@@ -54,10 +54,17 @@ def main():
             get_project_repo_endpoint = routes.get_project_repo(repo_id)
             repo_info = api_actions.get_project_repo_info(access_token, tenant_url, get_project_repo_endpoint)
 
-            # Get the repo branches that are available to be set as protected branches - these are not necessarily protected branches though they could be protected branches already.
-            get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
-            available_repo_branches = api_actions.get_repo_branches(access_token, tenant_url, get_repo_branches_endpoint)
-            extracted_available_branches = set(branch["name"] for branch in available_repo_branches["branchWebDtoList"])
+            try:
+                # Get the repo branches that are available to be set as protected branches - these are not necessarily protected branches though they could be protected branches already.
+                get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
+                available_repo_branches = api_actions.get_repo_branches(access_token, tenant_url, get_repo_branches_endpoint)
+                extracted_available_branches = set(branch["name"] for branch in available_repo_branches["branchWebDtoList"])
+            except Exception as e:
+                print(f"Error processing {project_name}: {e}")
+                print(f"Failed to get the available branches of {project_name}")
+                
+                failed_repositories.append(project_name)
+                repo_failed_update_count += 1
             
             # Check for presence of main or master
             preferred_default_branch = None
