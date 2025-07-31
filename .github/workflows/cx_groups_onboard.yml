@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  run-checkmarx-onboarder:
+  run-checkmarx-groups-onboarder:
     runs-on: ubuntu-latest
 
     env:
