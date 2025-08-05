@@ -27,7 +27,8 @@ def main():
     
     # Batch configuration
     batch_size = 100
-    batch_timeout = 60  # seconds
+    batch_timeout = 30  # seconds
+    sleep_time = 2 # seconds
 
     # Tracking counters
     repo_updated_count = 0
@@ -96,9 +97,9 @@ def main():
                 api_actions.update_project_repo_protected_branches(access_token, tenant_url, get_project_repo_endpoint, repo_info, project_id, [preferred_default_branch])
                 
                 print(f"Updated the protected branches of {project_name} with the default branch: {preferred_default_branch}")
-                print("Timeout: 3 seconds...")
+                print(f"Timeout: {sleep_time} seconds...")
 
-                time.sleep(3)
+                time.sleep(sleep_time)
                 repo_updated_count += 1
 
             except Exception as e:
@@ -114,7 +115,7 @@ def main():
             access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
             print("Access token renewed.")
         except Exception as e:
-            print(f"Failed to renew token after batch {idx + 1}: {e}")
+            print(f"Failed to renew token after batch {i + 1}: {e}")
             break
 
         if i + batch_size < len(cx_projects):  # Avoid sleeping after the last batch
