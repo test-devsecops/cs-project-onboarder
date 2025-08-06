@@ -27,8 +27,8 @@ def main():
     
     # Batch configuration
     batch_size = 100
-    batch_timeout = 30  # seconds
-    sleep_time = 2 # seconds
+    batch_timeout = 10  # seconds
+    sleep_time = 1 # seconds
 
     # Tracking counters
     repo_updated_count = 0
