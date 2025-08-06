@@ -27,7 +27,7 @@ def main():
     
     # Batch configuration
     batch_size = 100
-    batch_timeout = 10  # seconds
+    batch_timeout = 5  # seconds
     sleep_time = 1 # seconds
 
     # Tracking counters
