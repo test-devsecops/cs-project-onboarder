@@ -1,0 +1,31 @@
+name: Checkmarx Verify Default Protected Branch
+
+on:
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  run-checkmarx-verify-default-protected-branch:
+    runs-on: ubuntu-latest
+
+    env:
+      CX_TOKEN: ${{ secrets.CX_TOKEN }}
+      TENANT_NAME: ${{ vars.CX_TENANT_NAME_PROD }}
+      TENANT_IAM_URL: ${{ vars.CX_TENANT_IAM_URL_PROD }}
+      TENANT_URL: ${{ vars.CX_TENANT_URL_PROD }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Checkmarx Verify Default Protected Branch script
+        run: python3 checkmarx_verify_default_protected_branch_v2.py
