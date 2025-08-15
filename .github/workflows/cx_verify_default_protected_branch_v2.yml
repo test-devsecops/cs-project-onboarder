@@ -1,4 +1,4 @@
-name: Checkmarx Verify Default Protected Branch
+name: Checkmarx Verify Default Protected Branch V2
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
