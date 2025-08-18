@@ -148,15 +148,19 @@ def main():
         print(r)
 
     elapsed = time.time() - start_time
-    print("\n=== Summary ===")
-    print(f"Total repositories updated: {repo_updated_count}")
-    print(f"Total repositories failed: {repo_failed_update_count}")
-    print(f"Failed Repositories: {failed_repositories}")
-    if repos_missing_default_branch:
-        print("Repositories missing 'main' or 'master':")
-        for repo in repos_missing_default_branch:
-            print(f" - {repo}")
-    print(f"Total runtime: {elapsed:.2f} seconds")
+    
+    # Save summary
+    with open("summary.txt", "w") as f:
+        f.write("=== Summary ===\n")
+        f.write(f"Total repositories updated: {repo_updated_count}\n")
+        f.write(f"Total repositories failed: {repo_failed_update_count}\n")
+        f.write(f"Failed Repositories: {failed_repositories}\n")
+        if repos_missing_default_branch:
+            f.write("Repositories missing 'main' or 'master':\n")
+            for repo in repos_missing_default_branch:
+                f.write(f" - {repo}\n")
+        f.write(f"Total runtime: {elapsed:.2f} seconds\n")
+
 
 
 if __name__ == "__main__":
