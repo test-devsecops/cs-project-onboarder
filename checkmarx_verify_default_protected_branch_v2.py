@@ -129,7 +129,6 @@ def main():
             f.write("Repositories missing 'main' or 'master':\n")
             for repo in repos_missing_default_branch:
                 f.write(f" - {repo}\n")
-        f.write(f"Total runtime: {elapsed:.2f} seconds\n")
 
 
 if __name__ == "__main__":
