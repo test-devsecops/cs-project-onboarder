@@ -30,7 +30,6 @@ def rate_limited():
             sleep_time = 1 - (now - last_request_times[0])
             time.sleep(max(0, sleep_time))
 
-
 def main():
     httpRequest = HttpRequests()
     config = Config()
@@ -84,9 +83,7 @@ def main():
         try:
             refresh_token_if_needed()
             rate_limited()
-            available_repo_branches = api_actions.get_repo_branches(
-                access_token, tenant_url, routes.get_repo_branches(repo_id)
-            )
+            available_repo_branches = api_actions.get_repo_branches(access_token, tenant_url, routes.get_repo_branches(repo_id))
 
             if not available_repo_branches or "branchWebDtoList" not in available_repo_branches:
                 raise ValueError("No branch list returned from API")
@@ -148,7 +145,6 @@ def main():
         print(r)
 
     elapsed = time.time() - start_time
-    
     # Save summary
     with open("summary.txt", "w") as f:
         f.write("=== Summary ===\n")
