@@ -10,10 +10,6 @@ class ApiActions:
     def __init__(self, httpRequest):
         self.httpRequest = httpRequest
 
-    def refresh_access_token(self, refresh_token, base_url, token_endpoint):
-        """Helper for decorator to refresh the access token."""
-        return self.get_access_token(refresh_token, base_url, token_endpoint)
-
     @ExceptionHandler.handle_exception
     def get_access_token(self, token, base_url, endpoint):
 
@@ -146,11 +142,7 @@ class ApiActions:
         response = self.httpRequest.put_api_request(url, headers=headers, json=payload, params=params)
         return response
 
-    @ExceptionHandler.handle_exception_with_retries_and_refresh(
-        retries=3,
-        delay=2,
-        get_new_token_func=lambda self, refresh_token, base_url, endpoint: self.refresh_access_token(refresh_token, base_url, endpoint)
-    )
+    @ExceptionHandler.handle_exception_with_retries()
     def get_repo_branches(self, token, base_url, endpoint):
         """
         Retrieve all available branches (including paginated results) for a repo.
