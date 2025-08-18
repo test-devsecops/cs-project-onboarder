@@ -142,7 +142,7 @@ class ApiActions:
         response = self.httpRequest.put_api_request(url, headers=headers, json=payload, params=params)
         return response
 
-    @ExceptionHandler.handle_exception
+    @ExceptionHandler.handle_exception_with_retries(retries=3, delay=5)
     def get_repo_branches(self, token, base_url, endpoint):
         """
         Retrieve all available branches (including paginated results) for a repo.
