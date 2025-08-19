@@ -104,7 +104,7 @@ def main():
         "repos_missing_default_branch": []
     }
 
-    max_threads = 5
+    max_threads = 10
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
         futures = {
