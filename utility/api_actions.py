@@ -15,6 +15,8 @@ class ApiActions:
 
         url = f"https://{base_url}{endpoint}"
 
+        print(url)
+
         headers = {
             "accept": "application/json",
             "Content-Type": "application/x-www-form-urlencoded"
@@ -29,7 +31,7 @@ class ApiActions:
         encoded_data = urlencode(data)
 
         response = self.httpRequest.post_api_request(url, headers, encoded_data)
-        response.raise_for_status()
+
         print("Successfully generated a token")
 
         return response.get("access_token")
