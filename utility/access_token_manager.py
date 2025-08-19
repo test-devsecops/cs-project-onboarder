@@ -15,18 +15,19 @@ class AccessTokenManager:
 
     def _renew_locked(self):
         """Renew the access token. Must be called inside a lock."""
-        new_token_info = self.api_actions.get_access_token(self.token, self.tenant_iam_url, self.access_token_endpoint)
-
-        print(new_token_info)
+        raw_token = self.api_actions.get_access_token(self.token, self.tenant_iam_url, self.access_token_endpoint)
         
-        self.log.info(f"get_access_token returned: {new_token_info}")
-    
-        if not new_token_info or "access_token" not in new_token_info:
-            self.log.error(f"Failed to renew token, API returned: {new_token_info}")
+        if not raw_token:
+            self.log.error("Failed to generate access token. API returned empty or None.")
             raise Exception("Access token renewal failed")
-        
+
+        new_token_info = {
+            "access_token": raw_token,
+            "expires_in": 3600  # default 1 hour;
+        }
+
         self.access_token = new_token_info["access_token"]
-        self._expiry = time.time() + new_token_info.get("expires_in", 3600) - 10
+        self._expiry = time.time() + new_token_info["expires_in"] - 10
         self.log.info(f"Access token renewed successfully at {time.strftime('%X')}")
 
     def ensure_token(self):

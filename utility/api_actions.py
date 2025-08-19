@@ -15,8 +15,6 @@ class ApiActions:
 
         url = f"https://{base_url}{endpoint}"
 
-        print(url)
-
         headers = {
             "accept": "application/json",
             "Content-Type": "application/x-www-form-urlencoded"
