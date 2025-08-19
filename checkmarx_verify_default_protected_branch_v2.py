@@ -7,6 +7,7 @@ from utility.logger import Logger
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
+import os
 
 
 def process_project(cx_project, token_manager, routes, tenant_url, api_actions, sleep_time, counters, log):
@@ -119,20 +120,37 @@ def main():
                 cx_project = futures[future]
                 log.error(f"Thread error for project {cx_project.get('name')}: {e}")
 
-    with open("summary.txt", "w") as f:
+    print("=== Summary ===")
+    print(f"Total repositories updated: {counters['repo_updated_count']}")
+    print(f"Total repositories failed: {counters['repo_failed_update_count']}")
+
+    if counters['failed_repositories']:
+        print("Failed Repositories:")
+        for repo in counters['failed_repositories']:
+            print(f" - {repo}")
+
+    if counters['repos_missing_default_branch']:
+        print("Repositories missing 'main' or 'master':")
+        for repo in counters['repos_missing_default_branch']:
+            print(f" - {repo}")
+
+    summary_file = os.getenv("GITHUB_STEP_SUMMARY")
+
+    with open(summary_file, "a") as f:
+        f.write("### Checkmarx Protected Branch Verification Summary\n\n")
         f.write("=== Summary ===\n")
         f.write(f"Total repositories updated: {counters['repo_updated_count']}\n")
-        f.write(f"Total repositories failed: {counters['repo_failed_update_count']}\n")
-        
+        f.write(f"Total repositories failed: {counters['repo_failed_update_count']}\n\n")
+
         if counters['failed_repositories']:
-            f.write("Failed Repositories:\n")
+            f.write("**Failed Repositories:**\n")
             for repo in counters['failed_repositories']:
-                f.write(f" - {repo}\n")
-        
+                f.write(f"- {repo}\n")
+
         if counters['repos_missing_default_branch']:
-            f.write("Repositories missing 'main' or 'master':\n")
+            f.write("\n**Repositories missing 'main' or 'master':**\n")
             for repo in counters['repos_missing_default_branch']:
-                f.write(f" - {repo}\n")
+                f.write(f"- {repo}\n")
 
 if __name__ == "__main__":
     main()
