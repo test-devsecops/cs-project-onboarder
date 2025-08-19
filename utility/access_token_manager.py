@@ -16,6 +16,8 @@ class AccessTokenManager:
     def _renew_locked(self):
         """Renew the access token. Must be called inside a lock."""
         new_token_info = self.api_actions.get_access_token(self.token, self.tenant_iam_url, self.access_token_endpoint)
+
+        print(new_token_info)
         
         self.log.info(f"get_access_token returned: {new_token_info}")
     
