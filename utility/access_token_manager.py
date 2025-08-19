@@ -17,6 +17,8 @@ class AccessTokenManager:
         """Renew the access token. Must be called inside a lock."""
         new_token_info = self.api_actions.get_access_token(self.token, self.tenant_iam_url, self.access_token_endpoint)
         
+        self.log.info(f"get_access_token returned: {new_token_info}")  # << add this
+    
         if not new_token_info or "access_token" not in new_token_info:
             self.log.error(f"Failed to renew token, API returned: {new_token_info}")
             raise Exception("Access token renewal failed")
