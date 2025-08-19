@@ -8,12 +8,15 @@ from utility.logger import Logger
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import os
+import random
 
 
 def process_project(cx_project, token_manager, routes, tenant_url, api_actions, sleep_time, counters, log):
     project_id = cx_project.get("id")
     project_name = cx_project.get("name")
     repo_id = cx_project.get("repoId")
+
+    time.sleep(random.uniform(0.1, 0.5))
 
     if not repo_id:
         log.warning(f"Project {project_name} has no repository ID.")
@@ -29,13 +32,17 @@ def process_project(cx_project, token_manager, routes, tenant_url, api_actions, 
         repo_info = token_manager.request_with_retry(
             api_actions.get_project_repo_info, tenant_url, get_project_repo_endpoint
         )
-
+        log.info(f"Timeout: {sleep_time} seconds...")
+        
         # Get available branches
         get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
         available_repo_branches = token_manager.request_with_retry(
             api_actions.get_repo_branches, tenant_url, get_repo_branches_endpoint
         )
         extracted_available_branches = set(branch["name"] for branch in available_repo_branches["branchWebDtoList"])
+
+        log.info(f"Timeout: {sleep_time} seconds...")
+        time.sleep(sleep_time)
 
     except Exception as e:
         log.error(f"Error processing {project_name}: {e}")
@@ -95,7 +102,7 @@ def main():
 
     cx_projects = token_manager.request_with_retry(api_actions.get_checkmarx_projects, tenant_url, routes.get_checkmarx_projects())
 
-    sleep_time = 0
+    sleep_time = 1
 
     # Tracking counters
     counters = {
@@ -105,7 +112,7 @@ def main():
         "repos_missing_default_branch": []
     }
 
-    max_threads = 10
+    max_threads = 5
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
         futures = {
