@@ -103,8 +103,8 @@ def main():
         "repos_missing_default_branch": []
     }
 
-    max_threads = 5
-    rate_limiter = RateLimiter(calls_per_second=5)
+    max_threads = 4
+    rate_limiter = RateLimiter(calls_per_second=4)
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
         futures = {
