@@ -5,20 +5,20 @@ from utility.api_actions import ApiActions
 from utility.access_token_manager import AccessTokenManager
 from utility.logger import Logger
 from utility.csv_utility import Csv
+from utility.rate_limiter import RateLimiter
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import time
 import os
-import random
 import datetime
 
 
-def process_project(cx_project, token_manager, routes, tenant_url, api_actions, sleep_time, counters, log):
+def process_project(cx_project, token_manager, routes, tenant_url, api_actions, rate_limiter, counters, log):
     project_id = cx_project.get("id")
     project_name = cx_project.get("name")
     repo_id = cx_project.get("repoId")
 
-    time.sleep(random.uniform(0.1, 0.5))
+    # Apply rate limiting before each API call
+    rate_limiter.wait()
 
     if not repo_id:
         log.warning(f"Project {project_name} has no repository ID.")
@@ -30,21 +30,16 @@ def process_project(cx_project, token_manager, routes, tenant_url, api_actions, 
     get_project_repo_endpoint = routes.get_project_repo(repo_id)
 
     try:
-        # Get repo info
-        repo_info = token_manager.request_with_retry(
-            api_actions.get_project_repo_info, tenant_url, get_project_repo_endpoint
-        )
-        log.info(f"Timeout: {sleep_time} seconds...")
-        
-        # Get available branches
-        get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
-        available_repo_branches = token_manager.request_with_retry(
-            api_actions.get_repo_branches, tenant_url, get_repo_branches_endpoint
-        )
-        extracted_available_branches = set(branch["name"] for branch in available_repo_branches["branchWebDtoList"])
+        rate_limiter.acquire(repo_name=project_name)
+        repo_info = token_manager.request_with_retry(api_actions.get_project_repo_info, tenant_url, get_project_repo_endpoint)
+        rate_limiter.release(repo_name=project_name)
 
-        log.info(f"Timeout: {sleep_time} seconds...")
-        time.sleep(sleep_time)
+        rate_limiter.acquire(repo_name=project_name)
+        get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
+        available_repo_branches = token_manager.request_with_retry(api_actions.get_repo_branches, tenant_url, get_repo_branches_endpoint)
+        rate_limiter.release(repo_name=project_name)
+
+        extracted_available_branches = set(branch["name"] for branch in available_repo_branches["branchWebDtoList"])
 
     except Exception as e:
         log.error(f"Error processing {project_name}: {e}")
@@ -76,11 +71,11 @@ def process_project(cx_project, token_manager, routes, tenant_url, api_actions, 
     try:
         log.info(f"Updating protected branches of {project_name}... Adding the default branch: {preferred_default_branch}")
 
+        rate_limiter.acquire(repo_name=project_name)
         token_manager.request_with_retry(api_actions.update_project_repo_protected_branches,tenant_url,get_project_repo_endpoint,repo_info,project_id,[preferred_default_branch])
-
+        rate_limiter.release(repo_name=project_name)
+       
         log.success(f"Updated the protected branches of {project_name} with the default branch: {preferred_default_branch}")
-        log.info(f"Timeout: {sleep_time} seconds...")
-        time.sleep(sleep_time)
         counters["repo_updated_count"] += 1
 
     except Exception as e:
@@ -104,9 +99,6 @@ def main():
 
     cx_projects = token_manager.request_with_retry(api_actions.get_checkmarx_projects, tenant_url, routes.get_checkmarx_projects())
 
-    sleep_time = 1
-
-    # Tracking counters
     counters = {
         "repo_updated_count": 0,
         "repo_failed_update_count": 0,
@@ -115,13 +107,13 @@ def main():
     }
 
     max_threads = 5
+    rate_limiter = RateLimiter(calls_per_second=5)
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
         futures = {
-            executor.submit(process_project, cx_project, token_manager, routes, tenant_url, api_actions, sleep_time, counters, log): cx_project
+            executor.submit(process_project, cx_project, token_manager, routes, tenant_url, api_actions, rate_limiter, counters, log): cx_project
             for cx_project in cx_projects
         }
-
         for future in as_completed(futures):
             try:
                 future.result()
@@ -129,30 +121,14 @@ def main():
                 cx_project = futures[future]
                 log.error(f"Thread error for project {cx_project.get('name')}: {e}")
 
-    # print("=== Summary ===")
-    # print(f"Total repositories updated: {counters['repo_updated_count']}")
-    # print(f"Total repositories failed: {counters['repo_failed_update_count']}")
-
-    # if counters['failed_repositories']:
-    #     print("Failed Repositories:")
-    #     for repo in counters['failed_repositories']:
-    #         print(f" - {repo}")
-
-    # if counters['repos_missing_default_branch']:
-    #     print("Repositories missing 'main' or 'master':")
-    #     for repo in counters['repos_missing_default_branch']:
-    #         print(f" - {repo}")
-    
-    # Prepare CSV export data
+    # Write summary + CSV
     csv_data = []
     fieldnames = ["repo_name", "status"]
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY", "summary.txt")
-    
+
     with open(summary_file, "a") as f:
         f.write("### Checkmarx Protected Branch Verification Summary\n\n")
-        f.write("=== Summary ===\n")
         f.write(f"Total repositories updated: {counters['repo_updated_count']}\n")
         f.write(f"Total repositories failed: {counters['repo_failed_update_count']}\n\n")
 
