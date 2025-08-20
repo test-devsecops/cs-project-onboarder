@@ -4,11 +4,13 @@ from utility.config_utility import Config
 from utility.api_actions import ApiActions
 from utility.access_token_manager import AccessTokenManager
 from utility.logger import Logger
+from utility.csv_utility import Csv
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import os
 import random
+import datetime
 
 
 def process_project(cx_project, token_manager, routes, tenant_url, api_actions, sleep_time, counters, log):
@@ -127,22 +129,27 @@ def main():
                 cx_project = futures[future]
                 log.error(f"Thread error for project {cx_project.get('name')}: {e}")
 
-    print("=== Summary ===")
-    print(f"Total repositories updated: {counters['repo_updated_count']}")
-    print(f"Total repositories failed: {counters['repo_failed_update_count']}")
+    # print("=== Summary ===")
+    # print(f"Total repositories updated: {counters['repo_updated_count']}")
+    # print(f"Total repositories failed: {counters['repo_failed_update_count']}")
 
-    if counters['failed_repositories']:
-        print("Failed Repositories:")
-        for repo in counters['failed_repositories']:
-            print(f" - {repo}")
+    # if counters['failed_repositories']:
+    #     print("Failed Repositories:")
+    #     for repo in counters['failed_repositories']:
+    #         print(f" - {repo}")
 
-    if counters['repos_missing_default_branch']:
-        print("Repositories missing 'main' or 'master':")
-        for repo in counters['repos_missing_default_branch']:
-            print(f" - {repo}")
+    # if counters['repos_missing_default_branch']:
+    #     print("Repositories missing 'main' or 'master':")
+    #     for repo in counters['repos_missing_default_branch']:
+    #         print(f" - {repo}")
+    
+    # Prepare CSV export data
+    csv_data = []
+    fieldnames = ["repo_name", "status"]
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    summary_file = os.getenv("GITHUB_STEP_SUMMARY")
-
+    summary_file = os.environ.get("GITHUB_STEP_SUMMARY", "summary.txt")
+    
     with open(summary_file, "a") as f:
         f.write("### Checkmarx Protected Branch Verification Summary\n\n")
         f.write("=== Summary ===\n")
@@ -152,12 +159,18 @@ def main():
         if counters['failed_repositories']:
             f.write("**Failed Repositories:**\n")
             for repo in counters['failed_repositories']:
-                f.write(f"- {repo}\n")
+                f.write(f"{repo}\n")
+                csv_data.append({"repo_name": repo, "status": "failed"})
 
         if counters['repos_missing_default_branch']:
             f.write("\n**Repositories missing 'main' or 'master':**\n")
             for repo in counters['repos_missing_default_branch']:
-                f.write(f"- {repo}\n")
+                f.write(f"{repo}\n")
+                csv_data.append({"repo_name": repo, "status": "missing_default_branch"})
+
+    # Export to CSV using your utility
+    if csv_data:
+        Csv.extract_to_csv(csv_data, fieldnames, directory="./csv_files/", filename=f"{timestamp}_repos_summary")
 
 if __name__ == "__main__":
     main()
