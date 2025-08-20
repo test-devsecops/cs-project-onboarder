@@ -17,9 +17,6 @@ def process_project(cx_project, token_manager, routes, tenant_url, api_actions, 
     project_name = cx_project.get("name")
     repo_id = cx_project.get("repoId")
 
-    # Apply rate limiting before each API call
-    rate_limiter.wait()
-
     if not repo_id:
         log.warning(f"Project {project_name} has no repository ID.")
         counters["repo_failed_update_count"] += 1
