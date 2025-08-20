@@ -104,7 +104,7 @@ def main():
     }
 
     max_threads = 4
-    rate_limiter = RateLimiter(calls_per_second=4)
+    rate_limiter = RateLimiter(calls_per_second=3)
 
     with ThreadPoolExecutor(max_workers=max_threads) as executor:
         futures = {
