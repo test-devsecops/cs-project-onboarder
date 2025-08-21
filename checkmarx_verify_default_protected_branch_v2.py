@@ -82,9 +82,11 @@ def main():
                 continue
 
             # --- Preferred default branch check ---
-            preferred_default_branch = next(
-                (b for b in ("main", "master") if b in extracted_available_branches), None
-            )
+            preferred_default_branch = None
+            if "main" in extracted_available_branches:
+                preferred_default_branch = "main"
+            elif "master" in extracted_available_branches:
+                preferred_default_branch = "master"
 
             if not preferred_default_branch:
                 log.skipped(f"Project '{project_name}' has neither 'main' nor 'master' branch.")
@@ -103,8 +105,8 @@ def main():
             try:
                 get_project_repo_endpoint = routes.get_project_repo(repo_id)
                 log.info(f"Updating protected branches of {project_name}... Adding: {preferred_default_branch}")
-                #valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
-                #api_actions.update_project_repo_protected_branches(valid_token, tenant_url, get_project_repo_endpoint, repo_info, project_id, [preferred_default_branch])
+                valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
+                api_actions.update_project_repo_protected_branches(valid_token, tenant_url, get_project_repo_endpoint, repo_info, project_id, [preferred_default_branch])
                 
                 log.info(f"Updated {project_name} with {preferred_default_branch}")
                 counters['repo_updated_count'] += 1
