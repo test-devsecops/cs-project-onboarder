@@ -4,11 +4,15 @@ import base64
 import sys
 import json
 from utility.exception_handler import ExceptionHandler
+import time
 
 class ApiActions:
 
-    def __init__(self, httpRequest):
+    def __init__(self, httpRequest, logger=None):
         self.httpRequest = httpRequest
+        self.logger = logger
+        self._expiry = 0
+        self._cached_token = None
 
     @ExceptionHandler.handle_exception
     def get_access_token(self, token, base_url, endpoint):
@@ -29,10 +33,31 @@ class ApiActions:
         encoded_data = urlencode(data)
 
         response = self.httpRequest.post_api_request(url, headers, encoded_data)
+        raw_token = response.get("access_token")
+        
+        if raw_token:
+            self._cached_token = raw_token
+            self._expiry = time.time() + response.get("expires_in", 1800) - 10
 
-        print("Successfully generated a token")
+            if self.logger:
+                self.logger.info("Successfully generated a token")
+            else:
+                print("Successfully generated a token")
 
-        return response.get("access_token")
+        return raw_token
+    
+    def get_valid_token(self, token, base_url, endpoint):
+        """
+        Wrapper that checks expiry and renews if needed.
+        Params remain the same as get_access_token for compatibility.
+        """
+        if not self._cached_token or time.time() >= self._expiry:
+            if self.logger:
+                self.logger.info("Token expired or missing. Renewing...")
+            else:
+                print("Token expired or missing. Renewing...")
+            return self.get_access_token(token, base_url, endpoint)
+        return self._cached_token
 
     @ExceptionHandler.handle_exception
     def get_checkmarx_projects(self, token, base_url, endpoint, empty_tag="false", project_name=None):

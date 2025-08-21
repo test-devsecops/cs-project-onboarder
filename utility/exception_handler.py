@@ -18,10 +18,43 @@ class ExceptionHandler:
                 return None
         return wrapper
     
+    # @staticmethod
+    # def handle_exception_with_retries(logger=None, retries=3, delay=2):
+    #     def decorator(func):
+    #         def wrapper(*args, **kwargs):
+    #             attempt = 0
+    #             while attempt < retries:
+    #                 try:
+    #                     return func(*args, **kwargs)
+    #                 except requests.exceptions.HTTPError as err:
+    #                     msg = f"HTTP Error: {err}"
+    #                 except requests.exceptions.RequestException as err:
+    #                     msg = f"RequestException error occurred: {err}"
+    #                 except Exception as err:
+    #                     msg = f"An unexpected error occurred: {err}"
+    #                 else:
+    #                     break
+
+    #                 attempt += 1
+    #                 if logger:
+    #                     logger.error(f"{msg} | Retry {attempt}/{retries}")
+    #                     print(f"{msg} | Retry {attempt}/{retries}")
+    #                 else:
+    #                     print(f"{msg} | Retry {attempt}/{retries}")
+
+    #                 if attempt < retries:
+    #                     time.sleep(delay)
+    #             return None
+    #         return wrapper
+    #     return decorator
+    
     @staticmethod
-    def handle_exception_with_retries(logger=None, retries=3, delay=2):
+    def handle_exception_with_retries(retries=3, delay=2):
         def decorator(func):
             def wrapper(*args, **kwargs):
+                self = args[0]  # the first arg of a class method is 'self'
+                logger = getattr(self, 'logger', None)
+
                 attempt = 0
                 while attempt < retries:
                     try:
@@ -32,13 +65,10 @@ class ExceptionHandler:
                         msg = f"RequestException error occurred: {err}"
                     except Exception as err:
                         msg = f"An unexpected error occurred: {err}"
-                    else:
-                        break
 
                     attempt += 1
                     if logger:
                         logger.error(f"{msg} | Retry {attempt}/{retries}")
-                        print(f"{msg} | Retry {attempt}/{retries}")
                     else:
                         print(f"{msg} | Retry {attempt}/{retries}")
 
