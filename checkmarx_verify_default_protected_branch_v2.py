@@ -21,12 +21,12 @@ def main():
 
     api_actions = ApiActions(httpRequest, logger=log)
     valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
-    #access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
     cx_projects = api_actions.get_checkmarx_projects(valid_token, tenant_url, get_checkmarx_projects_endpoint)
 
     # Batch configuration
     batch_size = 100
-    batch_timeout = 3  # seconds
+    batch_timeout = 1.5  # seconds
+    project_timeout = 0.8
 
     # Tracking counters
     counters = {
@@ -35,10 +35,6 @@ def main():
         "failed_repositories": [],
         "repos_missing_default_branch": []
     }
-
-    # Cache repo calls to avoid redundant API requests
-    repo_info_cache = {}
-    repo_branches_cache = {}
     
     for batch_num, i in enumerate(range(0, len(cx_projects), batch_size), start=1):
         batch = cx_projects[i:i + batch_size]
@@ -59,21 +55,17 @@ def main():
 
             try:
                 # --- Repo info (cached) ---
-                if repo_id not in repo_info_cache:
-                    get_project_repo_endpoint = routes.get_project_repo(repo_id)
-                    valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
-                    repo_info_cache[repo_id] = api_actions.get_project_repo_info(valid_token, tenant_url, get_project_repo_endpoint)
-
-                repo_info = repo_info_cache[repo_id]
+                get_project_repo_endpoint = routes.get_project_repo(repo_id)
+                valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
+                repo_info = api_actions.get_project_repo_info(valid_token, tenant_url, get_project_repo_endpoint)
 
                 # --- Branch info (cached) ---
-                if repo_id not in repo_branches_cache:
-                    get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
-                    valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
-                    repo_branches_cache[repo_id] = api_actions.get_repo_branches(valid_token, tenant_url, get_repo_branches_endpoint)
+                get_repo_branches_endpoint = routes.get_repo_branches(repo_id)
+                valid_token = api_actions.get_valid_token(token, tenant_iam_url, get_access_token_endpoint)
+                available_repo_branches = api_actions.get_repo_branches(valid_token, tenant_url, get_repo_branches_endpoint)
 
-                available_repo_branches = repo_branches_cache[repo_id]
                 extracted_available_branches = {branch["name"] for branch in available_repo_branches.get("branchWebDtoList", [])}
+                time.sleep(project_timeout)
 
             except Exception as e:
                 log.error(f"Error fetching repo data for {project_name}: {e}")
@@ -92,13 +84,13 @@ def main():
                 log.skipped(f"Project '{project_name}' has neither 'main' nor 'master' branch.")
                 counters['repos_missing_default_branch'].append(project_name)
                 counters['repo_failed_update_count'] += 1
-                counters['failed_repositories'].append(project_name)
                 continue
 
             # --- Protected branches check ---
-            protected_branch_names = {branch["name"] for branch in repo_info.get("branches", [])}
+            protected_branch_names = {branch["name"] for branch in (repo_info or {}).get("branches", [])}
             if preferred_default_branch in protected_branch_names:
                 log.skipped(f"{preferred_default_branch} is already protected in repo: {project_name}.")
+                time.sleep(project_timeout)
                 continue
 
             # --- Update ---
@@ -110,19 +102,13 @@ def main():
                 
                 log.info(f"Updated {project_name} with {preferred_default_branch}")
                 counters['repo_updated_count'] += 1
+                time.sleep(project_timeout)
+
             except Exception as e:
                 log.error(f"Error updating {project_name}: {e}")
                 counters['failed_repositories'].append(project_name)
                 counters['repo_failed_update_count'] += 1
-
-        # Refresh token only if expired (api_actions could handle that internally)
-        # try:
-        #     access_token = api_actions.get_access_token(token, tenant_iam_url, get_access_token_endpoint)
-        #     log.info("Access token renewed.")
-        # except Exception as e:
-        #     log.error(f"Failed to renew token after batch {i + 1}: {e}")
-        #     break
-
+            
         if i + batch_size < len(cx_projects):
             log.info(f"Processed {i + batch_size} projects. Waiting {batch_timeout} seconds...")
             time.sleep(batch_timeout)
@@ -168,7 +154,6 @@ def main():
     # Export to CSV using your utility
     if csv_data:
         Csv.extract_to_csv(csv_data, fieldnames, directory="./csv_files/", filename=f"{timestamp}_repos_summary")
-
 
 if __name__ == "__main__":
     main()
