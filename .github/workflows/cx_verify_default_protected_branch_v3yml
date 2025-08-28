@@ -1,4 +1,4 @@
-name: Checkmarx Verify Default Protected Branch V2
+name: Checkmarx Verify Default Protected Branch V3
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
@@ -28,7 +28,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Checkmarx Verify Default Protected Branch script
-        run: python3 checkmarx_verify_default_protected_branch_v2.py
+        run: python3 checkmarx_verify_default_protected_branch_v3.py
 
       - name: Display Summary
         run: |
