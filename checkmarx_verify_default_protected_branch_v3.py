@@ -92,11 +92,11 @@ def main():
 
     # Batch configuration
     batch_size = 100
-    batch_timeout = 1.5  # seconds
-    project_timeout = 1
+    batch_timeout = 1.6  # seconds
+    project_timeout = 1.1
 
     # Thread max workers
-    thread_workers = 2
+    thread_workers = 3
 
     # Tracking counters
     counters = {
