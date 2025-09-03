@@ -29,10 +29,6 @@ jobs:
 
       - name: Run Checkmarx Verify Default Protected Branch script
         run: python3 checkmarx_verify_default_protected_branch_v2.py
-
-      - name: Display Summary
-        run: |
-          echo "### Checkmarx Protected Branch Verification Summary" >> $GITHUB_STEP_SUMMARY
       
       - name: Upload repo summary CSV
         uses: actions/upload-artifact@v4
