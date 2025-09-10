@@ -92,7 +92,7 @@ def main():
 
     # Batch configuration
     batch_size = 100
-    batch_timeout = 2  # seconds
+    batch_timeout = 3  # seconds
     project_timeout = 1.5
 
     # Thread max workers
